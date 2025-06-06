@@ -7,8 +7,9 @@
 > Current version does **NOT** split correctly on Moon. Teleporting to and from No Man's Land breaks the round transition logic.
 
 ### Overview
-- A hooked LiveSplit timer with **automatic start, pause, split, and reset** for Call of Duty: Black Ops 1 Zombies
+- A hooked LiveSplit timer with automatic **START, PAUSE, SPLIT, and RESET** for Call of Duty: Black Ops 1 Zombies
 - Compatible with both the **Steam** and **BGamerT5** versions of Black Ops 1
+- Automatically splits on new round display for **ALL ROUNDS** (2 - 260)
 - The included layout shows
     - Game Time
     - Round Time
