@@ -32,6 +32,8 @@
 5. Edit Splits:
    - Enable 'Use Layout' > `bo1 layout.lsl`
    - Save Splits.
+6. Compare Against > None
+7. Compare Against > Game Time
 
 ### Usage
 - **Not working?** Try running LiveSplit as administrator
