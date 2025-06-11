@@ -8,7 +8,7 @@
 
 ### Overview
 - A hooked LiveSplit timer with automatic **START, PAUSE, SPLIT, and RESET** for Call of Duty: Black Ops 1 Zombies
-- Compatible with both the **Steam** and **BGamerT5** versions of Black Ops 1
+- Compatible with **Steam**, **BGamerT5**, and **Plutonium** versions of Black Ops 1
 - Automatically splits on new round display for **ALL ROUNDS** (2 - 260)
 - The included layout shows
     - Game Time
