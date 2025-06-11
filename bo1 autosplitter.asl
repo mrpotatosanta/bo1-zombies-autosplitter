@@ -8,6 +8,11 @@ state("BGamerT5") {
     byte roundchange : 0x165695D;
 }
 
+state("plutonium-bootstrapper-win32") {
+    int timer : 0x1679870;
+    byte roundchange : 0x165695D;
+}
+
 isLoading { return true; }
 
 gameTime { return TimeSpan.FromMilliseconds(current.timer * 50); }
