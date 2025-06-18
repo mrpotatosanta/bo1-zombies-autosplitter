@@ -78,7 +78,7 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>D:\Desktop - HDD\stuff\bo1 things\bo1 autosplitter.asl</ScriptPath>
+        <ScriptPath>bo1 autosplitter.asl</ScriptPath>
         <Start>True</Start>
         <Reset>True</Reset>
         <Split>True</Split>
@@ -135,7 +135,7 @@
           <Settings>
             <Version>1.5</Version>
             <Name>Round Time</Name>
-            <Type>SegmentDeltaorSegmentTime</Type>
+            <Type>SegmentTime</Type>
             <Comparison>Current Comparison</Comparison>
             <TimingMethod>Game Time</TimingMethod>
           </Settings>
