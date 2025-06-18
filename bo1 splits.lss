@@ -4,7 +4,8 @@
   <GameName>Call of Duty: Black Ops Zombies</GameName>
   <CategoryName>
   </CategoryName>
-  <LayoutPath>D:\Desktop - HDD\stuff\bo1 things\bo1 layout.lsl</LayoutPath>
+  <LayoutPath>
+  </LayoutPath>
   <Metadata>
     <Run id="" />
     <Platform usesEmulator="False">PC</Platform>
