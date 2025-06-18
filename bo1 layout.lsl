@@ -78,10 +78,8 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>bo1 autosplitter.asl</ScriptPath>
-        <Start>True</Start>
-        <Reset>True</Reset>
-        <Split>True</Split>
+        <ScriptPath>
+        </ScriptPath>
         <CustomSettings />
       </Settings>
     </Component>
