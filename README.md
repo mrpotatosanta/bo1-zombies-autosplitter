@@ -20,7 +20,7 @@
 ![Showcase with Split and Title Components](https://github.com/user-attachments/assets/954a3ac4-cffd-4ffa-9543-4b36d13f9b08)
 
 ### Setup
-1. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v1.0.0/bo1-zombies-autosplitter-1.0.0.zip)
+1. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)
 2. Download [LiveSplit](https://livesplit.org/)
 3. Right-click the timer to open context menu
 4. Open Splits > From File... > `bo1 splits.lss`
