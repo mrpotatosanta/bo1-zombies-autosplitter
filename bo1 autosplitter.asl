@@ -23,8 +23,9 @@ startup {
 }
 
 init {
+    vars.canSplit = false;
     if (current.timer <= 0) {
-        vars.step = 0; // main vars.step init
+        vars.step = 0; // Main vars.step init
     }
     else {
         // Mid-game init: vars.step set to most probable current state
@@ -40,21 +41,24 @@ init {
 
 start { return true; }
 
-split {
+update {
     if (current.roundchange != old.roundchange) {
-        vars.step++;
-        if (vars.step >= 5) {
-            if (vars.step == 5) {
-                return true; // Splits on new round display
-            }
-            vars.step = 2; // Resets for next round's cycle (2-5)
-        }
+        vars.step++; // Increments on roundchange flip
+        vars.canSplit = true;
+    }
+}
+
+split {
+    if (vars.step == 5) {
+        vars.canSplit = false; // Flag to prevent duplicate split triggers
+        vars.step = 1; // Resets to Step 1 so next roundchange flip syncs with Step 2
+        return true; // Splits on new round display
     }
 }
 
 reset {
     // Resets if timer dropped between frames
-    // Also resets during first 0.25s in case drop was missed
+    // Also resets during first 0.25s in case inital timer drop was missed
     if (current.timer < old.timer || (current.timer >= 1 && current.timer <= 5)) {
         vars.step = 0;
         return true;
@@ -63,14 +67,14 @@ reset {
 
 // Roundchange Flow
 
-// State                         Step / Roundchange / Timer (0/+) / Duration
+// State                        Step / Roundchange / Timer (0/+) / Duration
 // -------------------------------------------------------------------------
-// 0. Load Screen                0    / 0            / 0                    // Reset
-// 1. Main Menu / Spawn In       1    / 255          / +            ~1s
+// 0. Load Screen               0    / 0          / 0                       // Reset
+// 1. Main Menu / Spawn In      1    / 255        / +            ~1s
 // -------------------------------------------------------------------------
-// 2. Round 1 Start              2    / 0            / +
-// 3. Round 1 End                3    / 255          / +            ~8s
-// 4. Round Transition           4    / 0            / +            ~2.5s
-// 5. Round 2 Display            5    / 255          / +            ~2s     // Split
+// 2. Round 1 Start             2    / 0          / +
+// 3. Round 1 End               3    / 255        / +            ~8s
+// 4. Round Transition          4    / 0          / +            ~2.5s
+// 5. Round 2 Display           5    / 255        / +            ~2s        // Split
 // -------------------------------------------------------------------------
-// 6. Round 2 Start              6    / 0            / +                    // Loop starts: Set Step = 2 to repeat steps 2–5 for Round N -> Round N+1
+// 6. Round 2 Start             6    / 0          / +                       // Loop starts: Set Step = 2 to repeat steps 2–5 for Round N -> Round N+1
