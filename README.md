@@ -10,14 +10,14 @@
 - A hooked LiveSplit timer with automatic **START, PAUSE, SPLIT, and RESET** for Call of Duty: Black Ops 1 Zombies
 - Compatible with **Steam**, **BGamerT5**, and **Plutonium** versions of Black Ops 1
 - Game time is **identical** to the hooked WSplit timer
-- Automatically splits on new round display for **ALL ROUNDS** (2 - 260)
+- Automatically splits for **ALL ROUNDS** (2 - 260)
 - The included layout shows
     - Game Time
     - Round Time
     - The 5 most recent splits (game and round times)
     - Game Title
 
-![Showcase with Split and Title Components](https://github.com/user-attachments/assets/954a3ac4-cffd-4ffa-9543-4b36d13f9b08)
+![Showcase with Split and Title Components](https://github.com/user-attachments/assets/a54aa292-cab0-44e2-9ac1-8332f4c5f69f)
 
 ### Setup
 1. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)
@@ -25,21 +25,22 @@
 3. Right-click the timer to open context menu
 4. Open Splits > From File... > `bo1 splits.lss`
 5. Open Layout > From File... > `bo1 layout.lsl`
-6. Edit Layout:  
-   - Double-click "Scriptable Auto Splitter"  
-   - Browse... next to "Script Path" > `bo1 autosplitter.asl`  
-   - Confirm "Start," "Split," and "Reset" boxes are all checked  
-   - Click OK on both windows  
-   - Save Layout
-7. Edit Splits:  
-   - Check 'Use Layout' box > Browse... > `bo1 layout.lsl`  
-   - Click OK  
-   - Save Splits
-8. Settings:  
-   - Choose Active Comparisons  
-   - Check "None" box  
+6. Edit Layout:
+   - Double-click "Scriptable Auto Splitter"
+   - Browse... next to "Script Path" > `bo1 autosplitter.asl`
+   - Confirm "Start," "Split," and "Reset" boxes are all checked
+   - Choose when splits occur in the Advanced section (Hover over the checkbox for more info)
    - Click OK on both windows
-9. Compare Against > None  
+   - Save Layout
+7. Edit Splits:
+   - Check 'Use Layout' box > Browse... > `bo1 layout.lsl`
+   - Click OK
+   - Save Splits
+8. Settings:
+   - Choose Active Comparisons
+   - Check "None" box
+   - Click OK on both windows
+9. Compare Against > None
 10. Compare Against > Game Time
 
 ### Usage
