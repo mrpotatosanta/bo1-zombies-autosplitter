@@ -1,7 +1,10 @@
 ## LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies 
 
+> [!WARNING]  
+> **Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality entirely for that game. Use Left Click skip for best results.**
+
 > [!TIP]  
-> The font for Timer and Times is [Digital 7 Mono Regular](https://www.dafont.com/digital-7.font) (from WSplit). If missing, LiveSplit will substitute another font.
+> The font for Timer and Times in Layout Settings is [Digital 7 Mono Regular](https://www.dafont.com/digital-7.font) (same font as WSplit). If missing, LiveSplit will substitute another font.
 
 > [!NOTE]  
 > Current version does **NOT** split correctly on Moon. Teleporting to and from No Man's Land breaks the round transition logic.
@@ -36,12 +39,6 @@
    - Check 'Use Layout' box > Browse... > `bo1 layout.lsl`
    - Click OK
    - Save Splits
-8. Settings:
-   - Choose Active Comparisons
-   - Check "None" box
-   - Click OK on both windows
-9. Compare Against > None
-10. Compare Against > Game Time
 
 ### Usage
 - Launch LiveSplit before Black Ops 1, or while at the main menu for best results
