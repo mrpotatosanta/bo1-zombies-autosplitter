@@ -1,14 +1,14 @@
 ## LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies 
 
 > [!WARNING]  
-> **Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality entirely for that game. Use Left Click skip for best results.**
+> Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality entirely for that game. Use Left Click skip for best results.
 
 > [!NOTE]  
 > Current version does **NOT** split correctly on Moon. Teleporting to and from No Man's Land breaks the round transition logic.
 
 ### Overview
 - A hooked LiveSplit timer with automatic **START, PAUSE, SPLIT, and RESET** for Call of Duty: Black Ops 1 Zombies
-- Compatible with **Steam**, **BGamerT5**, and **Plutonium** versions of Black Ops 1
+- Compatible with Steam, BGamerT5, and Plutonium versions of Black Ops 1
 - Game time is identical to the hooked WSplit timers
 - Automatically splits for **ALL ROUNDS** (2 - 260)
 - The included layout shows
@@ -41,14 +41,14 @@
 
 ### Usage
 - Launch LiveSplit before Black Ops 1, or while at the main menu for best results
-- **Not working?** Try running LiveSplit as administrator
+- Not working? Try running LiveSplit as administrator
   - To always run as admin. Right click LiveSplit.exe > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply
-- LiveSplit is **highly** customizable
+- LiveSplit is highly customizable
   - Edit layout > Layout Settings to change just about anything
   - Add, remove, or adjust layout components to fit your needs
   - You could even add [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2) to the same layout if you wanted
-- To reduce clutter on stream/recordings, crop the OBS source to only show the **Detailed Timer** layout component
-  - Or just remove the **Splits** layout component entirely
+- To reduce clutter on stream/recordings, crop the OBS source to only show the Detailed Timer layout component
+  - Or just remove the Splits layout component entirely
 - LiveSplit automatically remembers your last used splits and keeps them open. If it doesn’t, simply open `bo1 splits.lss` to restore them
 
 ### Credits
