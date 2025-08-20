@@ -23,7 +23,7 @@ startup {
     timer.CurrentComparison = "GameTime";
     timer.CurrentComparison = "None";
     settings.Add("red", true, "Split on round start (Red number)");
-    settings.SetToolTip("red", "Choose when to split: \n \n- Checked - Round start (waits until the round number is fully RED to split)\n- Unchecked - Round display (splits as soon as the WHITE round number appears)");
+    settings.SetToolTip("red", "Choose when to split: \n \n- Checked: When the round officially begins (RED number)\n- Unchecked: As soon as the round appears (White number)");
 }
 
 init {
@@ -47,9 +47,7 @@ split {
     // White Mode (mode = 0) splits on Step 5
     // Red Mode (mode = 1) splits on Step 6
     if (vars.step == (5 + vars.mode)) {
-        
-        // Resets the step for the next round's cycle. White Mode -> Step 1 / Red Mode -> Step 2
-        vars.step = (1 + vars.mode); 
+        vars.step = (1 + vars.mode); // Resets the step for the next round's cycle. White Mode -> Step 1 / Red Mode -> Step 2
         return true; // Split
     }
 }
@@ -58,7 +56,7 @@ reset {
     // Resets if ticks dropped
     if (current.ticks < old.ticks) {
         vars.step = 0;
-        return true;
+        return true; // Reset
     }
 }
 
@@ -74,4 +72,5 @@ reset {
 // 4. Round Transition       /   4  /      0      /     +       / ~2.5s
 // 5. Round 2 Display        /   5  /     255     /     +       / ~2s     // Split (White Mode)
 // -----------------------------------------------------------------------
+
 // 6. Round 2 Start          /   6  /      0      /     +       /         // Split (Red Mode) // Loop for Round N -> Round N+1
