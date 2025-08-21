@@ -1,4 +1,4 @@
-## LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies 
+# LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies 
 
 > [!WARNING]  
 > Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality entirely for that game. Use Left Click skip for best results.
@@ -6,7 +6,9 @@
 > [!NOTE]  
 > Current version does **NOT** split correctly on Moon. Teleporting to and from No Man's Land breaks the round transition logic.
 
-### Overview
+---
+
+## Overview
 - A hooked LiveSplit timer with fully automatic **START, PAUSE, SPLIT, and RESET** for Call of Duty: Black Ops 1 Zombies
 - Compatible with Steam, BGamer, and Plutonium versions of Black Ops 1
 - Game time is identical to the hooked WSplit timers
@@ -18,7 +20,9 @@
 
 <img width="250" height="238" alt="Showcase" src="https://github.com/user-attachments/assets/367225c5-1130-4807-a662-e213ebc8bb41" />
 
-### Setup
+---
+
+## Setup
 1. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)
 2. Download [LiveSplit](https://livesplit.org/)
 3. Right-click the timer to open context menu
@@ -36,10 +40,12 @@
    - Click OK
    - Save Splits
 
-> [!TIP]  
-> The font used for both the Timer and Times in my layout template is [Digital 7 Mono Regular](https://www.dafont.com/digital-7.font), the same font used in WSplit. If it's missing, LiveSplit will substitute another font.
+> [!TIP]
+> The font used for both the Timer and Times in my layout template is [Digital 7 Mono Regular](https://www.dafont.com/digital-7.font), the same font used in WSplit. If not installed, LiveSplit will substitute another font.
 
-### Usage
+---
+
+## Usage
 - Launch LiveSplit before Black Ops 1, or while at the main menu for best results
 - Not working? Try running LiveSplit as administrator
   - To always run as admin. Right click LiveSplit.exe > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply
@@ -51,5 +57,7 @@
   - Or just remove the Splits layout component entirely
 - LiveSplit automatically remembers your last used splits and keeps them open. If it doesn’t, simply open `bo1 splits.lss` to restore them
 
-### Credits
+---
+
+## Credits
 - Big shoutout to [lveez](https://github.com/lveez/bo1-timers) and [5and5](https://github.com/5and5/LiveSplitAutoSplitterForBlackOpsZombies) for their code, which gave me a base understanding of ASL scripting and useful memory addresses to build off of.
