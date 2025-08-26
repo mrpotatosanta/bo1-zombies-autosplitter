@@ -1,4 +1,6 @@
-# LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies 
+# LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies
+
+# [Download v1.4.0 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v1.4.0/bo1-zombies-autosplitter-1.4.0.zip)
 
 > [!WARNING]  
 > Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality entirely for that game. Use Left Click skip for best results.
