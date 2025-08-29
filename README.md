@@ -1,6 +1,6 @@
 # LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies
 
-This repository contains a hooked timer via LiveSplit Autosplitter designed for Call of Duty: Black Ops 1 Zombies speedruns and high-round attempts.
+This repository contains a LiveSplit Autosplitter designed for Call of Duty: Black Ops 1 Zombies speedruns and high-round attempts.
 
 # [Download v1.4.0 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v1.4.0/bo1-zombies-autosplitter-1.4.0.zip)
 
@@ -8,16 +8,16 @@ This repository contains a hooked timer via LiveSplit Autosplitter designed for 
 > Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip for best results.**
 
 > [!NOTE]  
-> Current version does **not** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
+> Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
 
 ---
 
 ## Features
 - Provides fully automatic **START, PAUSE, SPLIT, and RESET** functionality
 - Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
-- Utilizes game time identical to the popular hooked WSplit timers for accurate, loadless timing
+- Utilizes game time identical to popular hooked WSplit timers for accurate, loadless timing
 - Automatically splits for **ALL ROUNDS** (2 - 260)
-- Includes a pre-configured layout that displays total Game Time, current Round Time, and a list of your 5 most recent splits
+- Includes a pre-configured layout that displays total Game Time, current Round Time, and your 5 most recent splits
 
 <img width="250" height="238" alt="Showcase" src="https://github.com/user-attachments/assets/367225c5-1130-4807-a662-e213ebc8bb41" />
 
@@ -33,7 +33,7 @@ This repository contains a hooked timer via LiveSplit Autosplitter designed for 
    - Double-click "Scriptable Auto Splitter"
    - Browse... next to "Script Path" > `bo1 autosplitter.asl`
    - Confirm "Start," "Split," and "Reset" boxes are all checked
-   - Choose when splits occur in the Advanced section (Hover over the checkbox for more info)
+   - In the "Advanced" section, choose your preferred split timing (hover over the checkbox for more info)
    - Click OK on both windows
    - Save Layout
 7. Edit Splits:
