@@ -15,7 +15,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 ## Features
 - Provides fully automatic **START, PAUSE, SPLIT, and RESET** functionality
 - Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
-- Utilizes game time identical to popular hooked WSplit timers for accurate, loadless timing
+- Utilizes game time identical to popular hooked WSplit timers for accurate, lightweight timing
 - Automatically splits for **ALL ROUNDS** (2 - 260)
 - Includes a pre-configured layout that displays total Game Time, current Round Time, and your 5 most recent splits
 
