@@ -19,7 +19,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 - Automatically splits for **ALL ROUNDS** (2 - 260)
 - Includes a pre-configured layout that displays total Game Time, current Round Time, and your 5 most recent splits
 
-<img width="250" height="238" alt="Showcase" src="https://github.com/user-attachments/assets/367225c5-1130-4807-a662-e213ebc8bb41" />
+<img width="250" height="238" alt="Layout Showcase" src="https://github.com/user-attachments/assets/367225c5-1130-4807-a662-e213ebc8bb41" title="haha look, the round time is the funny number"/>
 
 ---
 
