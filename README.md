@@ -5,7 +5,7 @@ This repository contains a hooked timer via LiveSplit Autosplitter designed for 
 # [Download v1.4.0 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v1.4.0/bo1-zombies-autosplitter-1.4.0.zip)
 
 > [!WARNING]  
-> Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip skip for best results.**
+> Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip for best results.**
 
 > [!NOTE]  
 > Current version does **not** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
@@ -15,7 +15,7 @@ This repository contains a hooked timer via LiveSplit Autosplitter designed for 
 ## Features
 - Provides fully automatic **START, PAUSE, SPLIT, and RESET** functionality
 - Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
-- Utilizes game time identical to the popular hooked WSplit timers for accurate, lightweight timing
+- Utilizes game time identical to the popular hooked WSplit timers for accurate, loadless timing
 - Automatically splits for **ALL ROUNDS** (2 - 260)
 - Includes a pre-configured layout that displays total Game Time, current Round Time, and a list of your 5 most recent splits
 
@@ -47,15 +47,15 @@ This repository contains a hooked timer via LiveSplit Autosplitter designed for 
 ---
 
 ## Usage & Tips
-- Launch LiveSplit before Black Ops 1, or while at the main menu for best results
+- For best results, launch LiveSplit before Black Ops 1 or while at the main menu.
 - **Not working?** Try running LiveSplit as administrator
   - *To always run as admin. Right click LiveSplit.exe > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
 - **Customization:** LiveSplit is highly customizable.
-    - Go to Edit Layout > Layout Settings to change fonts, colors, sizing, and more.
+    - Customize fonts, colors, and more in **Edit Layout > Layout Settings**.
     - Feel free to add, remove, or re-order components to fit your needs.
-    - You could even add **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout if you wanted.
+    - You could even add other tools like **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout.
 - **Streaming:** To reduce clutter on stream, you can either remove the "Splits" component from the layout entirely or crop the window capture in OBS to only show the timers.
-- LiveSplit automatically remembers your last used splits and keeps them open. If it doesn’t, simply open `bo1 splits.lss` to restore them
+- LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 splits.lss` to restore them
 
 ---
 
