@@ -20,7 +20,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
       - **Ascension 244** - Furret
       - **Der Riese 50 SR** - Oscar Otter
       - **Five 241** - Jermaine
-- Offers two configurable split modes to define when splits are triggered:
+- Offers two **configurable split modes** to define when splits are triggered:
    - White Mode - Splits as soon as the new round number appears on screen
    - Red Mode - Splits when the round officially begins and zombies actually start spawning
 
