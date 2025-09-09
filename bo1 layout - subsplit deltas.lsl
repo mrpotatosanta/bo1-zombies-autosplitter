@@ -102,10 +102,10 @@
         <CurrentNamesColor>FFFFFFFF</CurrentNamesColor>
         <AfterNamesColor>FFFFFFFF</AfterNamesColor>
         <OverrideTextColor>False</OverrideTextColor>
-        <BeforeTimesColor>FFFFFFFF</BeforeTimesColor>
+        <BeforeTimesColor>FFFFFF00</BeforeTimesColor>
         <CurrentTimesColor>FFFFFFFF</CurrentTimesColor>
         <AfterTimesColor>FFFFFFFF</AfterTimesColor>
-        <OverrideTimesColor>False</OverrideTimesColor>
+        <OverrideTimesColor>True</OverrideTimesColor>
         <LockLastSplit>True</LockLastSplit>
         <IconSize>24</IconSize>
         <IconShadows>True</IconShadows>
