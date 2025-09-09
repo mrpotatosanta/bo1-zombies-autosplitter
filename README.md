@@ -13,16 +13,16 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 ## Features
 - Provides fully automatic **START, PAUSE, SPLIT, and RESET** functionality
 - Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
-- Utilizes game time identical to hooked WSplit timers for accurate, lightweight timing
+- Utilizes game time identical to popular hooked WSplit timers for accurate, lightweight timing
 - Automatically splits for **ALL ROUNDS**
-- `bo1 subsplits.lss` includes a full list of rounds (2 - 260)
+- `bo1 subsplits.lss` includes a full list of rounds (2-260)
    - Main splits every 10 rounds and round 163
    - Subsplits for every round in between
-- Some reference split times from notable runs, to be used as the current comparison in the `bo1 layout - subsplit deltas.lsl` layout specifically
-  - *Verruckt 208 (Slewya)*
-  - *Ascension 244 (Furret)*
-  - *Der Riese 50 SR (Oscar Otter)*
-  - *Five 241 (Jermaine)*
+   - Reference split times from notable runs, specifically for use with the `bo1 layout - subsplit deltas.lsl` layout
+      - **Verruckt 208** — Slewya
+      - **Ascension 244** - Furret
+      - **Der Riese 50 SR** - Oscar Otter
+      - **Five 241** - Jermaine
 
 ---
 
@@ -31,7 +31,6 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 ### Classic WSplit Style
 
 <img width="250" height="117" alt="Classic WSplit Style" src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" />
-
 
 - Minimalist timer-only layout
 - Styled to mimic the original WSplit colors
@@ -42,8 +41,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 <img width="250" height="247" alt="Full Splits Info" src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" />
 
-
-- Displays every split and subsplit (all rounds) for the current game
+- Displays every split (all rounds) for the current game
 - Column 1: Total game time (Split time)
 - Column 2: Round time (Segment time)
 
@@ -53,10 +51,15 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 <img width="250" height="274" alt="Subsplit Deltas" src="https://github.com/user-attachments/assets/3f061fd0-d362-4317-b7b7-cf527774aef3" />
 
-- Displays only main splits (every 10 rounds and 163)
-- Compares current run to a reference game
-- Column 1: Delta vs reference
-- Column 2: Reference subsplits (white) or current subsplits (yellow)
+- Displays main splits at every 10-round interval, plus round 163
+- Compares your current run against a reference game
+- Column 1: Time delta (+/-) vs reference
+- Column 2: Subsplit times: white for reference, yellow for current run
+- To change the reference comparison:
+  - Right Click > **Compare Against**
+- To add a new reference set:
+  - Right Click > **Edit Splits > Add Comparison**
+  - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done
 
 ---
 
