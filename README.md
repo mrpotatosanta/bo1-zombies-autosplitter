@@ -13,11 +13,48 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 ## Features
 - Provides fully automatic **START, PAUSE, SPLIT, and RESET** functionality
 - Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
-- Utilizes game time identical to popular hooked WSplit timers for accurate, lightweight timing
-- Automatically splits for **ALL ROUNDS** (2 - 260)
-- Includes a pre-configured layout that displays total Game Time, current Round Time, and your 5 most recent splits
+- Utilizes game time identical to hooked WSplit timers for accurate, lightweight timing
+- Automatically splits for **ALL ROUNDS**
+- `bo1 subsplits.lss` includes a full list of rounds (2 - 260)
+   - Main splits every 10 rounds and round 163
+   - Subsplits for every round in between
+- Some reference split times from notable runs, to be used as the current comparison in the `bo1 layout - subsplit deltas.lsl` layout specifically
+  - *Verruckt 208 (Slewya)*
+  - *Ascension 244 (Furret)*
+  - *Der Riese 50 SR (Oscar Otter)*
+  - *Five 241 (Jermaine)*
 
-<img width="250" height="238" alt="Layout Showcase" src="https://github.com/user-attachments/assets/367225c5-1130-4807-a662-e213ebc8bb41" title="haha look, the round time is the funny number"/>
+---
+
+## Layout Previews
+
+### Classic WSplit Style
+
+<img width="250" height="106" alt="Classic WSplit Style" src="https://github.com/user-attachments/assets/4105bbc3-e7dd-43a8-890d-49ccc45a775c" />
+
+- Minimalist timer-only layout
+- Styled to mimic the original WSplit colors
+
+---
+
+### Full Splits Info
+
+<img width="250" height="245" alt="Full Splits Info" src="https://github.com/user-attachments/assets/60d762bf-ca7d-4130-bd8e-53b91a4f0945" />
+
+- Displays every split and subsplit (all rounds) for the current game
+- Column 1: Total game time (Split time)
+- Column 2: Round time (Segment time)
+
+---
+
+### Subsplit Deltas
+
+<img width="250" height="272" alt="Subsplit Deltas" src="https://github.com/user-attachments/assets/0d9e2937-74e3-4b91-9f22-918a2e337bb4" />
+
+- Displays only main splits (every 10 rounds and 163)
+- Compares current run to a reference game
+- Column 1: Delta vs reference
+- Column 2: Reference subsplits (white) or current subsplits (yellow)
 
 ---
 
