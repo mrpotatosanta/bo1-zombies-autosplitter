@@ -30,7 +30,8 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 ### Classic WSplit Style
 
-<img width="250" height="106" alt="Classic WSplit Style" src="https://github.com/user-attachments/assets/4105bbc3-e7dd-43a8-890d-49ccc45a775c" />
+<img width="250" height="117" alt="Classic WSplit Style" src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" />
+
 
 - Minimalist timer-only layout
 - Styled to mimic the original WSplit colors
@@ -39,7 +40,8 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 ### Full Splits Info
 
-<img width="250" height="245" alt="Full Splits Info" src="https://github.com/user-attachments/assets/60d762bf-ca7d-4130-bd8e-53b91a4f0945" />
+<img width="250" height="247" alt="Full Splits Info" src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" />
+
 
 - Displays every split and subsplit (all rounds) for the current game
 - Column 1: Total game time (Split time)
@@ -49,7 +51,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 ### Subsplit Deltas
 
-<img width="250" height="272" alt="Subsplit Deltas" src="https://github.com/user-attachments/assets/0d9e2937-74e3-4b91-9f22-918a2e337bb4" />
+<img width="250" height="274" alt="Subsplit Deltas" src="https://github.com/user-attachments/assets/3f061fd0-d362-4317-b7b7-cf527774aef3" />
 
 - Displays only main splits (every 10 rounds and 163)
 - Compares current run to a reference game
