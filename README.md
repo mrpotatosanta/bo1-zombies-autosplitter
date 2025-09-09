@@ -5,8 +5,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 > [!WARNING]  
 > Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip for best results.**
 
-> [!NOTE]  
-> Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
+
 
 ---
 
@@ -24,11 +23,14 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
       - **Der Riese 50 SR** - Oscar Otter
       - **Five 241** - Jermaine
 
+> [!NOTE]  
+> Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
+
 ---
 
 ## Layout Previews
 
-> [!NOTE]  
+> [!IMPORTANT]  
 > The layouts shown below are just a few examples to highlight how insanely customizable LiveSplit can be. I highly encourage you to explore its settings and components to build a layout that fits your own style and needs.
 >
 > When creating your own layout, keep two things in mind:
