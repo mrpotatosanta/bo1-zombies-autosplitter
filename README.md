@@ -28,6 +28,13 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 ## Layout Previews
 
+> [!NOTE]  
+> The layouts shown below are just a few examples to highlight how insanely customizable LiveSplit can be. I highly encourage you to explore its settings and components to build a layout that fits your own style and needs.
+>
+> When creating your own layout, keep two things in mind:
+> 1. You must include the Scriptable Auto Splitter component and point the path to `bo1 autosplitter.asl`
+> 2. Always use Game Time wherever applicable (not Real Time)
+
 ### Classic WSplit Style
 
 <img width="250" height="117" alt="Classic WSplit Style" src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" />
@@ -55,15 +62,26 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 - Compares your current run against a reference game
 - Column 1: Time delta (+/-) vs reference
 - Column 2: Subsplit times: white for reference, yellow for current run
-- To change the reference comparison:
-  - Right Click > **Compare Against**
-- To add a new reference set:
-  - Right Click > **Edit Splits > Add Comparison**
-  - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done
+
+> [!NOTE]
+> To change the reference comparison:
+> - Right Click > **Compare Against**
+>
+> To add a new reference set:
+> - Right Click > **Edit Splits > Add Comparison**
+> - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done
+  
+
 
 ---
 
 ## Setup Instructions
+
+> [!TIP]
+> To match the layout previews exactly, download and install the **[Digital 7 (Mono)](https://www.dafont.com/digital-7.font)** font beforehand. If you don't have it installed, LiveSplit will substitute a default font for Timer and Times in Layout Settings
+
+### Setup
+
 1. Download the **[Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)** and unzip the contents
 2. Download and install **[LiveSplit](https://livesplit.org/)**
 3. In LiveSplit, right-click the window to open context menu
@@ -81,21 +99,18 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
    - Click OK
    - Save Splits
 
-> [!TIP]
-> The font used in my layout template is **[Digital 7 Mono Regular](https://www.dafont.com/digital-7.font)**, which is the same font used in WSplit. If you don't have it installed, LiveSplit will substitute a default font.
-
 ---
 
 ## Usage & Tips
 - For best results, launch LiveSplit before Black Ops 1 or while at the main menu.
 - **Not working?** Try running LiveSplit as administrator
-  - *To always run as admin. Right click LiveSplit.exe > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
+   - *To always run as admin. Right click LiveSplit.exe > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
 - **Customization:** LiveSplit is highly customizable.
-    - Customize fonts, colors, and more in **Edit Layout > Layout Settings**.
-    - Feel free to add, remove, or re-order components to fit your needs.
-    - You could even add other tools like **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout.
-- **Streaming:** To reduce clutter on stream, you can either remove the "Splits" component from the layout entirely or crop the window capture in OBS to only show the timers.
+   - Customize fonts, colors, and more in **Edit Layout > Layout Settings**.
+   - Feel free to add, remove, or re-order components to fit your needs.
+   - You could even add other tools like **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout.
 - LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
+   - This will also open your preferred layout, assuming you told it what layout to use in Step 7 on the Setup Instructions
 
 ---
 
