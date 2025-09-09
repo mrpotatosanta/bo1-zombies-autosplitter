@@ -110,7 +110,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
    - Feel free to add, remove, or re-order components to fit your needs.
    - You could even add other tools like **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout.
 - LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
-   - This will also open your preferred layout, assuming you told it what layout to use in Step 7 on the Setup Instructions
+   - This will also open your preferred layout, assuming you told it what layout to use on Step 7 in the Setup Instructions
 
 ---
 
