@@ -67,7 +67,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 1. Download the **[Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)** and unzip the contents
 2. Download and install **[LiveSplit](https://livesplit.org/)**
 3. In LiveSplit, right-click the window to open context menu
-4. Open Splits > From File... > `bo1 splits.lss`
+4. Open Splits > From File... > `bo1 subsplits.lss`
 5. Open Layout > From File... > `bo1 layout.lsl`
 6. Edit Layout:
    - Double-click "Scriptable Auto Splitter"
@@ -95,7 +95,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
     - Feel free to add, remove, or re-order components to fit your needs.
     - You could even add other tools like **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout.
 - **Streaming:** To reduce clutter on stream, you can either remove the "Splits" component from the layout entirely or crop the window capture in OBS to only show the timers.
-- LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 splits.lss` to restore them
+- LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
 
 ---
 
