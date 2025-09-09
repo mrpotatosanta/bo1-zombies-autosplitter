@@ -5,8 +5,6 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 > [!WARNING]  
 > Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip for best results.**
 
-
-
 ---
 
 ## Features
@@ -72,8 +70,6 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 > To add a new reference set:
 > - Right Click > **Edit Splits > Add Comparison**
 > - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done
-  
-
 
 ---
 
