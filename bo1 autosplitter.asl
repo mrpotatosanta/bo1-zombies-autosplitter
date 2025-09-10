@@ -74,5 +74,4 @@ reset {
 // 4. Round Transition       /   4  /      0      /     +       / ~2.5s
 // 5. Round 2 Display        /   5  /     255     /     +       / ~2s     // Split (White Mode)
 // -----------------------------------------------------------------------
-
 // 6. Round 2 Start          /   6  /      0      /     +       /         // Split (Red Mode) // Loop for Round N -> Round N+1
