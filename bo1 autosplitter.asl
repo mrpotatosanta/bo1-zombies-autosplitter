@@ -22,7 +22,6 @@ gameTime { return TimeSpan.FromMilliseconds(current.ticks * 50); }
 startup {
     refreshRate = 20; // Black Ops updates at 20Hz (50ms); higher values waste CPU usage. Adjust timer display refresh rate in LiveSplit settings, not here
     timer.CurrentTimingMethod = TimingMethod.GameTime;
-    timer.CurrentComparison = "GameTime";
     settings.Add("red", true, "Split on round start (RED number)");
     settings.SetToolTip("red", "Choose when to split: \n \n- Checked: When the round officially begins (RED number)\n- Unchecked: As soon as the round appears (WHITE number)");
 }
@@ -75,4 +74,5 @@ reset {
 // 4. Round Transition       /   4  /      0      /     +       / ~2.5s
 // 5. Round 2 Display        /   5  /     255     /     +       / ~2s     // Split (White Mode)
 // -----------------------------------------------------------------------
+
 // 6. Round 2 Start          /   6  /      0      /     +       /         // Split (Red Mode) // Loop for Round N -> Round N+1
