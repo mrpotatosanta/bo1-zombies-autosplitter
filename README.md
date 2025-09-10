@@ -12,17 +12,22 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 - Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
 - Utilizes game time identical to popular hooked WSplit timers for accurate, lightweight timing
 - Automatically splits for **ALL ROUNDS**
-- `bo1 subsplits.lss` includes a full list of rounds (2-260)
-   - Main splits every 10 rounds and round 163
-   - Subsplits for every round in between
-   - Reference split times from notable runs, specifically for use with the `bo1 layout - subsplit deltas.lsl` layout
-      - **Verruckt 208** — Slewya
-      - **Ascension 244** - Furret
-      - **Der Riese 50 SR** - Oscar Otter
-      - **Five 241** - Jermaine
 - Offers two configurable split modes to define when splits are triggered:
    - White Mode - Splits as soon as the new round number appears on screen
    - Red Mode - Splits when the round officially begins and zombies actually start spawning
+- Includes:
+   - `bo1 autosplitter.asl` - Core script that controls the timer
+   - `bo1 subsplits.lss` - Splits config file that stores the segment names and split times
+      - Main splits every 10 rounds and round 163
+      - Subsplits for every round in between
+      - Reference split times from notable runs, specifically for use with the `bo1 layout - subsplit deltas.lsl` layout
+         - **Verruckt 208** — Slewya
+         - **Ascension 244** - Furret
+         - **Der Riese 50 SR** - Oscar Otter
+         - **Five 241** - Jermaine
+   - `bo1 layout - classic wsplit style.lsl`
+   - `bo1 layout - full splits info.lsl`
+   - `bo1 layout - subsplit deltas.lsl`
 
 > [!NOTE]  
 > Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
@@ -72,7 +77,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 >
 > To add a new reference set:
 > - Right Click > **Edit Splits > Add Comparison**
-> - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done
+> - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done. You can paste on this page if it's the right format.
 
 ---
 
