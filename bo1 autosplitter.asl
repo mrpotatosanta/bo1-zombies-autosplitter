@@ -1,3 +1,5 @@
+// https://github.com/mrpotatosanta/bo1-zombies-autosplitter
+
 state("BlackOps") {
     int ticks : 0x1679870;
     byte roundchange : 0x165695D;
@@ -21,7 +23,6 @@ startup {
     refreshRate = 20; // Black Ops updates at 20Hz (50ms); higher values waste CPU usage. Adjust timer display refresh rate in LiveSplit settings, not here
     timer.CurrentTimingMethod = TimingMethod.GameTime;
     timer.CurrentComparison = "GameTime";
-    timer.CurrentComparison = "None";
     settings.Add("red", true, "Split on round start (RED number)");
     settings.SetToolTip("red", "Choose when to split: \n \n- Checked: When the round officially begins (RED number)\n- Unchecked: As soon as the round appears (WHITE number)");
 }

@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
   <X>100</X>
   <Y>100</Y>
   <VerticalWidth>250</VerticalWidth>
-  <VerticalHeight>238</VerticalHeight>
+  <VerticalHeight>247</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
     <TextColor>FFFFFFFF</TextColor>
-    <BackgroundColor>00000000</BackgroundColor>
+    <BackgroundColor>FF000000</BackgroundColor>
     <BackgroundColor2>00000000</BackgroundColor2>
-    <ThinSeparatorsColor>09FFFFFF</ThinSeparatorsColor>
-    <SeparatorsColor>26FFFFFF</SeparatorsColor>
-    <PersonalBestColor>FFFFFFFF</PersonalBestColor>
-    <AheadGainingTimeColor>FFFFFFFF</AheadGainingTimeColor>
-    <AheadLosingTimeColor>FFFFFFFF</AheadLosingTimeColor>
-    <BehindGainingTimeColor>FFFFFFFF</BehindGainingTimeColor>
-    <BehindLosingTimeColor>FFFFFFFF</BehindLosingTimeColor>
-    <BestSegmentColor>FFFFFFFF</BestSegmentColor>
+    <ThinSeparatorsColor>03FFFFFF</ThinSeparatorsColor>
+    <SeparatorsColor>24FFFFFF</SeparatorsColor>
+    <PersonalBestColor>FF16A6FF</PersonalBestColor>
+    <AheadGainingTimeColor>FF00CC36</AheadGainingTimeColor>
+    <AheadLosingTimeColor>FF00CC36</AheadLosingTimeColor>
+    <BehindGainingTimeColor>FFCC1200</BehindGainingTimeColor>
+    <BehindLosingTimeColor>FFCC1200</BehindLosingTimeColor>
+    <BestSegmentColor>FFD8AF1F</BestSegmentColor>
     <UseRainbowColor>False</UseRainbowColor>
-    <NotRunningColor>FFFFFFFF</NotRunningColor>
-    <PausedColor>FFFFFFFF</PausedColor>
+    <NotRunningColor>FFACACAC</NotRunningColor>
+    <PausedColor>FF7A7A7A</PausedColor>
     <TextOutlineColor>00000000</TextOutlineColor>
-    <ShadowsColor>80FFFFFF</ShadowsColor>
+    <ShadowsColor>80000000</ShadowsColor>
     <TimesFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAA5EaWdpdGFsLTcgTW9ubwAA0EEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></TimesFont>
-    <TimerFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAA5EaWdpdGFsLTcgTW9ub+Q4XkIF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></TimerFont>
+    <TimerFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAA5EaWdpdGFsLTcgTW9ubwAAL0IF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></TimerFont>
     <TextFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAA0EEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></TextFont>
     <AlwaysOnTop>True</AlwaysOnTop>
     <ShowBestSegments>False</ShowBestSegments>
-    <AntiAliasing>True</AntiAliasing>
+    <AntiAliasing>False</AntiAliasing>
     <DropShadows>False</DropShadows>
     <BackgroundType>SolidColor</BackgroundType>
     <BackgroundImage />
@@ -56,15 +56,15 @@
         <Width>200</Width>
         <SegmentTimerSizeRatio>50</SegmentTimerSizeRatio>
         <TimerShowGradient>False</TimerShowGradient>
-        <OverrideTimerColors>False</OverrideTimerColors>
+        <OverrideTimerColors>True</OverrideTimerColors>
         <SegmentTimerShowGradient>False</SegmentTimerShowGradient>
         <TimerFormat>1.23</TimerFormat>
         <SegmentTimerFormat>1.23</SegmentTimerFormat>
         <SegmentTimesAccuracy>Hundredths</SegmentTimesAccuracy>
         <TimerColor>FFFFFFFF</TimerColor>
         <SegmentTimerColor>FFFFFFFF</SegmentTimerColor>
-        <SegmentLabelsColor>FFFFFFFF</SegmentLabelsColor>
-        <SegmentTimesColor>FFFFFFFF</SegmentTimesColor>
+        <SegmentLabelsColor>00000000</SegmentLabelsColor>
+        <SegmentTimesColor>00000000</SegmentTimesColor>
         <SegmentLabelsFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAUEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></SegmentLabelsFont>
         <SegmentTimesFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAA0EEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></SegmentTimesFont>
         <SplitNameFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAcEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></SplitNameFont>
@@ -84,19 +84,20 @@
       </Settings>
     </Component>
     <Component>
-      <Path>LiveSplit.Splits.dll</Path>
+      <Path>LiveSplit.Subsplits.dll</Path>
       <Settings>
-        <Version>1.6</Version>
-        <CurrentSplitTopColor>003373F4</CurrentSplitTopColor>
+        <Version>1.7</Version>
+        <AutomaticAbbreviation>False</AutomaticAbbreviation>
+        <CurrentSplitTopColor>00000000</CurrentSplitTopColor>
         <CurrentSplitBottomColor>FF153574</CurrentSplitBottomColor>
         <VisualSplitCount>5</VisualSplitCount>
         <SplitPreviewCount>0</SplitPreviewCount>
+        <MinimumMajorSplits>0</MinimumMajorSplits>
         <DisplayIcons>False</DisplayIcons>
         <ShowThinSeparators>True</ShowThinSeparators>
         <AlwaysShowLastSplit>False</AlwaysShowLastSplit>
         <SplitWidth>20</SplitWidth>
         <SplitTimesAccuracy>Seconds</SplitTimesAccuracy>
-        <AutomaticAbbreviations>False</AutomaticAbbreviations>
         <BeforeNamesColor>FFFFFFFF</BeforeNamesColor>
         <CurrentNamesColor>FFFFFFFF</CurrentNamesColor>
         <AfterNamesColor>FFFFFFFF</AfterNamesColor>
@@ -105,7 +106,6 @@
         <CurrentTimesColor>FFFFFFFF</CurrentTimesColor>
         <AfterTimesColor>FFFFFFFF</AfterTimesColor>
         <OverrideTimesColor>True</OverrideTimesColor>
-        <ShowBlankSplits>True</ShowBlankSplits>
         <LockLastSplit>True</LockLastSplit>
         <IconSize>24</IconSize>
         <IconShadows>True</IconShadows>
@@ -115,11 +115,39 @@
         <BackgroundColor2>01FFFFFF</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <SeparatorLastSplit>True</SeparatorLastSplit>
-        <DeltasAccuracy>Tenths</DeltasAccuracy>
+        <DeltasAccuracy>Seconds</DeltasAccuracy>
         <DropDecimals>True</DropDecimals>
         <OverrideDeltasColor>False</OverrideDeltasColor>
-        <DeltasColor>FFFFFFFF</DeltasColor>
+        <DeltasColor>00000000</DeltasColor>
+        <HeaderComparison>Current Comparison</HeaderComparison>
+        <HeaderTimingMethod>Current Timing Method</HeaderTimingMethod>
         <Display2Rows>False</Display2Rows>
+        <IndentBlankIcons>False</IndentBlankIcons>
+        <IndentSubsplits>False</IndentSubsplits>
+        <HideSubsplits>False</HideSubsplits>
+        <ShowSubsplits>True</ShowSubsplits>
+        <CurrentSectionOnly>False</CurrentSectionOnly>
+        <OverrideSubsplitColor>False</OverrideSubsplitColor>
+        <SubsplitGradient>Plain</SubsplitGradient>
+        <ShowHeader>False</ShowHeader>
+        <IndentSectionSplit>True</IndentSectionSplit>
+        <ShowIconSectionSplit>False</ShowIconSectionSplit>
+        <ShowSectionIcon>True</ShowSectionIcon>
+        <HeaderGradient>Vertical</HeaderGradient>
+        <OverrideHeaderColor>False</OverrideHeaderColor>
+        <HeaderText>True</HeaderText>
+        <HeaderTimes>True</HeaderTimes>
+        <HeaderAccuracy>Tenths</HeaderAccuracy>
+        <SectionTimer>True</SectionTimer>
+        <SectionTimerGradient>True</SectionTimerGradient>
+        <SectionTimerAccuracy>Tenths</SectionTimerAccuracy>
+        <SubsplitTopColor>00000000</SubsplitTopColor>
+        <SubsplitBottomColor>00FFFFFF</SubsplitBottomColor>
+        <HeaderTopColor>2BFFFFFF</HeaderTopColor>
+        <HeaderBottomColor>D8000000</HeaderBottomColor>
+        <HeaderTextColor>FFFFFFFF</HeaderTextColor>
+        <HeaderTimesColor>FFFFFFFF</HeaderTimesColor>
+        <SectionTimerColor>FF777777</SectionTimerColor>
         <ShowColumnLabels>False</ShowColumnLabels>
         <LabelsColor>FFFFFFFF</LabelsColor>
         <Columns>
