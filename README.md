@@ -52,6 +52,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 - Minimalist timer-only layout
 - Styled to mimic the original WSplit colors
+- [Download Classic WSplit Style Layout](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.0/bo1_layout_classic_wsplit_style.lsl)
 
 ---
 
@@ -62,6 +63,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 - Displays every split (all rounds) for the current game
 - Column 1: Total game time (Split time)
 - Column 2: Round time (Segment time)
+- [Download Full Splits Info Layout](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.0/bo1_layout_full_splits_info.lsl)
 
 ---
 
@@ -73,6 +75,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 - Compares your current run against a reference game
 - Column 1: Time delta (+/-) vs reference
 - Column 2: Subsplit times: white for reference, yellow for current run
+- [Download Subsplit Deltas Layout](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.0/bo1_layout_subsplit_deltas.lsl)
 
 > [!NOTE]
 > To change the reference comparison:
