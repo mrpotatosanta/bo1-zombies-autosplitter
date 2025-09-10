@@ -20,11 +20,12 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
    - `bo1 subsplits.lss` - Splits config file that stores the segment names and split times
       - Main splits every 10 rounds and round 163
       - Subsplits for every round in between
-      - Reference split times from a few notable runs, specifically for comparison use with the `bo1 layout - subsplit deltas.lsl` layout
+      - Reference split times from notable runs, specifically for comparison use with the `bo1 layout - subsplit deltas.lsl` layout
          - **Verruckt 208** - Slewya
          - **Ascension 244** - Furret
          - **Der Riese 50 SR** - Oscar Otter
          - **Five 241** - Jermaine
+         - More to come
    - `bo1 layout - classic wsplit style.lsl`
    - `bo1 layout - full splits info.lsl`
    - `bo1 layout - subsplit deltas.lsl`
