@@ -4,8 +4,6 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Download v2.0 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.0/bo1-zombies-autosplitter-2.0.zip)
-
 > [!WARNING]
 > Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip for best results.**
 
@@ -76,7 +74,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 - Column 1: Time delta (+/-) vs reference
 - Column 2: Subsplit times: white for reference, yellow for current run
 
-> [!NOTE]
+> [!TIP]
 > To change the reference comparison:
 > - Right Click > **Compare Against**
 >
@@ -88,24 +86,20 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Setup Instructions
 
-> [!TIP]
-> To match the layout previews exactly, download and install the **[Digital 7 (Mono)](https://www.dafont.com/digital-7.font)** font beforehand. If you don't have it installed, LiveSplit will substitute a default font for Timer and Times in Layout Settings
-
-### Setup
-
-1. Download the **[Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)** and unzip the contents
-2. Download and install **[LiveSplit](https://livesplit.org/)**
-3. Launch `LiveSplit.exe` and right-click the window to open context menu
-4. Open Splits > From File... > `bo1 subsplits.lss`
-5. Open Layout > From File... > `bo1 layout.lsl`
-6. Edit Layout:
+1. Download and install **[LiveSplit](https://livesplit.org/)**
+2. Download the **[Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)** and unzip the contents
+3. Double-click `digital-7 (mono).ttf` to preview and install the font
+4. Launch `LiveSplit.exe` and right-click the window to open context menu
+5. Open Splits > From File... > `bo1 subsplits.lss`
+6. Open Layout > From File... > `bo1 layout.lsl`
+7. Edit Layout:
    - Double-click "Scriptable Auto Splitter"
    - Browse... next to "Script Path" > `bo1 autosplitter.asl`
    - Confirm "Start," "Split," and "Reset" boxes are all checked
    - In the "Advanced" section, choose your preferred split timing (hover over the checkbox for more info)
    - Click OK on both windows
    - Save Layout
-7. Edit Splits:
+8. Edit Splits:
    - Check 'Use Layout' box > Browse... > `bo1 layout.lsl`
    - Click OK
    - Save Splits
@@ -121,9 +115,10 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - Feel free to add, remove, or re-order components to fit your needs.
    - You could even add other tools like **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout.
 - LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
-   - This will also open your preferred layout, assuming you told it what layout to use on Step 7 in the Setup Instructions
+   - This will also open your preferred layout, assuming you told it what layout to use on Step 8 in the Setup Instructions
 
 ---
 
 ## Credits
 - Big shoutout to [lveez](https://github.com/lveez/bo1-timers) and [5and5](https://github.com/5and5/LiveSplitAutoSplitterForBlackOpsZombies) for their code, which gave me a base understanding of ASL scripting and useful memory addresses to build off of.
+- The main font used in my layout examples is **[Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font)**
