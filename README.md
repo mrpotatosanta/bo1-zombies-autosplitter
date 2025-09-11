@@ -96,7 +96,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 1. Download the **[Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)** and unzip the contents
 2. Download and install **[LiveSplit](https://livesplit.org/)**
-3. In LiveSplit, right-click the window to open context menu
+3. Launch `LiveSplit.exe` and right-click the window to open context menu
 4. Open Splits > From File... > `bo1 subsplits.lss`
 5. Open Layout > From File... > `bo1 layout.lsl`
 6. Edit Layout:
@@ -116,7 +116,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 ## Usage & Tips
 - For best results, launch LiveSplit before Black Ops 1 or while at the main menu.
 - **Not working?** Try running LiveSplit as administrator
-   - *To always run as admin. Right click LiveSplit.exe > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
+   - *To always run as admin. Right click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
 - **Customization:** LiveSplit is highly customizable.
    - Customize fonts, colors, and more in **Edit Layout > Layout Settings**.
    - Feel free to add, remove, or re-order components to fit your needs.
