@@ -89,20 +89,23 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 1. Download and install **[LiveSplit](https://livesplit.org/)**
 2. Download the **[Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)** and unzip the contents
 3. Double-click `digital-7 (mono).ttf` to preview and install the main font
-4. Launch `LiveSplit.exe` and right-click the window to open context menu
-5. Open Splits > From File... > `bo1 subsplits.lss`
-6. Open Layout > From File... > `bo1 layout.lsl`
-7. Edit Layout:
-   - Double-click "Scriptable Auto Splitter"
-   - Browse... next to "Script Path" > `bo1 autosplitter.asl`
+4. Load your splits:
+   - Double-click `bo1 subsplits.lss`
+   - *Or* in LiveSplit > Open Splits > From File... > `bo1 subsplits.lss`
+5. Load your layout:
+   - Drag-and-drop `bo1 layout.lsl` onto the LiveSplit window
+   - *Or* in LiveSplit > Open Layout > From File... > `bo1 layout.lsl`
+6. Configure the autosplitter:
+   - Right-click LiveSplit > Edit Layout...
+   - Double-click Scriptable Auto Splitter
+   - Click Browse... next to "Script Path" and select `bo1 autosplitter.asl`
    - Confirm "Start," "Split," and "Reset" boxes are all checked
-   - In the "Advanced" section, choose your preferred split timing (hover over the checkbox for more info)
-   - Click OK on both windows
-   - Save Layout
-8. Edit Splits:
-   - Check 'Use Layout' box > Browse... > `bo1 layout.lsl`
-   - Click OK
-   - Save Splits
+   - Under Advanced, choose your preferred split timing (hover over the checkbox for more info)
+   - Click OK on both dialogs and Save Layout
+7. Link the layout to your splits:
+   - Right-click LiveSplit > Edit Splits...
+   - Check "Use Layout" box > Browse... > select `bo1 layout.lsl`
+   - Click OK and Save Splits
 
 ---
 
@@ -115,7 +118,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - Feel free to add, remove, or re-order components to fit your needs.
    - You could even add other tools like **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout.
 - LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
-   - This will also open your preferred layout, assuming you told it what layout to use on Step 8 in the Setup Instructions
+   - This will also open your preferred layout, assuming you linked the layout to `bo1 subsplits.lss`
 
 ---
 
