@@ -88,7 +88,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 1. Download and install **[LiveSplit](https://livesplit.org/)**
 2. Download the **[Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)** and unzip the contents
-3. Double-click `digital-7 (mono).ttf` to preview and install the font
+3. Double-click `digital-7 (mono).ttf` to preview and install the main font
 4. Launch `LiveSplit.exe` and right-click the window to open context menu
 5. Open Splits > From File... > `bo1 subsplits.lss`
 6. Open Layout > From File... > `bo1 layout.lsl`
