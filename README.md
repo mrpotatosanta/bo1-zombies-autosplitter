@@ -110,12 +110,12 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 ---
 
 ## Usage & Tips
-- For best results, launch LiveSplit before Black Ops 1 or while at the main menu.
+- Launch LiveSplit before Black Ops 1 or while at the main menu.
 - **Not working?** Try running LiveSplit as administrator
    - *To always run as admin. Right click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
 - **Customization:** LiveSplit is highly customizable.
    - Customize fonts, colors, and more in **Edit Layout > Layout Settings**.
-   - Feel free to add, remove, or re-order components to fit your needs.
+   - Feel free to add, remove, edit, re-order components to fit your needs.
    - You could even add other tools like **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout.
 - LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
    - This will also open your preferred layout, assuming you linked the layout to `bo1 subsplits.lss`
