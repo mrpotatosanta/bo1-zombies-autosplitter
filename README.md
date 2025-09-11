@@ -54,7 +54,6 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 - Minimalist timer-only layout
 - Styled to mimic the original WSplit colors
-- [Download Classic WSplit Style Layout](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.0/bo1_layout_classic_wsplit_style.lsl)
 
 ---
 
@@ -65,7 +64,6 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 - Displays every split (all rounds) for the current game
 - Column 1: Total game time (Split time)
 - Column 2: Round time (Segment time)
-- [Download Full Splits Info Layout](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.0/bo1_layout_full_splits_info.lsl)
 
 ---
 
@@ -77,7 +75,6 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 - Compares your current run against a reference game
 - Column 1: Time delta (+/-) vs reference
 - Column 2: Subsplit times: white for reference, yellow for current run
-- Download Main Split Deltas Layout
 
 > [!NOTE]
 > To change the reference comparison:
