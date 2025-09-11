@@ -4,6 +4,8 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
+# **[Download v2.1 (Latest Release)]()**
+
 > [!WARNING]
 > Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip for best results.**
 
@@ -70,24 +72,24 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 <img width="250" height="274" alt="Main Split Deltas" src="https://github.com/user-attachments/assets/3f061fd0-d362-4317-b7b7-cf527774aef3" />
 
 - Displays main splits at every 10-round interval, plus round 163
-- Compares your current run against a reference game
+- Compares the current run against a reference game
 - Column 1: Time delta (+/-) vs reference
 - Column 2: Subsplit times: white for reference, yellow for current run
 
 > [!TIP]
 > To change the reference comparison:
-> - Right Click > **Compare Against**
+> - Right Click > Compare Against
 >
 > To add a new reference set:
-> - Right Click > **Edit Splits > Add Comparison**
+> - Right Click > Edit Splits > Add Comparison
 > - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done. You can paste on this page if it's the right format.
 
 ---
 
 ## Setup Instructions
 
-1. Download and install **[LiveSplit](https://livesplit.org/)**
-2. Download the **[Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)** and unzip the contents
+1. Download and install [LiveSplit](https://livesplit.org/)
+2. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest) and unzip the contents
 3. Double-click `digital-7 (mono).ttf` to preview and install the main font
 4. Load your splits:
    - Double-click `bo1 subsplits.lss`
@@ -124,4 +126,4 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Credits
 - Big shoutout to [lveez](https://github.com/lveez/bo1-timers) and [5and5](https://github.com/5and5/LiveSplitAutoSplitterForBlackOpsZombies) for their code, which gave me a base understanding of ASL scripting and useful memory addresses to build off of.
-- The main font used in my layout examples is **[Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font)**
+- The main font used in my layout examples is [Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font)
