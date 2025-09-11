@@ -22,7 +22,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
    - `bo1 subsplits.lss` - Splits config file that stores the segment names and split times
       - Main splits every 10 rounds and round 163
       - Subsplits for every round in between
-      - Reference split times from notable runs, specifically for comparison use with the `bo1 layout - subsplit deltas.lsl` layout
+      - Reference split times from notable runs, specifically for comparison use with the `bo1 layout - main split deltas.lsl` layout
          - **Verruckt 208** - Slewya
          - **Ascension 244** - Furret
          - **Der Riese 50 SR** - Oscar Otter
@@ -30,7 +30,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
          - More to come
    - `bo1 layout - classic wsplit style.lsl`
    - `bo1 layout - full splits info.lsl`
-   - `bo1 layout - subsplit deltas.lsl`
+   - `bo1 layout - main split deltas.lsl`
 
 > [!NOTE]  
 > Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
@@ -67,15 +67,15 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 ---
 
-### Subsplit Deltas
+### Main Split Deltas
 
-<img width="250" height="274" alt="Subsplit Deltas" src="https://github.com/user-attachments/assets/3f061fd0-d362-4317-b7b7-cf527774aef3" />
+<img width="250" height="274" alt="Main Split Deltas" src="https://github.com/user-attachments/assets/3f061fd0-d362-4317-b7b7-cf527774aef3" />
 
 - Displays main splits at every 10-round interval, plus round 163
 - Compares your current run against a reference game
 - Column 1: Time delta (+/-) vs reference
 - Column 2: Subsplit times: white for reference, yellow for current run
-- [Download Subsplit Deltas Layout](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.0/bo1_layout_subsplit_deltas.lsl)
+- Download Main Split Deltas Layout
 
 > [!NOTE]
 > To change the reference comparison:
