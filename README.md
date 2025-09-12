@@ -41,6 +41,13 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Layout Previews
 
+> [!IMPORTANT]  
+> The layouts shown below are just a few examples to highlight how insanely customizable LiveSplit can be. I highly encourage you to explore its settings and components to build a layout that fits your own style and needs.
+>
+> When creating your own layout, keep two things in mind:
+> 1. You must include the Scriptable Auto Splitter component and point the path to `bo1 autosplitter.asl`
+> 2. Always use Game Time wherever applicable (not Real Time)
+
 <table>
   <tr>
     <th style="text-align:center;">Classic WSplit Style</th>
