@@ -24,7 +24,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - `bo1 subsplits.lss` - Splits config file that stores the segment names and split times
       - Main splits every 10 rounds and round 163
       - Subsplits for every round in between
-      - Reference split times from notable runs, specifically for comparison use with the `bo1 layout - main split deltas.lsl` layout
+      - Reference split times from notable games, specifically for comparison use with the `bo1 layout - main split deltas.lsl` layout
          - **Verruckt 208** - Slewya
          - **Ascension 244** - Furret
          - **Der Riese 50 SR** - Oscar Otter
