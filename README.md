@@ -14,17 +14,17 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 ## Features
 - Provides fully automatic **START, PAUSE, SPLIT, and RESET** functionality
 - Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
-- Utilizes game time identical to popular hooked WSplit timers for accurate, lightweight timing
+- Utilizes game time identical to popular hooked WSplit timers for accurate timing tied directly to game ticks
 - Automatically splits for **ALL ROUNDS**
 - Offers two configurable split modes to define when splits are triggered:
    - White Mode - Splits as soon as the new round number appears on screen
    - Red Mode - Splits when the round officially begins and zombies actually start spawning
 - Includes:
-   - `bo1 autosplitter.asl` - Core script that controls the timer
+   - `bo1 autosplitter.asl` - Core script that controls the timer 
    - `bo1 subsplits.lss` - Splits config file that stores the segment names and split times
       - Main splits every 10 rounds and round 163
       - Subsplits for every round in between
-      - Reference split times from notable games, specifically for comparison use with the `bo1 layout - main split deltas.lsl` layout
+      - Reference split times from notable games, specifically for comparison use with `bo1 layout - main split deltas.lsl`
          - **Verruckt 208** - Slewya
          - **Ascension 244** - Furret
          - **Der Riese 50 SR** - Oscar Otter
@@ -41,40 +41,53 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Layout Previews
 
-> [!IMPORTANT]  
-> The layouts shown below are just a few examples to highlight how insanely customizable LiveSplit can be. I highly encourage you to explore its settings and components to build a layout that fits your own style and needs.
->
-> When creating your own layout, keep two things in mind:
-> 1. You must include the Scriptable Auto Splitter component and point the path to `bo1 autosplitter.asl`
-> 2. Always use Game Time wherever applicable (not Real Time)
-
-### Classic WSplit Style
-
-<img width="250" height="117" alt="Classic WSplit Style" src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" />
-
-- Minimalist timer-only layout
-- Styled to mimic the original WSplit colors
-
----
-
-### Full Splits Info
-
-<img width="250" height="247" alt="Full Splits Info" src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" />
-
-- Displays every split (all rounds) for the current game
-- Column 1: Total game time (Split time)
-- Column 2: Round time (Segment time)
-
----
-
-### Main Split Deltas
-
-<img width="250" height="274" alt="Main Split Deltas" src="https://github.com/user-attachments/assets/3f061fd0-d362-4317-b7b7-cf527774aef3" />
-
-- Displays main splits at every 10-round interval, plus round 163
-- Compares the current run against a reference game
-- Column 1: Time delta (+/-) vs reference
-- Column 2: Subsplit times: white for reference, yellow for current run
+<table>
+  <tr>
+    <th style="text-align:center;">Classic WSplit Style</th>
+    <th style="text-align:center;">Full Splits Info</th>
+    <th style="text-align:center;">Main Split Deltas</th>
+  </tr>
+  <tr>
+    <td>
+      <div align="center">
+        <img src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" width="250" />
+      </div>
+    </td>
+    <td>
+      <div align="center">
+        <img src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" width="250" />
+      </div>
+    </td>
+    <td>
+      <div align="center">
+        <img src="https://github.com/user-attachments/assets/3f061fd0-d362-4317-b7b7-cf527774aef3" width="250" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>Minimalist timer-only layout</li>
+        <li>Styled to mimic the original WSplit colors</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Displays every split (all rounds) for the current game</li>
+        <li>Column 1: Total game time (Split time)</li>
+        <li>Column 2: Round time (Segment time)</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Displays main splits at every 10-round interval, plus round 163</li>
+        <li>Compares the current run against a reference game</li>
+        <li>Column 1: Time delta (+/-) vs reference</li>
+        <li>Column 2: Subsplit times: white for reference, yellow for current run</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 > [!TIP]
 > To change the reference comparison:
@@ -93,10 +106,10 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 3. Double-click `digital-7 (mono).ttf` to preview and install the main font
 4. Load your splits:
    - Double-click `bo1 subsplits.lss`
-   - *Or* in LiveSplit > Open Splits > From File... > `bo1 subsplits.lss`
+   - *Or* in LiveSplit > Right-click > Open Splits > From File... > `bo1 subsplits.lss`
 5. Load your layout:
    - Drag-and-drop `bo1 layout.lsl` onto the LiveSplit window
-   - *Or* in LiveSplit > Open Layout > From File... > `bo1 layout.lsl`
+   - *Or* in LiveSplit > Right-click > Open Layout > From File... > `bo1 layout.lsl`
 6. Configure the autosplitter:
    - Right-click LiveSplit > Edit Layout...
    - Double-click Scriptable Auto Splitter
@@ -105,7 +118,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - Under Advanced, choose your preferred split timing (hover over the checkbox for more info)
    - Click OK on both dialogs and Save Layout
 7. Link the layout to your splits:
-   - Right-click LiveSplit > Edit Splits...
+   - Right-click > Edit Splits...
    - Check "Use Layout" box > Browse... > select `bo1 layout.lsl`
    - Click OK and Save Splits
 
@@ -116,9 +129,9 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 - **Not working?** Try running LiveSplit as administrator
    - *To always run as admin. Right click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
 - **Customization:** LiveSplit is highly customizable.
-   - Customize fonts, colors, and more in **Edit Layout > Layout Settings**.
+   - Customize fonts, colors, and more in Edit Layout > Layout Settings.
    - Feel free to add, remove, edit, re-order components to fit your needs.
-   - You could even add other tools like **[Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2)** to the same layout.
+   - You could even add other tools like [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2) to the same layout.
 - LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
    - This will also open your preferred layout, assuming you linked the layout to `bo1 subsplits.lss`
 
