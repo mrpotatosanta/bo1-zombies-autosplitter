@@ -4,8 +4,6 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# **[Download v2.1 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.1/bo1-zombies-autosplitter-2.1.zip)**
-
 > [!WARNING]
 > Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip for best results.**
 
