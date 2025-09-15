@@ -23,10 +23,10 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
       - Main splits every 10 rounds and round 163
       - Subsplits for every round in between
       - Reference split times from notable games, specifically for comparison use with `bo1 layout - main split deltas.lsl`
-         - **Verruckt 208** - [Slewya](https://www.youtube.com/watch?v=pvMx12CGACQ&list=PLWr9iFTeOsB7xdBLA6vK77r4JFI8nbfRu)
-         - **Ascension 244** - [FurretCanWalk](https://www.youtube.com/watch?v=Hg1MFl1p6LA&list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
-         - **Der Riese 50 SR (59:14)** - [Oscar Otter](https://www.youtube.com/watch?v=LP3Hal-RNZI)
-         - **Five 241** - [Jermaine Cubes](https://www.youtube.com/watch?v=pkglPf03vpY)
+         - Verruckt 208 - [Slewya](https://www.youtube.com/watch?v=pvMx12CGACQ&list=PLWr9iFTeOsB7xdBLA6vK77r4JFI8nbfRu)
+         - Ascension 244 - [FurretCanWalk](https://www.youtube.com/watch?v=Hg1MFl1p6LA&list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
+         - Der Riese 50 SR (59:14) - [Oscar Otter](https://www.youtube.com/watch?v=LP3Hal-RNZI)
+         - Five 241 - [Jermaine Cubes](https://www.youtube.com/watch?v=pkglPf03vpY)
          - More to come
    - `bo1 layout - classic wsplit style.lsl`
    - `bo1 layout - full splits info.lsl`
@@ -66,7 +66,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
     </td>
     <td>
       <div align="center">
-        <img src="https://github.com/user-attachments/assets/3f061fd0-d362-4317-b7b7-cf527774aef3" width="250" />
+        <img src="https://github.com/user-attachments/assets/58ece1b1-f951-46f1-9c1f-a21de513e641" width="250" />
       </div>
     </td>
   </tr>
