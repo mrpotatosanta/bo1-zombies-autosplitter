@@ -1,6 +1,6 @@
 # LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies
 
-This repository contains a LiveSplit Autosplitter designed for Call of Duty: Black Ops 1 Zombies speedruns and high-round attempts.
+This repository contains a LiveSplit Autosplitter designed for Call of Duty: Black Ops 1 Zombies speedruns and high round attempts.
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
