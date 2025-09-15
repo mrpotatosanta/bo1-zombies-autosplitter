@@ -23,14 +23,15 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
       - Main splits every 10 rounds and round 163
       - Subsplits for every round in between
       - Reference split times from notable games, specifically for comparison use with `bo1 layout - main split deltas.lsl`
-         - **Verruckt 208** - Slewya
-         - **Ascension 244** - Furret
-         - **Der Riese 50 SR** - Oscar Otter
-         - **Five 241** - Jermaine
+         - **Verruckt 208** - [Slewya](https://www.youtube.com/watch?v=pvMx12CGACQ&list=PLWr9iFTeOsB7xdBLA6vK77r4JFI8nbfRu)
+         - **Ascension 244** - [FurretCanWalk](https://www.youtube.com/watch?v=Hg1MFl1p6LA&list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
+         - **Der Riese 50 SR (59:14)** - [Oscar Otter](https://www.youtube.com/watch?v=LP3Hal-RNZI)
+         - **Five 241** - [Jermaine Cubes](https://www.youtube.com/watch?v=pkglPf03vpY)
          - More to come
    - `bo1 layout - classic wsplit style.lsl`
    - `bo1 layout - full splits info.lsl`
    - `bo1 layout - main split deltas.lsl`
+   - `digital-7 (mono).ttf` - TrueType Font by [Style-7](https://www.dafont.com/digital-7.font)
 
 > [!NOTE]  
 > Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
