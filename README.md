@@ -89,7 +89,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
         <li>Displays main splits at every 10-round interval, plus round 163</li>
         <li>Compares the current run against a reference game</li>
         <li>Column 1: Time delta (+/-) vs reference</li>
-        <li>Column 2: Subsplit times: white for reference, yellow for current run</li>
+        <li>Column 2: Split times: white for reference, yellow for current run</li>
       </ul>
     </td>
   </tr>
