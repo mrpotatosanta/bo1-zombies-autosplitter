@@ -57,6 +57,8 @@ split {
 reset {
     // Resets if ticks dropped
     if (current.ticks < old.ticks) {
+        
+        vars.mode = settings["red"] ? 1 : 0;
         vars.step = 0;
         return true;
     }

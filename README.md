@@ -4,8 +4,6 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Download v2.2 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.2/bo1-zombies-autosplitter-2.2.zip)
-
 > [!WARNING]
 > Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip for best results.**
 
@@ -33,7 +31,6 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - `bo1 layout - classic wsplit style.lsl`
    - `bo1 layout - full splits info.lsl`
    - `bo1 layout - main split deltas.lsl`
-   - `digital-7 (mono).ttf` - TrueType Font by [Style-7](https://www.dafont.com/digital-7.font)
 
 > [!NOTE]  
 > Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
@@ -110,8 +107,9 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 ## Setup Instructions
 
 1. Download and install [LiveSplit](https://livesplit.org/)
-2. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest) and unzip the contents
-3. Double-click `digital-7 (mono).ttf` to preview and install the main font
+2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) (Optional):
+   - Unzip, then double-click on `digital-7 (mono).ttf` to preview and install
+3. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest) and unzip the contents
 4. Load your splits:
    - Double-click `bo1 subsplits.lss`
    - *Or* in LiveSplit > Right-click > Open Splits > From File... > `bo1 subsplits.lss`
