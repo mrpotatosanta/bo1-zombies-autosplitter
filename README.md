@@ -12,38 +12,19 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 ---
 
 ## Features
-- Provides fully automatic **START, PAUSE, SPLIT, and RESET** functionality
-- Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
-- Utilizes game time identical to popular hooked WSplit timers for accurate timing tied directly to game ticks
-- Automatically splits for **ALL ROUNDS**
-- Offers two configurable split modes to define when splits are triggered:
-   - White Mode - Splits as soon as the new round number appears on screen
-   - Red Mode - Splits when the round officially begins and zombies actually start spawning
-- Includes:
-   - `bo1 autosplitter.asl` - Core script that controls the timer 
-   - `bo1 subsplits.lss` - Splits config file that stores the segment names and split times
-      - Main splits every 10 rounds and round 163
-      - Subsplits for every round in between
-      - Reference split times from notable games, specifically for comparison use with `bo1 layout - main split deltas.lsl`
-         - Kino 240 - Slewya
-         - Five 244 - Umesco
-         - Five 241 - [Jermaine](https://www.youtube.com/watch?v=pkglPf03vpY)
-         - Ascension 244 - [Furret](https://www.youtube.com/watch?v=Hg1MFl1p6LA&list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
-         - Call of the Dead 105 - Prompt
-         - Call of the Dead 94 - Tails
-         - Shangri-La 208 - HGMRICK
-         - Shangri-La 206 - Furret
-         - Moon 252 - Furret
-         - Nacht der Untoten 150 - hYPE
-         - Verruckt 212 - YYNot
-         - Verruckt 208 - [Slewya](https://www.youtube.com/watch?v=pvMx12CGACQ&list=PLWr9iFTeOsB7xdBLA6vK77r4JFI8nbfRu)
-         - Verruckt 208 - Nestor53
-         - Shi No Numa 237 - Mango
-         - Shi No Numa 235 - Tails
-         - Der Riese 250 - Slewya
-   - `bo1 layout - classic wsplit style.lsl`
-   - `bo1 layout - full splits info.lsl`
-   - `bo1 layout - main split deltas.lsl`
+- **Full Automation:** Provides automatic **START, PAUSE, SPLIT, and RESET** functionality
+- **Game Support:** Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
+- **Accurate Timing:** Utilizes game time tied directly to game ticks (identical to hooked WSplit) for maximum accuracy
+- **Configurable Splits:** Automatically splits for all rounds and offers two configurable split modes:
+    - **White Mode:** Splits as soon as the new round number appears on screen
+    - **Red Mode (Default):** Splits when the round officially begins and zombies start spawning
+
+### Included Files
+- `bo1 autosplitter.asl`: The core script for timer control
+- `bo1 subsplits.lss`: Split configuration file with splits every round. Includes main splits at 10-round intervals and round 163, **plus reference split times for comparison**
+- `bo1 layout - classic wsplit style.lsl`
+- `bo1 layout - full splits info.lsl`
+- `bo1 layout - main split deltas.lsl`
 
 > [!NOTE]  
 > Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
@@ -153,6 +134,28 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - You could even add other tools like [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2) to the same layout.
 - LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
    - This will also open your preferred layout, assuming you linked the layout to `bo1 subsplits.lss`
+
+---
+
+## Included Split Reference Data
+The included `bo1 subsplits.lss` file contains reference split times from the following notable games for comparison use, specifically with the `bo1 layout - main split deltas.lsl` layout.
+
+- Kino 240 - Slewya
+- Five 244 - Umesco
+- Five 241 - [Jermaine](https://www.youtube.com/watch?v=pkglPf03vpY)
+- Ascension 244 - [Furret](https://www.youtube.com/watch?v=Hg1MFl1p6LA&list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
+- Call of the Dead 105 - Prompt
+- Call of the Dead 94 - Tails
+- Shangri-La 208 - HGMRICK
+- Shangri-La 206 - Furret
+- Moon 252 - Furret
+- Nacht der Untoten 150 - hYPE
+- Verruckt 212 - YYNot
+- Verruckt 208 - [Slewya](https://www.youtube.com/watch?v=pvMx12CGACQ&list=PLWr9iFTeOsB7xdBLA6vK77r4JFI8nbfRu)
+- Verruckt 208 - Nestor53
+- Shi No Numa 237 - Mango
+- Shi No Numa 235 - Tails
+- Der Riese 250 - Slewya
 
 ---
 
