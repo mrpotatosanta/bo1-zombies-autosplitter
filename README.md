@@ -5,7 +5,9 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 > [!WARNING]
-> Skipping the map loading screen using a controller (X/A Button) will often break splitting functionality for that game. **Use your mouse's Left Click to skip for best results.**
+> Sometimes, although rarely, splitting may fail on initial map load due to a memory issue.
+>
+> **Perform a "Fast Restart" immediately after map load to guarantee functionality.**
 
 ---
 
