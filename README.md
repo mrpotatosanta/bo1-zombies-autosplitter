@@ -16,8 +16,11 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Features
 - **Full Automation:** Provides automatic **START, PAUSE, SPLIT, and RESET** functionality
+  
 - **Game Support:** Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
+  
 - **Accurate Timing:** Utilizes game time tied directly to game ticks (identical to hooked WSplit) for maximum accuracy
+  
 - **Configurable Splits:** Automatically splits for all rounds and offers two configurable split modes:
     - **White Mode:** Splits as soon as the new round number appears on screen
     - **Red Mode (Default):** Splits when the round officially begins and zombies start spawning
@@ -117,12 +120,14 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Usage & Tips
 - Launch LiveSplit before Black Ops 1 or while at the main menu.
+  
 - **Not working?** Try running LiveSplit as administrator
    - *To always run as admin. Right click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
+     
 - **Customization:** LiveSplit is highly customizable.
-   - Customize fonts, colors, and more in Edit Layout > Layout Settings.
-   - Feel free to add, remove, edit, re-order components to fit your needs.
-   - You could even add other tools like [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2) to the same layout.
+   - Customize fonts, colors, and components in *Right-click > Edit Layout... > Layout Settings*.
+   - You could even add other tools, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2) into your layout
+     
 - LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
    - This will also open your preferred layout, assuming you linked the layout to `bo1 subsplits.lss`
 
