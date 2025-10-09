@@ -23,11 +23,22 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
       - Main splits every 10 rounds and round 163
       - Subsplits for every round in between
       - Reference split times from notable games, specifically for comparison use with `bo1 layout - main split deltas.lsl`
+         - Kino 240 - Slewya
+         - Five 244 - Umesco
+         - Five 241 - [Jermaine](https://www.youtube.com/watch?v=pkglPf03vpY)
+         - Ascension 244 - [Furret](https://www.youtube.com/watch?v=Hg1MFl1p6LA&list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
+         - Call of the Dead 105 - Prompt
+         - Call of the Dead 94 - Tails
+         - Shangri-La 208 - HGMRICK
+         - Shangri-La 206 - Furret
+         - Moon 252 - Furret
+         - Nacht der Untoten 150 - hYPE
+         - Verruckt 212 - YYNot
          - Verruckt 208 - [Slewya](https://www.youtube.com/watch?v=pvMx12CGACQ&list=PLWr9iFTeOsB7xdBLA6vK77r4JFI8nbfRu)
-         - Ascension 244 - [FurretCanWalk](https://www.youtube.com/watch?v=Hg1MFl1p6LA&list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
-         - Der Riese 50 SR (59:14) - [Oscar Otter](https://www.youtube.com/watch?v=LP3Hal-RNZI)
-         - Five 241 - [Jermaine Cubes](https://www.youtube.com/watch?v=pkglPf03vpY)
-         - More to come
+         - Verruckt 208 - Nestor53
+         - Shi No Numa 237 - Mango
+         - Shi No Numa 235 - Tails
+         - Der Riese 250 - Slewya
    - `bo1 layout - classic wsplit style.lsl`
    - `bo1 layout - full splits info.lsl`
    - `bo1 layout - main split deltas.lsl`
