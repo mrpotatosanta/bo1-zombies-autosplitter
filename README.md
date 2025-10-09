@@ -88,14 +88,6 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
   </tr>
 </table>
 
-> [!TIP]
-> To change the reference comparison:
-> - Right Click > Compare Against
->
-> To add a new reference set:
-> - Right Click > Edit Splits > Add Comparison
-> - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done. You can paste on this page if it's the right format.
-
 ---
 
 ## Setup Instructions
@@ -156,6 +148,14 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 - Shi No Numa 237 - Mango
 - Shi No Numa 235 - Tails
 - Der Riese 250 - Slewya
+
+> [!TIP]
+> To change the reference comparison:
+> - Right Click > Compare Against
+>
+> To add a new reference set:
+> - Right Click > Edit Splits > Add Comparison
+> - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done. You can paste on this page if it's the right format.
 
 ---
 
