@@ -136,22 +136,22 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 ## Split Reference Data
 The included `bo1 subsplits.lss` file contains reference split times from the following notable games for comparison use, specifically with the `bo1 layout - main split deltas.lsl` layout.
 
-- Kino 240 - Slewya
-- Five 244 - Umesco
+- Kino 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
+- Five 244 - [Umesco](https://www.youtube.com/watch?v=MvTyAw3vkwk)
 - Five 241 - [Jermaine](https://www.youtube.com/watch?v=pkglPf03vpY)
 - Ascension 244 - [Furret](https://www.youtube.com/watch?v=Hg1MFl1p6LA&list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
-- Call of the Dead 105 - Prompt
-- Call of the Dead 94 - Tails
-- Shangri-La 208 - HGMRICK
-- Shangri-La 206 - Furret
-- Moon 252 - Furret
-- Nacht der Untoten 150 - hYPE
+- Call of the Dead 105 - [Prompt](https://www.youtube.com/watch?v=FvTgTl8p990)
+- Call of the Dead 94 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf_jekCCzJ-iGNaF3Sp1isoo)
+- Shangri-La 208 - [HGMRICK](https://www.youtube.com/watch?v=zxe3-SUz6-8)
+- Shangri-La 206 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5CXcZIaW_wVe6-uDUohwAf)
+- Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
+- Nacht der Untoten 150 - [hYPE](https://www.youtube.com/watch?v=4aRSc2i9xF0)
 - Verruckt 212 - YYNot
 - Verruckt 208 - [Slewya](https://www.youtube.com/watch?v=pvMx12CGACQ&list=PLWr9iFTeOsB7xdBLA6vK77r4JFI8nbfRu)
-- Verruckt 208 - Nestor53
-- Shi No Numa 237 - Mango
-- Shi No Numa 235 - Tails
-- Der Riese 250 - Slewya
+- Verruckt 208 - [Nestor53](https://www.youtube.com/watch?v=2AxJcFAZ_Wo)
+- Shi No Numa 237 - [Mango](https://www.youtube.com/playlist?list=PLC1OcLOAJdHBD_w274LCmOF4iCEUreDJX)
+- Shi No Numa 235 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf91mjmsok45EaoxITjS2ahD)
+- Der Riese 250 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6417HfAeNQnSYeXPy6eaE8)
 
 > [!TIP]
 > To change the reference comparison:
