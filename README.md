@@ -36,12 +36,6 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Layout Previews
 
-> [!IMPORTANT]
-> Feel free to build your own custom layout. When doing so, ensure:
-> 
-> 1. The **Scriptable Auto Splitter** component is included (path: `bo1 autosplitter.asl`)
-> 2. You always use **Game Time** (not Real Time)
-
 <table>
   <tr>
     <th style="text-align:center;">Classic WSplit Style</th>
@@ -90,6 +84,12 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
   </tr>
 </table>
 
+> [!IMPORTANT]
+> Feel free to build your own custom layout. When doing so, ensure:
+> 
+> 1. The **Scriptable Auto Splitter** component is included (path: `bo1 autosplitter.asl`)
+> 2. You always use **Game Time** (not Real Time)
+
 ---
 
 ## Setup Instructions
@@ -133,7 +133,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ---
 
-## Included Split Reference Data
+## Split Reference Data
 The included `bo1 subsplits.lss` file contains reference split times from the following notable games for comparison use, specifically with the `bo1 layout - main split deltas.lsl` layout.
 
 - Kino 240 - Slewya
