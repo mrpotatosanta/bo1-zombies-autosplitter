@@ -10,7 +10,9 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 > **Perform a "Fast Restart" immediately after map load to guarantee functionality.**
 
 > [!NOTE]
-> Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
+> **Known Issue:** The autosplitter does **NOT** support round splitting on **Moon**.
+>
+> Teleporting to and from No Man's Land breaks the round transition logic.
 
 ---
 
