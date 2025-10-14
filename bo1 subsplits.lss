@@ -225,24 +225,52 @@
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
-        <SplitTime name="Kino 240 - Slewya" />
-        <SplitTime name="Five 244 - Umesco" />
-        <SplitTime name="Five 241 - Jermaine" />
-        <SplitTime name="Ascension 244 - Furret" />
-        <SplitTime name="Call of the Dead 105 - Prompt" />
-        <SplitTime name="Call of the Dead 94 - Tails" />
-        <SplitTime name="Shangri-La 208 - HGMRICK" />
-        <SplitTime name="Shangri-La 206 - Furret" />
-        <SplitTime name="Moon 252 - Furret" />
-        <SplitTime name="Nacht der Untoten 150 - hYPE" />
+        <SplitTime name="Kino 240 - Slewya">
+          <GameTime>00:08:20</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 244 - Umesco">
+          <GameTime>00:08:47</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 241 - Jermaine">
+          <GameTime>00:08:14</GameTime>
+        </SplitTime>
+        <SplitTime name="Ascension 244 - Furret">
+          <GameTime>00:07:57</GameTime>
+        </SplitTime>
+        <SplitTime name="Call of the Dead 105 - Prompt">
+          <GameTime>00:10:47</GameTime>
+        </SplitTime>
+        <SplitTime name="Call of the Dead 94 - Tails">
+          <GameTime>00:11:30</GameTime>
+        </SplitTime>
+        <SplitTime name="Shangri-La 208 - HGMRICK">
+          <GameTime>00:09:48</GameTime>
+        </SplitTime>
+        <SplitTime name="Shangri-La 206 - Furret">
+          <GameTime>00:09:08</GameTime>
+        </SplitTime>
+        <SplitTime name="Moon 252 - Furret">
+          <GameTime>00:09:46</GameTime>
+        </SplitTime>
+        <SplitTime name="Nacht der Untoten 150 - hYPE">
+          <GameTime>00:11:24</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya">
           <GameTime>00:08:29</GameTime>
         </SplitTime>
-        <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Shi No Numa 237 - Mango" />
-        <SplitTime name="Shi No Numa 235 - Tails" />
-        <SplitTime name="Der Riese 250 - Slewya" />
+        <SplitTime name="Verruckt 208 - Nestor53">
+          <GameTime>00:08:43</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 237 - Mango">
+          <GameTime>00:09:37</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 235 - Tails">
+          <GameTime>00:09:44</GameTime>
+        </SplitTime>
+        <SplitTime name="Der Riese 250 - Slewya">
+          <GameTime>00:08:10</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -477,24 +505,52 @@
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
-        <SplitTime name="Kino 240 - Slewya" />
-        <SplitTime name="Five 244 - Umesco" />
-        <SplitTime name="Five 241 - Jermaine" />
-        <SplitTime name="Ascension 244 - Furret" />
-        <SplitTime name="Call of the Dead 105 - Prompt" />
-        <SplitTime name="Call of the Dead 94 - Tails" />
-        <SplitTime name="Shangri-La 208 - HGMRICK" />
-        <SplitTime name="Shangri-La 206 - Furret" />
-        <SplitTime name="Moon 252 - Furret" />
-        <SplitTime name="Nacht der Untoten 150 - hYPE" />
+        <SplitTime name="Kino 240 - Slewya">
+          <GameTime>00:18:58</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 244 - Umesco">
+          <GameTime>00:19:00</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 241 - Jermaine">
+          <GameTime>00:19:00</GameTime>
+        </SplitTime>
+        <SplitTime name="Ascension 244 - Furret">
+          <GameTime>00:18:43</GameTime>
+        </SplitTime>
+        <SplitTime name="Call of the Dead 105 - Prompt">
+          <GameTime>00:25:27</GameTime>
+        </SplitTime>
+        <SplitTime name="Call of the Dead 94 - Tails">
+          <GameTime>00:25:35</GameTime>
+        </SplitTime>
+        <SplitTime name="Shangri-La 208 - HGMRICK">
+          <GameTime>00:22:29</GameTime>
+        </SplitTime>
+        <SplitTime name="Shangri-La 206 - Furret">
+          <GameTime>00:21:29</GameTime>
+        </SplitTime>
+        <SplitTime name="Moon 252 - Furret">
+          <GameTime>00:21:48</GameTime>
+        </SplitTime>
+        <SplitTime name="Nacht der Untoten 150 - hYPE">
+          <GameTime>00:25:24</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya">
           <GameTime>00:20:10</GameTime>
         </SplitTime>
-        <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Shi No Numa 237 - Mango" />
-        <SplitTime name="Shi No Numa 235 - Tails" />
-        <SplitTime name="Der Riese 250 - Slewya" />
+        <SplitTime name="Verruckt 208 - Nestor53">
+          <GameTime>00:20:27</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 237 - Mango">
+          <GameTime>00:20:40</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 235 - Tails">
+          <GameTime>00:21:46</GameTime>
+        </SplitTime>
+        <SplitTime name="Der Riese 250 - Slewya">
+          <GameTime>00:18:58</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -729,15 +785,33 @@
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
-        <SplitTime name="Kino 240 - Slewya" />
-        <SplitTime name="Five 244 - Umesco" />
-        <SplitTime name="Five 241 - Jermaine" />
-        <SplitTime name="Ascension 244 - Furret" />
-        <SplitTime name="Call of the Dead 105 - Prompt" />
-        <SplitTime name="Call of the Dead 94 - Tails" />
-        <SplitTime name="Shangri-La 208 - HGMRICK" />
-        <SplitTime name="Shangri-La 206 - Furret" />
-        <SplitTime name="Moon 252 - Furret" />
+        <SplitTime name="Kino 240 - Slewya">
+          <GameTime>00:31:57</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 244 - Umesco">
+          <GameTime>00:31:28</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 241 - Jermaine">
+          <GameTime>00:31:36</GameTime>
+        </SplitTime>
+        <SplitTime name="Ascension 244 - Furret">
+          <GameTime>00:30:24</GameTime>
+        </SplitTime>
+        <SplitTime name="Call of the Dead 105 - Prompt">
+          <GameTime>00:40:37</GameTime>
+        </SplitTime>
+        <SplitTime name="Call of the Dead 94 - Tails">
+          <GameTime>00:41:03</GameTime>
+        </SplitTime>
+        <SplitTime name="Shangri-La 208 - HGMRICK">
+          <GameTime>00:35:45</GameTime>
+        </SplitTime>
+        <SplitTime name="Shangri-La 206 - Furret">
+          <GameTime>00:35:18</GameTime>
+        </SplitTime>
+        <SplitTime name="Moon 252 - Furret">
+          <GameTime>00:32:58</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE">
           <GameTime>00:47:14</GameTime>
         </SplitTime>
@@ -745,10 +819,18 @@
         <SplitTime name="Verruckt 208 - Slewya">
           <GameTime>00:32:28</GameTime>
         </SplitTime>
-        <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Shi No Numa 237 - Mango" />
-        <SplitTime name="Shi No Numa 235 - Tails" />
-        <SplitTime name="Der Riese 250 - Slewya" />
+        <SplitTime name="Verruckt 208 - Nestor53">
+          <GameTime>00:34:28</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 237 - Mango">
+          <GameTime>00:35:06</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 235 - Tails">
+          <GameTime>00:37:21</GameTime>
+        </SplitTime>
+        <SplitTime name="Der Riese 250 - Slewya">
+          <GameTime>00:29:59</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -983,24 +1065,52 @@
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
-        <SplitTime name="Kino 240 - Slewya" />
-        <SplitTime name="Five 244 - Umesco" />
-        <SplitTime name="Five 241 - Jermaine" />
-        <SplitTime name="Ascension 244 - Furret" />
-        <SplitTime name="Call of the Dead 105 - Prompt" />
-        <SplitTime name="Call of the Dead 94 - Tails" />
-        <SplitTime name="Shangri-La 208 - HGMRICK" />
-        <SplitTime name="Shangri-La 206 - Furret" />
-        <SplitTime name="Moon 252 - Furret" />
-        <SplitTime name="Nacht der Untoten 150 - hYPE" />
+        <SplitTime name="Kino 240 - Slewya">
+          <GameTime>00:48:32</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 244 - Umesco">
+          <GameTime>00:48:19</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 241 - Jermaine">
+          <GameTime>00:48:01</GameTime>
+        </SplitTime>
+        <SplitTime name="Ascension 244 - Furret">
+          <GameTime>00:44:29</GameTime>
+        </SplitTime>
+        <SplitTime name="Call of the Dead 105 - Prompt">
+          <GameTime>01:02:16</GameTime>
+        </SplitTime>
+        <SplitTime name="Call of the Dead 94 - Tails">
+          <GameTime>01:03:51</GameTime>
+        </SplitTime>
+        <SplitTime name="Shangri-La 208 - HGMRICK">
+          <GameTime>00:52:41</GameTime>
+        </SplitTime>
+        <SplitTime name="Shangri-La 206 - Furret">
+          <GameTime>00:53:02</GameTime>
+        </SplitTime>
+        <SplitTime name="Moon 252 - Furret">
+          <GameTime>00:48:23</GameTime>
+        </SplitTime>
+        <SplitTime name="Nacht der Untoten 150 - hYPE">
+          <GameTime>01:29:14</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya">
           <GameTime>00:50:54</GameTime>
         </SplitTime>
-        <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Shi No Numa 237 - Mango" />
-        <SplitTime name="Shi No Numa 235 - Tails" />
-        <SplitTime name="Der Riese 250 - Slewya" />
+        <SplitTime name="Verruckt 208 - Nestor53">
+          <GameTime>00:55:22</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 237 - Mango">
+          <GameTime>00:57:54</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 235 - Tails">
+          <GameTime>01:03:00</GameTime>
+        </SplitTime>
+        <SplitTime name="Der Riese 250 - Slewya">
+          <GameTime>00:43:59</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1236,31 +1346,31 @@
       <SplitTimes>
         <SplitTime name="Personal Best" />
         <SplitTime name="Kino 240 - Slewya">
-          <GameTime>01:14:00</GameTime>
+          <GameTime>01:15:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 244 - Umesco">
-          <GameTime>01:14:00</GameTime>
+          <GameTime>01:14:39</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>01:16:00</GameTime>
+          <GameTime>01:16:52</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
-          <GameTime>01:03:00</GameTime>
+          <GameTime>01:03:56</GameTime>
         </SplitTime>
         <SplitTime name="Call of the Dead 105 - Prompt">
-          <GameTime>01:37:00</GameTime>
+          <GameTime>01:37:59</GameTime>
         </SplitTime>
         <SplitTime name="Call of the Dead 94 - Tails">
-          <GameTime>01:44:00</GameTime>
+          <GameTime>01:44:07</GameTime>
         </SplitTime>
         <SplitTime name="Shangri-La 208 - HGMRICK">
-          <GameTime>01:16:00</GameTime>
+          <GameTime>01:16:48</GameTime>
         </SplitTime>
         <SplitTime name="Shangri-La 206 - Furret">
-          <GameTime>01:16:00</GameTime>
+          <GameTime>01:16:46</GameTime>
         </SplitTime>
         <SplitTime name="Moon 252 - Furret">
-          <GameTime>01:09:00</GameTime>
+          <GameTime>01:09:47</GameTime>
         </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE">
           <GameTime>02:59:52</GameTime>
@@ -1272,16 +1382,16 @@
           <GameTime>01:22:32</GameTime>
         </SplitTime>
         <SplitTime name="Verruckt 208 - Nestor53">
-          <GameTime>01:35:00</GameTime>
+          <GameTime>01:35:41</GameTime>
         </SplitTime>
         <SplitTime name="Shi No Numa 237 - Mango">
-          <GameTime>01:37:00</GameTime>
+          <GameTime>01:37:08</GameTime>
         </SplitTime>
         <SplitTime name="Shi No Numa 235 - Tails">
-          <GameTime>01:46:00</GameTime>
+          <GameTime>01:46:48</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya">
-          <GameTime>01:02:00</GameTime>
+          <GameTime>01:02:46</GameTime>
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
@@ -1544,7 +1654,9 @@
         <SplitTime name="Moon 252 - Furret">
           <GameTime>01:39:00</GameTime>
         </SplitTime>
-        <SplitTime name="Nacht der Untoten 150 - hYPE" />
+        <SplitTime name="Nacht der Untoten 150 - hYPE">
+          <GameTime>07:32:10</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 212 - YYNot">
           <GameTime>02:22:00</GameTime>
         </SplitTime>
@@ -1806,7 +1918,7 @@
           <GameTime>02:37:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>02:42:00</GameTime>
+          <GameTime>02:42:23</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>02:09:00</GameTime>
@@ -2718,7 +2830,7 @@
           <GameTime>06:48:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>06:43:00</GameTime>
+          <GameTime>06:43:23</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>05:46:00</GameTime>
@@ -3008,7 +3120,7 @@
           <GameTime>08:37:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>08:48:00</GameTime>
+          <GameTime>08:48:56</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>07:25:00</GameTime>
@@ -3286,7 +3398,7 @@
           <GameTime>11:04:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>11:17:00</GameTime>
+          <GameTime>11:16:42</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>09:44:00</GameTime>
@@ -3564,7 +3676,7 @@
           <GameTime>13:57:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>14:14:00</GameTime>
+          <GameTime>14:14:37</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>12:26:00</GameTime>
@@ -3842,7 +3954,7 @@
           <GameTime>16:56:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>17:12:00</GameTime>
+          <GameTime>17:12:55</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>15:30:00</GameTime>
@@ -4122,7 +4234,7 @@
           <GameTime>20:50:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>21:09:00</GameTime>
+          <GameTime>21:09:45</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>18:52:00</GameTime>
@@ -4501,7 +4613,7 @@
           <GameTime>1.02:28:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>1.02:48:00</GameTime>
+          <GameTime>1.02:48:05</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>1.00:28:00</GameTime>
@@ -4702,7 +4814,7 @@
           <GameTime>1.04:36:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>1.05:52:00</GameTime>
+          <GameTime>1.05:51:58</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>1.03:23:00</GameTime>
@@ -4978,7 +5090,7 @@
           <GameTime>1.08:28:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>1.09:02:00</GameTime>
+          <GameTime>1.09:02:11</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>1.07:44:00</GameTime>
@@ -5254,7 +5366,7 @@
           <GameTime>1.13:09:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>1.13:18:00</GameTime>
+          <GameTime>1.13:18:48</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>1.11:39:00</GameTime>
@@ -5534,7 +5646,7 @@
           <GameTime>1.17:57:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>1.18:38:00</GameTime>
+          <GameTime>1.18:38:40</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>1.16:54:00</GameTime>
@@ -5820,7 +5932,7 @@
           <GameTime>2.00:09:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>2.00:13:00</GameTime>
+          <GameTime>2.00:13:10</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>1.22:36:00</GameTime>
@@ -6088,7 +6200,7 @@
           <GameTime>2.06:07:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>2.05:31:00</GameTime>
+          <GameTime>2.05:31:27</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>2.04:33:00</GameTime>
@@ -6354,7 +6466,7 @@
           <GameTime>2.12:27:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>2.12:42:00</GameTime>
+          <GameTime>2.12:42:53</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>2.11:21:00</GameTime>
@@ -6495,7 +6607,7 @@
           <GameTime>2.16:56:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>2.17:18:00</GameTime>
+          <GameTime>2.17:18:44</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>2.14:25:00</GameTime>
@@ -6636,7 +6748,7 @@
           <GameTime>2.20:08:00</GameTime>
         </SplitTime>
         <SplitTime name="Five 241 - Jermaine">
-          <GameTime>2.21:21:00</GameTime>
+          <GameTime>2.21:21:53</GameTime>
         </SplitTime>
         <SplitTime name="Ascension 244 - Furret">
           <GameTime>2.17:49:00</GameTime>
