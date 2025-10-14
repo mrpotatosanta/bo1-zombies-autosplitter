@@ -28,8 +28,8 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
     - **Red Mode (Default):** Splits when the round officially begins and zombies start spawning
 
 ### Included Files
-- `bo1 autosplitter.asl`: The core script for timer control
-- `bo1 subsplits.lss`: Split configuration file with splits every round. Includes main splits at 10-round intervals and round 163, **plus reference split times for comparison**
+- `bo1 autosplitter.asl`: The core script for automatic timer control
+- `bo1 subsplits.lss`: Split config file with splits for every round, and [split times](#split-reference-data) for comparison use
 - `bo1 layout - classic wsplit style.lsl`
 - `bo1 layout - full splits info.lsl`
 - `bo1 layout - main split deltas.lsl`
