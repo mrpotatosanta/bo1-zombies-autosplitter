@@ -4,15 +4,15 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v2.4 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.4/bo1-zombies-autosplitter-2.4.zip)
-
 > [!WARNING]
 > Sometimes, although rarely, splitting may fail on initial map load due to a memory issue.
 >
 > **Perform a "Fast Restart" immediately after map load to guarantee functionality.**
 
 > [!NOTE]
-> Current version does **NOT** split correctly on the map **Moon**. Teleporting to and from No Man's Land breaks the round transition logic.
+> **Known Issue:** The autosplitter does **NOT** support round splitting on **Moon**.
+>
+> Teleporting to and from No Man's Land breaks the round transition logic.
 
 ---
 
@@ -28,8 +28,8 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
     - **Red Mode (Default):** Splits when the round officially begins and zombies start spawning
 
 ### Included Files
-- `bo1 autosplitter.asl`: The core script for timer control
-- `bo1 subsplits.lss`: Split configuration file with splits every round. Includes main splits at 10-round intervals and round 163, **plus reference split times for comparison**
+- `bo1 autosplitter.asl`: The core script for automatic timer control
+- `bo1 subsplits.lss`: Split config file with splits for every round, and [split times](#split-reference-data) for comparison use
 - `bo1 layout - classic wsplit style.lsl`
 - `bo1 layout - full splits info.lsl`
 - `bo1 layout - main split deltas.lsl`
