@@ -22,17 +22,21 @@ gameTime { return TimeSpan.FromMilliseconds(current.ticks * 50); }
 startup {
     refreshRate = 20; // Black Ops updates at 20Hz (50ms); higher values waste CPU usage. Adjust timer display refresh rate in LiveSplit settings, not here
     timer.CurrentTimingMethod = TimingMethod.GameTime;
-    settings.Add("red", true, "Split on round start (RED number)");
-    settings.SetToolTip("red", "Choose when to split: \n \n- Checked: When the round officially begins (RED number)\n- Unchecked: As soon as the round appears (WHITE number)");
+    settings.Add("moon", false, "Moon Mode (Semi Automatic)");
+    settings.SetToolTip("moon",
+        "Check this box ONLY for Moon. Leave unchecked for all other maps.\n\n" +
+        "WARNING: Teleporting to/from No Man's Land causes 2 false round splits.\n" +
+        "You MUST manually undo these 2 splits after returning to the Moon to resync."
+    );
 }
 
 init {
-    vars.mode = settings["red"] ? 1 : 0; // Sets the mode offset: 1 for Red Mode / 0 for White Mode
+    vars.offset = settings["moon"] ? 2 : 0; // Sets the mode offset to 0 (Normal) or 2 (Moon)
     vars.step = current.ticks <= 0
-        ? 0 // Main step init
+        ? 0 // Case 1: Fresh start. Set to Step 0
         : current.roundchange == 0
-            ? 2 // Step 2. Could also be Step 4 (~2.5s Round Transition)
-            : 3; // Step 3. Could also be Step 1 (~1s Spawn In) or Step 5 (~2s Display)
+            ? (2 + vars.offset) // Case 2: Mid-game, mid-round. Set to Step 2 (Normal) or 4 (Moon)
+            : (3 + vars.offset); // Case 3: Mid-game, between rounds. Set to Step 3 (Normal) or 5 (Moon)
 }
 
 start { return current.ticks > 0; }
@@ -44,36 +48,52 @@ update {
 }
 
 split {
-    // White Mode (mode = 0) splits on Step 5
-    // Red Mode (mode = 1) splits on Step 6
-    if (vars.step == (5 + vars.mode)) {
-
-        // Resets the step for the next round's cycle. White Mode -> Step 1 / Red Mode -> Step 2
-        vars.step = (1 + vars.mode); 
-        return true;
+    if (vars.step == (6 + vars.offset)) {
+        return true; // Splits on Step 6 (Normal) or Step 8 (Moon)
     }
 }
 
 reset {
-    // Resets if ticks dropped
     if (current.ticks < old.ticks) {
-        
-        vars.mode = settings["red"] ? 1 : 0;
-        vars.step = 0;
-        return true;
+        return true; // Resets if ticks dropped
     }
 }
 
-// Roundchange Flow
+onSplit {
+    vars.step = (2 + vars.offset); // Loops back to Step 2 (Normal) or Step 4 (Moon)
+}
+
+onReset {
+    vars.offset = settings["moon"] ? 2 : 0;
+    vars.step = 0;
+}
+
+// Normal Flow
 //
-// State                     / Step / Roundchange / Ticks (0/+) / Duration
-// -----------------------------------------------------------------------
-// 0. Load Screen            /   0  /      0      /     0       /         // Reset
-// 1. Main Menu / Spawn In   /   1  /     255     /     +       / ~1s
-// -----------------------------------------------------------------------
-// 2. Round 1 Start          /   2  /      0      /     +       /
-// 3. Round 1 End            /   3  /     255     /     +       / ~8s
-// 4. Round Transition       /   4  /      0      /     +       / ~2.5s
-// 5. Round 2 Display        /   5  /     255     /     +       / ~2s     // Split (White Mode)
-// -----------------------------------------------------------------------
-// 6. Round 2 Start          /   6  /      0      /     +       /         // Split (Red Mode) // Loop for Round N -> Round N+1
+// State                          / Step / Roundchange / Ticks (0/+) / Duration
+// ----------------------------------------------------------------------------
+// 0. Load Screen                 /  0   /      0      /      0      /         // Reset
+// 1. Main Menu / Round 1 Display /  1   /     255     /      +      / ~1s
+// ----------------------------------------------------------------------------
+// 2. Round 1 Start               /  2   /      0      /      +      /
+// 3. Round 1 End                 /  3   /     255     /      +      / ~8s
+// 4. Round Transition            /  4   /      0      /      +      / ~2.5s
+// 5. Round 2 Display             /  5   /     255     /      +      / ~2s
+// ----------------------------------------------------------------------------
+// 6. Round 2 Start               /  6   /      0      /      +      /         // Split // Loop for Round N -> Round N+1
+
+// Moon Flow
+//
+// State                          / Step / Roundchange / Ticks (0/+) / Duration
+// ----------------------------------------------------------------------------
+// 0. Load Screen / No Man's Land /  0   /      0      /     0/+     /         // Reset
+// 1. Main Menu / Teleport        /  1   /     255     /      +      / ~8s
+// 2. Pre Round Display           /  2   /      0      /      +      / ~2.5s
+// 3. Round 1 Display             /  3   /     255     /      +      / ~2s
+// ----------------------------------------------------------------------------
+// 4. Round 1 Start               /  4   /      0      /      +      /
+// 5. Round 1 End                 /  5   /     255     /      +      / ~8s
+// 6. Round Transition            /  6   /      0      /      +      / ~2.5s
+// 7. Round 2 Display             /  7   /     255     /      +      / ~2s
+// ----------------------------------------------------------------------------
+// 8. Round 2 Start               /  8   /      0      /      +      /         // Split // Loop for Round N -> Round N+1
