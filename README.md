@@ -47,7 +47,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Layout Previews
 
-> [!IMPORTANT]
+> [!NOTE]
 > Feel free to build your own custom layout. When doing so, ensure:
 >
 > 1. The **Scriptable Auto Splitter** component is included (path: `bo1 autosplitter.asl`)
@@ -105,7 +105,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Splitting on Moon Guide
 
-> [!IMPORTANT]
+> [!CAUTION]
 >
 > The No Man's Land teleporter mimics a round transition and causes **2 false splits** (once going, once returning).
 >
