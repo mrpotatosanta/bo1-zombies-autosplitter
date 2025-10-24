@@ -4,34 +4,41 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v2.5 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v2.5/bo1-zombies-autosplitter-2.5.zip)
+# Download
 
 > [!WARNING]
 > Sometimes, although rarely, splitting may fail on initial map load due to a memory issue.
 >
 > **Perform a "Fast Restart" immediately after map load to guarantee functionality.**
 
-> [!NOTE]
-> **Known Issue:** The autosplitter does **NOT** support round splitting on **Moon**.
->
-> Teleporting to and from No Man's Land breaks the round transition logic.
+---
+
+- [Features](#features)
+- [Layout Previews](#layout-previews)
+- [Splitting on Moon Guide](#splitting-on-moon-guide)
+- [Setup Instructions](#setup-instructions)
+- [Usage & Tips](#usage--tips)
+- [Split Reference Data](#split-reference-data)
+- [Credits](#credits)
 
 ---
 
 ## Features
+
 - **Full Automation:** Provides automatic **START, PAUSE, SPLIT, and RESET** functionality
   
 - **Game Support:** Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
   
 - **Accurate Timing:** Utilizes game time tied directly to game ticks (identical to hooked WSplit) for maximum accuracy
-  
-- **Configurable Splits:** Automatically splits for all rounds and offers two configurable split modes:
-    - **White Mode:** Splits as soon as the new round number appears on screen
-    - **Red Mode (Default):** Splits when the round officially begins and zombies start spawning
+
+- **Round Splitting:** Automatically splits on every round transition when the round *officially* begins (when zombies start spawning)
+
+- **Semi-Automatic Moon Support:** Includes a dedicated "Moon Mode" setting to adjust logic for the map's unique teleporter mechanics (requires some manual intervention, see the [Splitting on Moon Guide](#splitting-on-moon-guide) for more info)
 
 ### Included Files
+
 - `bo1 autosplitter.asl`: The core script for automatic timer control
-- `bo1 subsplits.lss`: Split config file with splits for every round, and [split times](#split-reference-data) for comparison use
+- `bo1 subsplits.lss`: Split config file with segments for every round, and [split times](#split-reference-data) for comparison use
 - `bo1 layout - classic wsplit style.lsl`
 - `bo1 layout - full splits info.lsl`
 - `bo1 layout - main split deltas.lsl`
@@ -39,6 +46,12 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 ---
 
 ## Layout Previews
+
+> [!NOTE]
+> Feel free to build your own custom layout. When doing so, ensure:
+>
+> 1. The **Scriptable Auto Splitter** component is included (path: `bo1 autosplitter.asl`)
+> 2. You always use **Game Time** (not Real Time)
 
 <table>
   <tr>
@@ -88,11 +101,24 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
   </tr>
 </table>
 
-> [!IMPORTANT]
-> Feel free to build your own custom layout. When doing so, ensure:
-> 
-> 1. The **Scriptable Auto Splitter** component is included (path: `bo1 autosplitter.asl`)
-> 2. You always use **Game Time** (not Real Time)
+---
+
+## Splitting on Moon Guide
+
+> [!CAUTION]
+>
+> The No Man's Land teleporter mimics a round transition and causes **2 false splits** (once going, once returning).
+>
+> This does NOT happen on the initial teleport at the start of the game.
+>
+> Follow these steps when playing Moon:
+
+1. **Enable Moon Mode:** Check the **"Moon Mode (Semi Automatic)"** box in the script settings (Edit Layout > Scriptable Auto Splitter).
+2. **Play Normally:** Allow the two false splits to occur during teleportation.
+3. **Undo False Splits:** After returning to the Moon (when the second false split occurs), press your **"Undo Split" hotkey twice**.
+    - *(Alternatively: Right Click > Control > Undo Split)*
+
+This removes the incorrect splits and realigns the timer for accurate splitting on subsequent rounds.
 
 ---
 
@@ -113,31 +139,37 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - Double-click Scriptable Auto Splitter
    - Click Browse... next to "Script Path" and select `bo1 autosplitter.asl`
    - Confirm "Start," "Split," and "Reset" boxes are all checked
-   - Under Advanced, choose your preferred split timing (hover over the checkbox for more info)
-   - Click OK on both dialogs and Save Layout
+   - Under Advanced, locate the "Moon Mode (Semi Automatic)" checkbox:
+     - Check this box ONLY if playing Moon (and read the [Splitting on Moon Guide](#splitting-on-moon-guide))
+     - Leave unchecked for all other maps
+   - Click OK on both dialogs
+   - Right-click > Save Layout
 7. Link the layout to your splits:
    - Right-click > Edit Splits...
    - Check "Use Layout" box > Browse... > select `bo1 layout.lsl`
-   - Click OK and Save Splits
+   - Click OK
+   - Right-click > Save Splits
 
 ---
 
 ## Usage & Tips
+
 - Launch LiveSplit before Black Ops 1 or while at the main menu.
   
 - **Not working?** Try running LiveSplit as administrator
-   - *To always run as admin. Right click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
-     
+  - *To always run as admin. Right click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
+
 - **Customization:** LiveSplit is highly customizable.
-   - Customize fonts, colors, and components in *Right-click > Edit Layout... > Layout Settings*.
-   - You could even add other tools, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2) into your layout
-     
+  - Customize fonts, colors, and components in *Right-click > Edit Layout... > Layout Settings*.
+  - You could even add other tools, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2) into your layout
+
 - LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
-   - This will also open your preferred layout, assuming you linked the layout to `bo1 subsplits.lss`
+  - This will also open your preferred layout, assuming you linked the layout to `bo1 subsplits.lss`
 
 ---
 
 ## Split Reference Data
+
 The included `bo1 subsplits.lss` file contains reference split times from the following notable games for comparison use, specifically with the `bo1 layout - main split deltas.lsl` layout.
 
 - Kino 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
@@ -159,15 +191,18 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 
 > [!TIP]
 > To change the reference comparison:
+>
 > - Right Click > Compare Against
 >
 > To add a new reference set:
+>
 > - Right Click > Edit Splits > Add Comparison
 > - Enter split times in the new column under the **Game Time** tab and remember to Save Splits when done. You can paste on this page if it's the right format.
 
 ---
 
 ## Credits
+
 - Big shoutout to [lveez](https://github.com/lveez/bo1-timers) and [5and5](https://github.com/5and5/LiveSplitAutoSplitterForBlackOpsZombies) for their code, which gave me a base understanding of ASL scripting and useful memory addresses to build off of.
 - The main font used in my layout examples is [Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font)
 - I pulled most of the split times from the [Game Stats Archive by TailsCanFly](https://docs.google.com/spreadsheets/d/1O05W14n6CZezorPmM6Ott-bjdnQxXPFeizN6f4OGNPU/edit?usp=sharing)

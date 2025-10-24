@@ -91,7 +91,7 @@
         <CurrentSplitTopColor>00000000</CurrentSplitTopColor>
         <CurrentSplitBottomColor>FF153574</CurrentSplitBottomColor>
         <VisualSplitCount>5</VisualSplitCount>
-        <SplitPreviewCount>0</SplitPreviewCount>
+        <SplitPreviewCount>1</SplitPreviewCount>
         <MinimumMajorSplits>0</MinimumMajorSplits>
         <DisplayIcons>False</DisplayIcons>
         <ShowThinSeparators>True</ShowThinSeparators>
