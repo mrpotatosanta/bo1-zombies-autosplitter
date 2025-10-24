@@ -111,7 +111,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 >
 > This does NOT happen on the initial teleport at the start of the game.
 >
-> Follow these steps when playing moon:
+> Follow these steps when playing Moon:
 
 1. **Enable Moon Mode:** Check the **"Moon Mode (Semi Automatic)"** box in the script settings (Edit Layout > Scriptable Auto Splitter).
 2. **Play Normally:** Allow the two false splits to occur during teleportation.
