@@ -53,14 +53,14 @@ split {
     }
 }
 
+onSplit {
+    vars.step = (2 + vars.offset); // Loops back to Step 2 (Normal) or Step 4 (Moon)
+}
+
 reset {
     if (current.ticks < old.ticks) {
         return true; // Resets if ticks dropped
     }
-}
-
-onSplit {
-    vars.step = (2 + vars.offset); // Loops back to Step 2 (Normal) or Step 4 (Moon)
 }
 
 onReset {
