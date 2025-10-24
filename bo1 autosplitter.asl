@@ -25,8 +25,9 @@ startup {
     settings.Add("moon", false, "Moon Mode (Semi Automatic)");
     settings.SetToolTip("moon",
         "Check this box ONLY for Moon. Leave unchecked for all other maps.\n\n" +
-        "WARNING: Teleporting to/from No Man's Land causes 2 false round splits.\n" +
-        "You MUST manually undo these 2 splits after returning to the Moon to resync."
+        "WARNING: The No Man's Land teleporter mimics a round transition and causes 2 false splits (once going, once returning).\n" +
+        "This does NOT happen on the initial teleport at the start of the game.\n" +
+        "You MUST manually UNDO these 2 false splits after returning to the Moon to resync."
     );
 }
 
