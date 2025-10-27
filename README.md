@@ -4,7 +4,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.0 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.0/bo1-zombies-autosplitter-3.0.zip)
+# Download
 
 > [!WARNING]
 > Sometimes, although rarely, splitting may fail on initial map load due to a memory issue.
