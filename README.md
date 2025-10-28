@@ -4,7 +4,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# Download
+# [Click Here to Download v3.1 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.1/bo1-zombies-autosplitter-3.1.zip)
 
 > [!IMPORTANT]
 > **Now supports full automation on Moon!**
