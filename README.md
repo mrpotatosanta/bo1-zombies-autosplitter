@@ -4,7 +4,10 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.0 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.0/bo1-zombies-autosplitter-3.0.zip)
+# Download
+
+> [!IMPORTANT]
+> **Now supports full automation on Moon!**
 
 > [!WARNING]
 > Sometimes, although rarely, splitting may fail on initial map load due to a memory issue.
@@ -15,7 +18,6 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 - [Features](#features)
 - [Layout Previews](#layout-previews)
-- [Splitting on Moon Guide](#splitting-on-moon-guide)
 - [Setup Instructions](#setup-instructions)
 - [Usage & Tips](#usage--tips)
 - [Split Reference Data](#split-reference-data)
@@ -25,15 +27,15 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Features
 
-- **Full Automation:** Provides automatic **START, PAUSE, SPLIT, and RESET** functionality
+- **Full Automation:** Provides automatic **START, PAUSE, SPLIT, and RESET** functionality for ALL maps, including Moon
   
 - **Game Support:** Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
   
 - **Accurate Timing:** Utilizes game time tied directly to game ticks (identical to hooked WSplit) for maximum accuracy
 
-- **Round Splitting:** Automatically splits on every round transition when the round *officially* begins (when zombies start spawning)
+- **Round Timer:** Automatically splits on every round transition when the round *officially* begins (when zombies start spawning)
 
-- **Semi-Automatic Moon Support:** Includes a dedicated "Moon Mode" setting to adjust logic for the map's unique teleporter mechanics (requires some manual intervention, see the [Splitting on Moon Guide](#splitting-on-moon-guide) for more info)
+- **Read-Only Engine:** The script operates purely by reading public memory values. It does not inject code, modify game files, or alter memory in any way. It only reads game data to control the LiveSplit timer.
 
 ### Included Files
 
@@ -48,7 +50,9 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 ## Layout Previews
 
 > [!NOTE]
-> Feel free to build your own custom layout. When doing so, ensure:
+> Feel free to build your own custom layout.
+>
+> When doing so, ensure:
 >
 > 1. The **Scriptable Auto Splitter** component is included (path: `bo1 autosplitter.asl`)
 > 2. You always use **Game Time** (not Real Time)
@@ -103,31 +107,14 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ---
 
-## Splitting on Moon Guide
-
-> [!CAUTION]
->
-> The No Man's Land teleporter mimics a round transition and causes **2 false splits** (once going, once returning).
->
-> This does NOT happen on the initial teleport at the start of the game.
->
-> Follow these steps when playing Moon:
-
-1. **Enable Moon Mode:** Check the **"Moon Mode (Semi Automatic)"** box in the script settings (Edit Layout > Scriptable Auto Splitter).
-2. **Play Normally:** Allow the two false splits to occur during teleportation.
-3. **Undo False Splits:** After returning to the Moon (when the second false split occurs), press your **"Undo Split" hotkey twice**.
-    - *(Alternatively: Right Click > Control > Undo Split)*
-
-This removes the incorrect splits and realigns the timer for accurate splitting on subsequent rounds.
-
----
-
 ## Setup Instructions
 
 1. Download and install [LiveSplit](https://livesplit.org/)
 2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) (Optional):
    - Unzip, then double-click on `digital-7 (mono).ttf` to preview and install
-3. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest) and unzip the contents
+3. Download and unzip the Latest Release
+   - Download the latest release ZIP from the main download link at the top of this README page (or the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest) page)
+   - Unzip the contents, which include the `.asl` script, the `.lss` splits file, and various `.lsl` layout options
 4. Load your splits:
    - Double-click `bo1 subsplits.lss`
    - *Or* in LiveSplit > Right-click > Open Splits > From File... > `bo1 subsplits.lss`
@@ -139,9 +126,6 @@ This removes the incorrect splits and realigns the timer for accurate splitting 
    - Double-click Scriptable Auto Splitter
    - Click Browse... next to "Script Path" and select `bo1 autosplitter.asl`
    - Confirm "Start," "Split," and "Reset" boxes are all checked
-   - Under Advanced, locate the "Moon Mode (Semi Automatic)" checkbox:
-     - Check this box ONLY if playing Moon (and read the [Splitting on Moon Guide](#splitting-on-moon-guide))
-     - Leave unchecked for all other maps
    - Click OK on both dialogs
    - Right-click > Save Layout
 7. Link the layout to your splits:
@@ -154,28 +138,30 @@ This removes the incorrect splits and realigns the timer for accurate splitting 
 
 ## Usage & Tips
 
-- Launch LiveSplit before Black Ops 1 or while at the main menu.
+- **Launch Order:** Open LiveSplit either before Black Ops 1 or while at the main menu. Ensure LiveSplit is open before loading into a map.
+
+- **Restoring Configuration:** LiveSplit should automatically remember your previous setup on next launch. If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the necessary autosplitter component path.
   
-- **Not working?** Try running LiveSplit as administrator
-  - *To always run as admin. Right click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator" box > Apply*
+- **Troubleshooting (Admin Rights):** If the timer fails to start, LiveSplit may require administrator privileges. Rule of thumb: If your game runs as admin, LiveSplit must also run as admin.
 
-- **Customization:** LiveSplit is highly customizable.
-  - Customize fonts, colors, and components in *Right-click > Edit Layout... > Layout Settings*.
-  - You could even add other tools, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2) into your layout
+  - To always run as admin: Right-click LiveSplit.exe > Properties > Compatibility tab > Check "Run this program as an administrator."
 
-- LiveSplit automatically remembers your last used splits. If it doesn’t, simply open `bo1 subsplits.lss` to restore them
-  - This will also open your preferred layout, assuming you linked the layout to `bo1 subsplits.lss`
+- **Layout Customization:** Customize fonts, colors, components, and other settings via the Layout Settings.
+
+  - Example: You can add external components, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2), to your layout.
 
 ---
 
 ## Split Reference Data
 
-The included `bo1 subsplits.lss` file contains reference split times from the following notable games for comparison use, specifically with the `bo1 layout - main split deltas.lsl` layout.
+The included `bo1 subsplits.lss` file contains reference split times from the following notable games for comparison use, specifically with `bo1 layout - main split deltas.lsl` and similar layout setups.
 
-- Kino 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
+- Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
+- Kino der Toten 50 SR (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
 - Five 244 - [Umesco](https://www.youtube.com/watch?v=MvTyAw3vkwk)
 - Five 241 - [Jermaine](https://www.youtube.com/watch?v=pkglPf03vpY)
 - Ascension 244 - [Furret](https://www.youtube.com/watch?v=Hg1MFl1p6LA&list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
+- Ascension 50 SR (1:00:13) - [oscar_otter1](https://www.youtube.com/watch?v=gdYLi5FbkXI)
 - Call of the Dead 105 - [Prompt](https://www.youtube.com/watch?v=FvTgTl8p990)
 - Call of the Dead 94 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf_jekCCzJ-iGNaF3Sp1isoo)
 - Shangri-La 208 - [HGMRICK](https://www.youtube.com/watch?v=zxe3-SUz6-8)
@@ -188,6 +174,7 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 - Shi No Numa 237 - [Mango](https://www.youtube.com/playlist?list=PLC1OcLOAJdHBD_w274LCmOF4iCEUreDJX)
 - Shi No Numa 235 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf91mjmsok45EaoxITjS2ahD)
 - Der Riese 250 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6417HfAeNQnSYeXPy6eaE8)
+- Der Riese 50 SR (58:41) - [itzxil](https://www.youtube.com/watch?v=GShKDZy67pc)
 
 > [!TIP]
 > To change the reference comparison:
