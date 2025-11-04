@@ -113,7 +113,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 1. Download and install [LiveSplit](https://livesplit.org/)
 2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) (Optional):
-   - Unzip, then double-click on `digital-7 (mono).ttf` to preview and install
+   - Unzip, then Double-click on `digital-7 (mono).ttf` to preview and install
 3. Download and unzip the Latest Release
    - Download the latest release ZIP from the main download link at the top of this README page (or the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest) page)
    - Unzip the contents, which include the `.asl` script, the `.lss` splits file, and various `.lsl` layout options
@@ -199,6 +199,11 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 > - Enter split times in the new column under the **Game Time** tab
 > - You can paste times on this page if it's the correct format
 > - Right-click > Save Splits
+>
+> To display all round splits on `bo1 layout - main split deltas.lsl` (50 SR's have full splits):
+>
+> - Right-click > Edit Layout > Double-click Subsplits 
+> - Change the setting from the default "Always Hide Subsplits" to "Always Show Subsplits"
 
 ---
 
