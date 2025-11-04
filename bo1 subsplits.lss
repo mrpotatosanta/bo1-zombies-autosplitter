@@ -63,7 +63,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:00:40</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:00:43</GameTime>
         </SplitTime>
@@ -73,7 +75,9 @@
           <GameTime>00:00:51</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:00:38</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -121,7 +125,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:01:15</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:01:22</GameTime>
         </SplitTime>
@@ -131,7 +137,9 @@
           <GameTime>00:01:32</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:01:13</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -179,7 +187,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:02:02</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:02:13</GameTime>
         </SplitTime>
@@ -189,7 +199,9 @@
           <GameTime>00:02:29</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:01:59</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -237,7 +249,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:02:52</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:03:05</GameTime>
         </SplitTime>
@@ -247,7 +261,9 @@
           <GameTime>00:03:18</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:02:54</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -295,7 +311,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:03:51</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:04:17</GameTime>
         </SplitTime>
@@ -305,7 +323,9 @@
           <GameTime>00:04:43</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:03:51</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -353,7 +373,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:04:56</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:05:19</GameTime>
         </SplitTime>
@@ -363,7 +385,9 @@
           <GameTime>00:05:58</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:04:35</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -411,7 +435,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:05:54</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:06:27</GameTime>
         </SplitTime>
@@ -421,7 +447,9 @@
           <GameTime>00:06:41</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:05:36</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -469,7 +497,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:06:54</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:07:30</GameTime>
         </SplitTime>
@@ -479,7 +509,9 @@
           <GameTime>00:07:51</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:06:32</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -554,7 +586,7 @@
           <GameTime>00:08:43</GameTime>
         </SplitTime>
         <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
-          <GameTime>00:07:50</GameTime>
+          <GameTime>00:07:51</GameTime>
         </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:08:33</GameTime>
@@ -572,7 +604,7 @@
           <GameTime>00:08:10</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 50 (58:41) - itzxil">
-          <GameTime>00:07:29</GameTime>
+          <GameTime>00:07:30</GameTime>
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
@@ -621,7 +653,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:08:50</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:09:38</GameTime>
         </SplitTime>
@@ -631,7 +665,9 @@
           <GameTime>00:10:13</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:08:10</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -679,7 +715,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:10:02</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:10:39</GameTime>
         </SplitTime>
@@ -689,7 +727,9 @@
           <GameTime>00:11:26</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:09:17</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -737,7 +777,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:11:04</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:11:41</GameTime>
         </SplitTime>
@@ -747,7 +789,9 @@
           <GameTime>00:12:07</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:10:22</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -795,7 +839,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:12:17</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:12:43</GameTime>
         </SplitTime>
@@ -805,7 +851,9 @@
           <GameTime>00:13:16</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:11:26</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -853,7 +901,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:13:24</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:13:44</GameTime>
         </SplitTime>
@@ -863,7 +913,9 @@
           <GameTime>00:14:29</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:12:14</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -911,7 +963,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:14:39</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:14:51</GameTime>
         </SplitTime>
@@ -921,7 +975,9 @@
           <GameTime>00:15:42</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:13:27</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -969,7 +1025,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:15:46</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:15:57</GameTime>
         </SplitTime>
@@ -979,7 +1037,9 @@
           <GameTime>00:16:29</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:14:36</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1027,7 +1087,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:16:49</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:17:05</GameTime>
         </SplitTime>
@@ -1037,7 +1099,9 @@
           <GameTime>00:17:46</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:15:39</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1085,7 +1149,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:17:58</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:18:13</GameTime>
         </SplitTime>
@@ -1095,7 +1161,9 @@
           <GameTime>00:18:59</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:16:20</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1237,7 +1305,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:20:22</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:20:32</GameTime>
         </SplitTime>
@@ -1247,7 +1317,9 @@
           <GameTime>00:20:51</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:18:28</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1295,7 +1367,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:21:32</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:21:42</GameTime>
         </SplitTime>
@@ -1305,7 +1379,9 @@
           <GameTime>00:22:08</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:19:33</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1353,7 +1429,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:22:45</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:22:50</GameTime>
         </SplitTime>
@@ -1363,7 +1441,9 @@
           <GameTime>00:23:28</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:20:44</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1411,7 +1491,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:24:05</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:24:03</GameTime>
         </SplitTime>
@@ -1421,7 +1503,9 @@
           <GameTime>00:24:47</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:21:25</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1469,7 +1553,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:25:18</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:25:16</GameTime>
         </SplitTime>
@@ -1479,7 +1565,9 @@
           <GameTime>00:26:09</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:22:38</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1527,7 +1615,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:26:36</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:26:34</GameTime>
         </SplitTime>
@@ -1537,7 +1627,9 @@
           <GameTime>00:26:52</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:23:52</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1585,7 +1677,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:27:52</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:27:43</GameTime>
         </SplitTime>
@@ -1595,7 +1689,9 @@
           <GameTime>00:28:19</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:25:06</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1643,7 +1739,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:29:15</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:29:10</GameTime>
         </SplitTime>
@@ -1653,7 +1751,9 @@
           <GameTime>00:29:55</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:25:46</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1701,7 +1801,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:30:30</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:30:29</GameTime>
         </SplitTime>
@@ -1711,7 +1813,9 @@
           <GameTime>00:31:39</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:27:01</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1853,7 +1957,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:33:25</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:33:10</GameTime>
         </SplitTime>
@@ -1863,7 +1969,9 @@
           <GameTime>00:34:12</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:29:44</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1911,7 +2019,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:35:13</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:34:35</GameTime>
         </SplitTime>
@@ -1921,7 +2031,9 @@
           <GameTime>00:36:05</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:30:24</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -1969,7 +2081,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:37:20</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:36:16</GameTime>
         </SplitTime>
@@ -1979,7 +2093,9 @@
           <GameTime>00:37:55</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:31:46</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2027,7 +2143,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:39:03</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:37:50</GameTime>
         </SplitTime>
@@ -2037,7 +2155,9 @@
           <GameTime>00:38:35</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:33:11</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2085,7 +2205,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:40:57</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:39:23</GameTime>
         </SplitTime>
@@ -2095,7 +2217,9 @@
           <GameTime>00:40:40</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:34:49</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2143,7 +2267,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:42:32</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:41:16</GameTime>
         </SplitTime>
@@ -2153,7 +2279,9 @@
           <GameTime>00:42:47</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:36:24</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2201,7 +2329,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:44:39</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:42:56</GameTime>
         </SplitTime>
@@ -2211,7 +2341,9 @@
           <GameTime>00:45:06</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:37:02</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2259,7 +2391,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:46:19</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:45:30</GameTime>
         </SplitTime>
@@ -2269,7 +2403,9 @@
           <GameTime>00:45:47</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:38:34</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2317,7 +2453,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:48:05</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:47:36</GameTime>
         </SplitTime>
@@ -2327,7 +2465,9 @@
           <GameTime>00:47:53</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:40:16</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2469,7 +2609,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:51:54</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:52:03</GameTime>
         </SplitTime>
@@ -2479,7 +2621,9 @@
           <GameTime>00:53:28</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:42:38</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2527,7 +2671,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:53:58</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:54:32</GameTime>
         </SplitTime>
@@ -2537,7 +2683,9 @@
           <GameTime>00:54:10</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:44:25</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2585,7 +2733,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:56:09</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:57:00</GameTime>
         </SplitTime>
@@ -2595,7 +2745,9 @@
           <GameTime>00:57:02</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:46:40</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2643,7 +2795,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>00:58:38</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>00:59:51</GameTime>
         </SplitTime>
@@ -2653,7 +2807,9 @@
           <GameTime>01:00:48</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:48:44</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2701,7 +2857,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>01:01:31</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>01:02:16</GameTime>
         </SplitTime>
@@ -2711,7 +2869,9 @@
           <GameTime>01:03:52</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:49:23</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2759,7 +2919,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>01:04:18</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>01:04:45</GameTime>
         </SplitTime>
@@ -2769,7 +2931,9 @@
           <GameTime>01:04:32</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:51:25</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2817,7 +2981,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>01:07:16</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>01:07:58</GameTime>
         </SplitTime>
@@ -2827,7 +2993,9 @@
           <GameTime>01:08:02</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:53:31</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2875,7 +3043,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>01:10:05</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>01:12:35</GameTime>
         </SplitTime>
@@ -2885,7 +3055,9 @@
           <GameTime>01:11:56</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:55:40</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -2933,7 +3105,9 @@
         <SplitTime name="Verruckt 212 - YYNot" />
         <SplitTime name="Verruckt 208 - Slewya" />
         <SplitTime name="Verruckt 208 - Nestor53" />
-        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez">
+          <GameTime>01:13:29</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya">
           <GameTime>01:16:00</GameTime>
         </SplitTime>
@@ -2943,7 +3117,9 @@
           <GameTime>01:15:50</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 250 - Slewya" />
-        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil">
+          <GameTime>00:56:18</GameTime>
+        </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
       <SegmentHistory />
@@ -3038,7 +3214,7 @@
           <GameTime>01:02:46</GameTime>
         </SplitTime>
         <SplitTime name="Der Riese 50 (58:41) - itzxil">
-          <GameTime>00:58:41</GameTime>
+          <GameTime>00:58:44</GameTime>
         </SplitTime>
       </SplitTimes>
       <BestSegmentTime />
