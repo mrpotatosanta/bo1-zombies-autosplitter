@@ -1,6 +1,6 @@
 # LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies
 
-This repository contains a LiveSplit Autosplitter designed for Call of Duty: Black Ops 1 Zombies speedruns and high round attempts.
+This repository contains a LiveSplit Autosplitter designed for Call of Duty: Black Ops 1 Zombies speedrunning and high round attempts.
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
@@ -211,4 +211,4 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 
 - Big shoutout to [lveez](https://github.com/lveez/bo1-timers) and [5and5](https://github.com/5and5/LiveSplitAutoSplitterForBlackOpsZombies) for their code, which gave me a base understanding of ASL scripting and useful memory addresses to build off of.
 - The main font used in my layout examples is [Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font)
-- I pulled most of the split times from the [Game Stats Archive by TailsCanFly](https://docs.google.com/spreadsheets/d/1O05W14n6CZezorPmM6Ott-bjdnQxXPFeizN6f4OGNPU/edit?usp=sharing)
+- I pulled most of the high round split times from the [Game Stats Archive by TailsCanFly](https://docs.google.com/spreadsheets/d/1O05W14n6CZezorPmM6Ott-bjdnQxXPFeizN6f4OGNPU/edit?usp=sharing)
