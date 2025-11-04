@@ -195,14 +195,14 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 >
 > To add a new reference set:
 >
-> - Right-click > Edit Splits > Add Comparison
+> - Right-click > Edit Splits... > Add Comparison
 > - Enter split times in the new column under the **Game Time** tab
-> - You can paste times on this page if it's the correct format
+> - You can paste times on this page if it's the correct duration format
 > - Right-click > Save Splits
 >
 > To display all round splits on `bo1 layout - main split deltas.lsl` (50 SR's have full splits):
 >
-> - Right-click > Edit Layout > Double-click Subsplits 
+> - Right-click > Edit Layout... > Double-click Subsplits 
 > - Change the setting from the default "Always Hide Subsplits" to "Always Show Subsplits"
 
 ---
