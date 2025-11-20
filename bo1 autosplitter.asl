@@ -28,12 +28,14 @@ startup {
 }
 
 init {
-    vars.offset = 0;
-    vars.step = current.ticks <= 0
+    vars.offset = (current.ticks > 0 && current.x > 13000) ? 2 : 0;
+    vars.step = (vars.offset == 2)
         ? 0
-        : current.roundchange == 0
-            ? 2
-            : 3;
+        : (current.ticks <= 0)
+            ? 0
+            : (current.roundchange == 0)
+                ? 2
+                : 3;
 }
 
 start { return current.ticks > 0; }
