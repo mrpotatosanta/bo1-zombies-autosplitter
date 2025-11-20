@@ -61,25 +61,19 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 <table>
   <tr>
-    <th style="width:33%; text-align:center;">Classic WSplit Style</th>
-    <th style="width:33%; text-align:center;">Full Splits Info</th>
-    <th style="width:33%; text-align:center;">Main Split Deltas</th>
+    <th width="250" align="center">Classic WSplit Style</th>
+    <th width="250" align="center">Full Splits Info</th>
+    <th width="250" align="center">Main Split Deltas</th>
   </tr>
   <tr>
-    <td>
-      <div align="center">
-        <img src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" style="width:250px; height:117; object-fit:contain;" alt="Classic WSplit Style layout preview" />
-      </div>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" width="250" alt="Classic WSplit Style" />
     </td>
-    <td>
-      <div align="center">
-        <img src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" style="width:250px; height:247px; object-fit:contain;" alt="Full Splits Info layout preview" />
-      </div>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" width="250" alt="Full Splits Info" />
     </td>
-    <td>
-      <div align="center">
-        <img src="https://github.com/user-attachments/assets/58ece1b1-f951-46f1-9c1f-a21de513e641" style="width:250px; height:247px; object-fit:contain;" alt="Main Split Deltas layout preview" />
-      </div>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/58ece1b1-f951-46f1-9c1f-a21de513e641" width="250" alt="Main Split Deltas" />
     </td>
   </tr>
   <tr>
