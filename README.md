@@ -12,7 +12,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 ---
 
 > [!WARNING]
-> Sometimes, although rarely, splitting may fail on initial map load, due to a memory issue with the game.
+> Sometimes, although rarely, splitting may fail on initial map load, due to a memory offset issue.
 >
 > **Perform a "Fast Restart" immediately after map load to guarantee functionality.**
 
@@ -29,15 +29,15 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Features
 
-- **Full Automation:** Provides automatic **START, PAUSE, SPLIT, and RESET** functionality for ALL maps, including Moon
+- **Full Automation:** Provides automatic **START, PAUSE, SPLIT**, and **RESET** functionality for all maps, including Moon
 
-- **Game Support:** Supports Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
+- **Game Support:** Compatible with Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
 
-- **Accurate Timing:** Utilizes game time tied directly to game ticks (identical to hooked WSplit) for maximum accuracy
+- **Accurate Timing:** Uses game time tied directly to game ticks (identical to hooked WSplit) for maximum precision
 
-- **Round Timer:** Automatically splits on every round transition when the round *officially* begins (when zombies start spawning)
+- **Round Timer:** Splits automatically at the start of each round (as zombies begin spawning)
 
-- **Read-Only Script:** Interprets game state by using static memory offsets. It never injects code, modifies game files, or alters memory in any way.
+- **Read-Only Script:** Interprets current game state by using static memory offsets. It never injects code, modifies game files, or alters memory.
 
 ### Included Files
 
@@ -61,45 +61,45 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 <table>
   <tr>
-    <th style="text-align:center;">Classic WSplit Style</th>
-    <th style="text-align:center;">Full Splits Info</th>
-    <th style="text-align:center;">Main Split Deltas</th>
+    <th style="width:33%; text-align:center;">Classic WSplit Style</th>
+    <th style="width:33%; text-align:center;">Full Splits Info</th>
+    <th style="width:33%; text-align:center;">Main Split Deltas</th>
   </tr>
   <tr>
     <td>
       <div align="center">
-        <img src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" width="250" />
+        <img src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" style="width:250px; height:117; object-fit:contain;" alt="Classic WSplit Style layout preview" />
       </div>
     </td>
     <td>
       <div align="center">
-        <img src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" width="250" />
+        <img src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" style="width:250px; height:247px; object-fit:contain;" alt="Full Splits Info layout preview" />
       </div>
     </td>
     <td>
       <div align="center">
-        <img src="https://github.com/user-attachments/assets/58ece1b1-f951-46f1-9c1f-a21de513e641" width="250" />
+        <img src="https://github.com/user-attachments/assets/58ece1b1-f951-46f1-9c1f-a21de513e641" style="width:250px; height:247px; object-fit:contain;" alt="Main Split Deltas layout preview" />
       </div>
     </td>
   </tr>
   <tr>
-    <td>
+    <td valign="top">
       <ul>
         <li>Minimalist timer-only layout</li>
         <li>Styled to mimic the original WSplit colors</li>
       </ul>
     </td>
-    <td>
+    <td valign="top">
       <ul>
-        <li>Displays every split (all rounds) for the current game</li>
+        <li>Displays all round splits</li>
         <li>Column 1: Total game time (Split time)</li>
         <li>Column 2: Round time (Segment time)</li>
       </ul>
     </td>
-    <td>
+    <td valign="top">
       <ul>
         <li>Displays main splits at every 10-round interval, plus round 163</li>
-        <li>Compares the current run against a reference game</li>
+        <li>Compares current run against reference splits</li>
         <li>Column 1: Time delta (+/-) vs reference</li>
         <li>Column 2: Split times: white for reference, yellow for current run</li>
       </ul>
@@ -124,10 +124,10 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - Drag-and-drop `bo1 layout.lsl` onto the LiveSplit window
    - *Or* in LiveSplit > Right-click > Open Layout > From File... > `bo1 layout.lsl`
 6. Configure the autosplitter:
-   - Right-click LiveSplit > Edit Layout...
+   - Right-click > Edit Layout...
    - Double-click Scriptable Auto Splitter
    - Click Browse... next to "Script Path" and select `bo1 autosplitter.asl`
-   - Confirm "Start," "Split," and "Reset" boxes are all checked
+   - Confirm "Start", "Split", and "Reset" boxes are all checked
    - Click OK on both dialogs
    - Right-click > Save Layout
 7. Link the layout to your splits:
@@ -146,7 +146,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 - **Troubleshooting (Admin Rights):** If the timer fails to start, LiveSplit may require administrator privileges. Rule of thumb: If your game runs as admin, LiveSplit must also run as admin.
 
-  - To always run as admin: Right-click LiveSplit.exe > Properties > Compatibility tab > Check "Run this program as an administrator."
+  - To always run as admin: Right-click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator."
 
 - **Layout Customization:** Customize fonts, colors, components, and other settings via the Layout Settings.
 
@@ -156,7 +156,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Split Times
 
-The included `bo1 subsplits.lss` file contains reference split times from the following notable games for comparison use, specifically with `bo1 layout - main split deltas.lsl` and similar layout setups. View the spreadsheet [here](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
+The included `bo1 subsplits.lss` file contains reference split times from the following notable games for comparison use, specifically with `bo1 layout - main split deltas.lsl` and similar layout setups. View the [reference split times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
 
 - Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
 - Kino der Toten 50 (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
@@ -205,7 +205,7 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 >
 > To display all round splits on `bo1 layout - main split deltas.lsl`:
 >
-> - Right-click > Edit Layout... > Double-click Subsplits 
+> - Right-click > Edit Layout... > Double-click Subsplits
 > - Change the setting from the default "Always Hide Subsplits" to "Always Show Subsplits"
 
 ---
@@ -213,5 +213,7 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 ## Credits
 
 - Big shoutout to [lveez](https://github.com/lveez/bo1-timers) and [5and5](https://github.com/5and5/LiveSplitAutoSplitterForBlackOpsZombies) for their code, which gave me a base understanding of ASL scripting and useful memory addresses to build off of.
-- The main font used in my layout examples is [Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font)
-- I pulled most of the high round split times from the [Game Stats Archive by TailsCanFly](https://docs.google.com/spreadsheets/d/1O05W14n6CZezorPmM6Ott-bjdnQxXPFeizN6f4OGNPU/edit?usp=sharing)
+- The main font used in my layout examples is [Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font).
+- I pulled most of the high round split times from the [Game Stats Archive by TailsCanFly](https://docs.google.com/spreadsheets/d/1O05W14n6CZezorPmM6Ott-bjdnQxXPFeizN6f4OGNPU/edit?usp=sharing).
+
+---
