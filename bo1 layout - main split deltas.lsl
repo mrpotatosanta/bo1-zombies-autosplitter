@@ -131,7 +131,7 @@
         <SubsplitGradient>Plain</SubsplitGradient>
         <ShowHeader>False</ShowHeader>
         <IndentSectionSplit>True</IndentSectionSplit>
-        <ShowIconSectionSplit>True</ShowIconSectionSplit>
+        <ShowIconSectionSplit>False</ShowIconSectionSplit>
         <ShowSectionIcon>True</ShowSectionIcon>
         <HeaderGradient>Vertical</HeaderGradient>
         <OverrideHeaderColor>False</OverrideHeaderColor>
