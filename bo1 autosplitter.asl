@@ -29,13 +29,7 @@ startup {
 
 init {
     vars.offset = (current.ticks > 0 && current.x > 13000) ? 2 : 0;
-    vars.step = (vars.offset == 2)
-        ? 0
-        : (current.ticks <= 0)
-            ? 0
-            : (current.roundchange == 0)
-                ? 2
-                : 3;
+    vars.step = (vars.offset == 2 || current.ticks <= 0) ? 0 : (current.roundchange == 0 ? 2 : 3);
 }
 
 start { return current.ticks > 0; }
@@ -43,34 +37,20 @@ start { return current.ticks > 0; }
 update {
     if (current.roundchange != old.roundchange) {
         vars.step++; // Increments on every roundchange flip
-
-        if (vars.step == 1) {
-            vars.offset = (current.ticks > 400) ? 2 : 0; // Determines offset based on time taken to reach Step 1
-        }
+        if (vars.step == 1) { vars.offset = (current.ticks > 400) ? 2 : 0; } // Determines offset based on time taken to reach Step 1
     }
 }
 
 split {
     if (vars.step == (6 + vars.offset)) {
-
-        if (vars.offset == 2 && current.x > 13000) {
-            vars.step = 0; // If on Moon and at NML, set to Step 0 to bypass the two false splits
-            return false;
-        }
-
+        if (vars.offset == 2 && current.x > 13000) { vars.step = 0; return false; } // If on Moon and at NML, set to Step 0 to bypass the two false splits
         return true; // Splits on Step 6 (Normal) or Step 8 (Moon)
     }
 }
 
-onSplit {
-    vars.step = (2 + vars.offset); // Loops back to Step 2 (Normal) or Step 4 (Moon)
-}
+onSplit { vars.step = (2 + vars.offset); } // Loops back to Step 2 (Normal) or Step 4 (Moon)
 
-reset {
-    if (current.ticks < old.ticks) {
-        return true; // Resets if ticks dropped
-    }
-}
+reset { return current.ticks < old.ticks; } // Resets if ticks dropped
 
 onReset {
     vars.offset = 0;
