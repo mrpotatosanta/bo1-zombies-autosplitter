@@ -171,8 +171,7 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 - Moon 50 (1:06:49) - [Furret](https://www.youtube.com/watch?v=McJV1GIhu1A&t=1309s)
 - Nacht der Untoten 150 - [hYPE](https://www.youtube.com/watch?v=4aRSc2i9xF0)
 - Nacht der Untoten 50 (2:16:00) - [Cruppz](https://www.youtube.com/watch?v=94msvOb_L44)
-- Verruckt 212 - YYNot
-- Verruckt 208 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7xdBLA6vK77r4JFI8nbfRu)
+- Verruckt 227 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6-qA8un__RVWJEjW7V8vcq)
 - Verruckt 208 - [Nestor53](https://www.youtube.com/watch?v=2AxJcFAZ_Wo)
 - Verruckt 50 (1:17:07) - [Trikkiez](https://www.twitch.tv/videos/2140825512?t=00h04m20s)
 - Verruckt 50 (1:18:31) - [Slewya](https://www.youtube.com/watch?v=2DgmaTfb0sU&t=48s)
