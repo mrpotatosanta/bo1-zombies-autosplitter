@@ -4,12 +4,7 @@ This repository contains a LiveSplit Autosplitter designed for Call of Duty: Bla
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.3 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.3/bo1-zombies-autosplitter-3.3.zip)
-
-> [!IMPORTANT]
-> **Now supports full automation on Moon!**
-
----
+# Download
 
 > [!WARNING]
 > Sometimes, although rarely, splitting may fail on initial map load, due to a memory offset issue.
@@ -105,28 +100,25 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Setup Instructions
 
-1. Download and install [LiveSplit](https://livesplit.org/)
-2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) (Optional):
-   - Unzip, then Double-click on `digital-7 (mono).ttf` to preview and install
-3. Download and unzip the Latest Release
-   - Download the latest release ZIP from the main download link at the top of this README page (or the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest) page)
-   - Unzip the contents, which include the `.asl` script, the `.lss` splits file, and various `.lsl` layout options
-4. Load your splits:
-   - Double-click `bo1 subsplits.lss`
-   - *Or* in LiveSplit > Right-click > Open Splits > From File... > `bo1 subsplits.lss`
-5. Load your layout:
-   - Drag-and-drop `bo1 layout.lsl` onto the LiveSplit window
-   - *Or* in LiveSplit > Right-click > Open Layout > From File... > `bo1 layout.lsl`
-6. Configure the autosplitter:
+1. Download [LiveSplit](https://livesplit.org/)
+2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) *(optional but recommended)*:
+   - Right-click `digital-7 (mono).ttf` > Install
+3. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)
+4. Open LiveSplit
+5. Load your splits:
+   - Right-click > Open Splits > From File... > `bo1 subsplits.lss`
+6. Load your layout:
+   - Right-click > Open Layout > From File... > `bo1 layout.lsl`
+7. Configure the autosplitter:
    - Right-click > Edit Layout...
    - Double-click Scriptable Auto Splitter
-   - Click Browse... next to "Script Path" and select `bo1 autosplitter.asl`
+   - Click Browse... > `bo1 autosplitter.asl`
    - Confirm "Start", "Split", and "Reset" boxes are all checked
    - Click OK on both dialogs
    - Right-click > Save Layout
-7. Link the layout to your splits:
+8. Link the layout to your splits:
    - Right-click > Edit Splits...
-   - Check "Use Layout" box > Browse... > select `bo1 layout.lsl`
+   - Check "Use Layout" box > Browse... > `bo1 layout.lsl`
    - Click OK
    - Right-click > Save Splits
 
@@ -171,8 +163,7 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 - Moon 50 (1:06:49) - [Furret](https://www.youtube.com/watch?v=McJV1GIhu1A&t=1309s)
 - Nacht der Untoten 150 - [hYPE](https://www.youtube.com/watch?v=4aRSc2i9xF0)
 - Nacht der Untoten 50 (2:16:00) - [Cruppz](https://www.youtube.com/watch?v=94msvOb_L44)
-- Verruckt 212 - YYNot
-- Verruckt 208 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7xdBLA6vK77r4JFI8nbfRu)
+- Verruckt 227 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6-qA8un__RVWJEjW7V8vcq)
 - Verruckt 208 - [Nestor53](https://www.youtube.com/watch?v=2AxJcFAZ_Wo)
 - Verruckt 50 (1:17:07) - [Trikkiez](https://www.twitch.tv/videos/2140825512?t=00h04m20s)
 - Verruckt 50 (1:18:31) - [Slewya](https://www.youtube.com/watch?v=2DgmaTfb0sU&t=48s)
@@ -208,6 +199,5 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 
 - Big shoutout to [lveez](https://github.com/lveez/bo1-timers) and [5and5](https://github.com/5and5/LiveSplitAutoSplitterForBlackOpsZombies) for their code, which gave me a base understanding of ASL scripting and useful memory addresses to build off of.
 - The main font used in my layout examples is [Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font).
-- I pulled most of the high round split times from the [Game Stats Archive by TailsCanFly](https://docs.google.com/spreadsheets/d/1O05W14n6CZezorPmM6Ott-bjdnQxXPFeizN6f4OGNPU/edit?usp=sharing).
 
 ---
