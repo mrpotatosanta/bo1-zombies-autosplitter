@@ -6,11 +6,6 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 # Download
 
-> [!IMPORTANT]
-> **Now supports full automation on Moon!**
-
----
-
 > [!WARNING]
 > Sometimes, although rarely, splitting may fail on initial map load, due to a memory offset issue.
 >
