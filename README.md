@@ -160,7 +160,7 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 - Shangri-La 206 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5CXcZIaW_wVe6-uDUohwAf)
 - Shangri-La 50 (1:10:45) - [Furret](https://www.youtube.com/watch?v=UktKeTPdkxM&t=1453s)
 - Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
-- Moon 50 (1:06:49) - [Furret](https://www.youtube.com/watch?v=McJV1GIhu1A&t=1309s)
+- Moon 50 (1:06:40) - [NeoTellos](https://www.youtube.com/watch?v=YVz_8eRBJtI)
 - Nacht der Untoten 150 - [hYPE](https://www.youtube.com/watch?v=4aRSc2i9xF0)
 - Nacht der Untoten 50 (2:16:00) - [Cruppz](https://www.youtube.com/watch?v=94msvOb_L44)
 - Verruckt 227 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6-qA8un__RVWJEjW7V8vcq)
