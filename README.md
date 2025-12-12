@@ -15,8 +15,8 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 - [Features](#features)
 - [Layout Previews](#layout-previews)
-- [Setup Instructions](#setup-instructions)
-- [Usage & Tips](#usage--tips)
+- [Setup](#setup)
+- [Usage](#usage)
 - [Split Times](#split-times)
 - [Credits](#credits)
 
@@ -24,35 +24,21 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Features
 
-- **Full Automation:** Provides automatic **START, PAUSE, SPLIT**, and **RESET** functionality for all maps, including Moon
+- **Full Automation:** Provides automatic **START, PAUSE, SPLIT**, and **RESET** for all maps, including Moon
 
-- **Game Support:** Compatible with Steam, BGamer, and Plutonium versions of T5 (Black Ops 1)
+- **Compatibility:** Works with T5 (Black Ops 1) on **Steam, BGamer**, and **Plutonium**
 
-- **Accurate Timing:** Uses game time tied directly to game ticks (identical to hooked WSplit) for maximum precision
+- **Game Timer:** Uses in-game ticks for precise timing (identical to WSplit)
 
-- **Round Timer:** Splits automatically at the start of each round (as zombies begin spawning)
+- **Round Timer:** Splits automatically at the start of each round
 
-- **Read-Only Script:** Interprets current game state by using static memory offsets. It never injects code, modifies game files, or alters memory.
+- **Non-Intrusive:** Operates externally by reading static memory offsets; never injects code or modifies game files
 
-### Included Files
-
-- `bo1 autosplitter.asl`: The core script for automatic timer control
-- `bo1 subsplits.lss`: Split config file with segments for every round, and [split times](#split-times) for comparison use
-- `bo1 layout - classic wsplit style.lsl`
-- `bo1 layout - full splits info.lsl`
-- `bo1 layout - main split deltas.lsl`
+- **Customizable:** Lets you personalize your timer layout
 
 ---
 
 ## Layout Previews
-
-> [!NOTE]
-> Feel free to build your own custom layout.
->
-> When doing so, ensure:
->
-> 1. The **Scriptable Auto Splitter** component is included (path: `bo1 autosplitter.asl`)
-> 2. You always use **Game Time** (not Real Time)
 
 <table>
   <tr>
@@ -98,7 +84,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ---
 
-## Setup Instructions
+## Setup
 
 1. Download [LiveSplit](https://livesplit.org/)
 2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) *(optional but recommended)*:
@@ -124,13 +110,15 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ---
 
-## Usage & Tips
+## Usage
 
-- **Launch Order:** Open LiveSplit either before Black Ops 1 or while at the main menu. Ensure LiveSplit is open before loading into a map.
+- **Launch Order:** Open LiveSplit before Black Ops 1 or while at the main menu. Ensure LiveSplit is open before loading into a map.
 
-- **Restoring Configuration:** LiveSplit should automatically remember your previous setup on next launch. If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the necessary autosplitter component path.
+- **Restoring Configuration:** LiveSplit should automatically remember your previous setup on next launch.
 
-- **Troubleshooting (Admin Rights):** If the timer fails to start, LiveSplit may require administrator privileges. Rule of thumb: If your game runs as admin, LiveSplit must also run as admin.
+  - If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the necessary autosplitter component path.
+
+- **Troubleshooting (Admin Rights):** If your game runs as admin, LiveSplit must also run as admin.
 
   - To always run as admin: Right-click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator."
 
@@ -174,24 +162,11 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 - Der Riese 50 (58:41) - [itzxil](https://www.youtube.com/watch?v=GShKDZy67pc)
 
 > [!TIP]
-> To change the reference comparison:
+> **To change the comparison:** Right-click > Compare Against
 >
-> - Right-click > Compare Against
->
-> To add a new reference set:
->
-> - Right-click > Edit Splits... > Add Comparison
-> - Enter split times in the new column under the **Game Time** tab
-> - You can paste times on this page if it's the correct duration format
-> - Right-click > Save Splits
+> **To add a new reference:** Right-click > Edit Splits... > Add Comparison > Input times under Game Time > Save Splits
 
-> [!NOTE]
-> **The included round 50 speedruns have splits for every round.**
->
-> To display all round splits on `bo1 layout - main split deltas.lsl`:
->
-> - Right-click > Edit Layout... > Double-click Subsplits
-> - Change the setting from the default "Always Hide Subsplits" to "Always Show Subsplits"
+*Note: For comparison purposes, these use the unadjusted on‑screen times rather than ZWR‑adjusted times. Most automatic timers (including this one) start slightly before the official ZWR start point, so adjusted leaderboard times may differ by a few seconds.*
 
 ---
 
