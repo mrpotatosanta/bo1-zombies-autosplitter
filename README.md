@@ -112,7 +112,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Usage
 
-- **Launch Order:** Open LiveSplit before Black Ops 1 or while at the main menu. Ensure LiveSplit is open before loading into a map.
+- **Launch Order:** Open LiveSplit before loading into a map.
 
 - **Restoring Configuration:** LiveSplit should automatically remember your previous setup on next launch.
 
