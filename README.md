@@ -146,6 +146,7 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 - Call of the Dead 50 (1:21:57) - [Prompt](https://www.twitch.tv/videos/2663124108?t=00h37m44s)
 - Shangri-La 208 - [HGMRICK](https://www.youtube.com/watch?v=zxe3-SUz6-8)
 - Shangri-La 206 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5CXcZIaW_wVe6-uDUohwAf)
+- Shangri-La 201 - [Knolls](https://www.youtube.com/watch?v=qHJzU1996lU)
 - Shangri-La 50 (1:10:45) - [Furret](https://www.youtube.com/watch?v=UktKeTPdkxM&t=1453s)
 - Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
 - Moon 50 (1:06:39) - [itzxil](https://www.youtube.com/watch?v=3zjwJihiyGY)
