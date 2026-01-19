@@ -1,15 +1,15 @@
 # LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies
 
-This repository contains a LiveSplit Autosplitter designed for Call of Duty: Black Ops 1 Zombies speedrunning and high round attempts.
+An automatic timer for Call of Duty: Black Ops 1 Zombies speedrunning and high round attempts
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.5](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.5/bo1-zombies-autosplitter-3.5.zip)
+# Download
 
 > [!WARNING]
-> Sometimes, although rarely, splitting may fail on initial map load, due to a memory offset issue.
+> In rare cases, the round-splitting logic may fail to initialize on the first map load.
 >
-> **Perform a "Fast Restart" immediately after map load to guarantee functionality.**
+> **"Fast Restart" once after loading to guarantee functionality.**
 
 ---
 
@@ -31,6 +31,8 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 - **Game Timer:** Uses in-game ticks for precise timing (identical to WSplit)
 
 - **Round Timer:** Splits automatically at the start of each round
+
+- **Split Comparison:** Includes world record splits for automated pace tracking in real time
 
 - **Non-Intrusive:** Operates externally by reading static memory offsets; never injects code or modifies game files
 
@@ -73,7 +75,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
     </td>
     <td valign="top">
       <ul>
-        <li>Displays main splits at every 10-round interval, plus round 163</li>
+        <li>Displays main splits every 10 rounds, plus round 163</li>
         <li>Compares current run against reference splits</li>
         <li>Column 1: Time delta (+/-) vs reference</li>
         <li>Column 2: Split times: white for reference, yellow for current run</li>
@@ -130,7 +132,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Split Times
 
-The included `bo1 subsplits.lss` file contains reference split times from the following notable games for comparison use, specifically with `bo1 layout - main split deltas.lsl` and similar layout setups. View the [reference split times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
+The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout - main split deltas.lsl` and similar layouts. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
 
 - Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
 - Kino der Toten 50 (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
@@ -143,12 +145,13 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 - Ascension 50 (1:00:13) - [oscar_otter1](https://www.youtube.com/watch?v=gdYLi5FbkXI)
 - Call of the Dead 105 - [Prompt](https://www.youtube.com/watch?v=FvTgTl8p990)
 - Call of the Dead 94 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf_jekCCzJ-iGNaF3Sp1isoo)
-- Call of the Dead 50 (1:25:30) - [Prompt](https://www.twitch.tv/videos/2544912230?t=01h04m58s)
+- Call of the Dead 50 (1:21:57) - [Prompt](https://www.twitch.tv/videos/2663124108?t=00h37m44s)
 - Shangri-La 208 - [HGMRICK](https://www.youtube.com/watch?v=zxe3-SUz6-8)
 - Shangri-La 206 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5CXcZIaW_wVe6-uDUohwAf)
+- Shangri-La 201 - [Knolls](https://www.youtube.com/watch?v=qHJzU1996lU)
 - Shangri-La 50 (1:10:45) - [Furret](https://www.youtube.com/watch?v=UktKeTPdkxM&t=1453s)
 - Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
-- Moon 50 (1:06:40) - [NeoTellos](https://www.youtube.com/watch?v=YVz_8eRBJtI)
+- Moon 50 (1:06:39) - [itzxil](https://www.youtube.com/watch?v=3zjwJihiyGY)
 - Nacht der Untoten 150 - [hYPE](https://www.youtube.com/watch?v=4aRSc2i9xF0)
 - Nacht der Untoten 50 (2:16:00) - [Cruppz](https://www.youtube.com/watch?v=94msvOb_L44)
 - Verruckt 227 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6-qA8un__RVWJEjW7V8vcq)
@@ -157,7 +160,7 @@ The included `bo1 subsplits.lss` file contains reference split times from the fo
 - Verruckt 50 (1:18:31) - [Slewya](https://www.youtube.com/watch?v=2DgmaTfb0sU&t=48s)
 - Shi No Numa 237 - [Mango](https://www.youtube.com/playlist?list=PLC1OcLOAJdHBD_w274LCmOF4iCEUreDJX)
 - Shi No Numa 235 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf91mjmsok45EaoxITjS2ahD)
-- Shi No Numa 50 (1:16:25) - [Slewya](https://www.youtube.com/watch?v=swtrZKil39Q&t=7204s)
+- Shi No Numa 50 (1:15:38) - [Fazor](https://www.twitch.tv/videos/2654809159?t=03h15m30s)
 - Der Riese 250 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6417HfAeNQnSYeXPy6eaE8)
 - Der Riese 50 (58:41) - [itzxil](https://www.youtube.com/watch?v=GShKDZy67pc)
 
