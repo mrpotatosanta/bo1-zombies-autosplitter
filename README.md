@@ -1,6 +1,6 @@
-# LiveSplit Autosplitter for Call of Duty: Black Ops 1 Zombies
+# LiveSplit Autosplitter for Call of Duty: Black Ops Zombies
 
-An automatic timer for Call of Duty: Black Ops 1 Zombies speedrunning and high round attempts
+An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high round attempts
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
