@@ -151,7 +151,7 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 - Shangri-La 201 - [Knolls](https://www.youtube.com/watch?v=qHJzU1996lU)
 - Shangri-La 50 (1:10:45) - [Furret](https://www.youtube.com/watch?v=UktKeTPdkxM&t=1453s)
 - Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
-- Moon 50 (1:06:39) - [itzxil](https://www.youtube.com/watch?v=3zjwJihiyGY)
+- Moon 50 (1:05:55) - [NeoTellos](https://www.youtube.com/watch?v=5kAyf3M6Lmg)
 - Nacht der Untoten 150 - [hYPE](https://www.youtube.com/watch?v=4aRSc2i9xF0)
 - Nacht der Untoten 50 (2:16:00) - [Cruppz](https://www.youtube.com/watch?v=94msvOb_L44)
 - Verruckt 227 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6-qA8un__RVWJEjW7V8vcq)
