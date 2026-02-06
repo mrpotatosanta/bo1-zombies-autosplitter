@@ -4,7 +4,7 @@ An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high rou
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.6](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.6/bo1-zombies-autosplitter-3.6.zip)
+# Download
 
 > [!WARNING]
 > In rare cases, the round-splitting logic may fail to initialize on the first map load.
