@@ -50,13 +50,13 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" width="250" alt="Classic WSplit Style" />
+      <img src="https://github.com/user-attachments/assets/ad86e669-acda-48c6-a316-7c347edd05a2" width="250" alt="Classic WSplit Style" />
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" width="250" alt="Full Splits Info" />
+      <img src="https://github.com/user-attachments/assets/cb08a9c0-6f4c-4d56-8b67-9cc4295617cf" width="250" alt="Full Splits Info" />
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/58ece1b1-f951-46f1-9c1f-a21de513e641" width="250" alt="Main Split Deltas" />
+      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="Main Split Deltas" />
     </td>
   </tr>
   <tr>
