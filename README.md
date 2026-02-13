@@ -4,7 +4,9 @@ An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high rou
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# Download
+<div id="download"></div>
+
+# Click Here to Download
 
 > [!WARNING]
 > In rare cases, the round-splitting logic may fail to initialize on the first map load.
@@ -91,12 +93,12 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 1. Download [LiveSplit](https://livesplit.org/)
 2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) *(optional but recommended)*:
    - Right-click `digital-7 (mono).ttf` > Install
-3. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)
+3. Download the [Latest Release](#download)
 4. Open LiveSplit
 5. Load your splits:
    - Right-click > Open Splits > From File... > `bo1 subsplits.lss`
 6. Load your layout:
-   - Right-click > Open Layout > From File... > `bo1 layout.lsl`
+   - Right-click > Open Layout > From File... > `bo1 layout.lsl` *(See [Layout Previews](#layout-previews) for more info)*
 7. Configure the autosplitter:
    - Right-click > Edit Layout...
    - Double-click Scriptable Auto Splitter
