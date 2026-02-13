@@ -26,19 +26,19 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Features
 
-- **Full Automation:** Provides automatic **START, PAUSE, SPLIT**, and **RESET** for all maps, including Moon
+- **Full Automation** - Provides automatic START, PAUSE, SPLIT, and RESET for all maps, including Moon
 
-- **Compatibility:** Works with T5 (Black Ops 1) on **Steam, BGamer**, and **Plutonium**
+- **Compatibility** - Works with T5 (Black Ops 1) on Steam, BGamer, and Plutonium
 
-- **Game Timer:** Uses in-game ticks for precise timing (identical to WSplit)
+- **Game Timer** - Uses in-game ticks for precise timing (identical to WSplit)
 
-- **Round Timer:** Splits automatically at the start of each round
+- **Round Timer** - Splits automatically at the start of each round
 
-- **Split Comparison:** Includes world record splits for automated pace tracking in real time
+- **Split Comparison** - Includes world record splits for automated pace tracking in real time
 
-- **Non-Intrusive:** Operates externally by reading static memory offsets; never injects code or modifies game files
+- **Non-Intrusive** - Operates externally by reading static memory offsets; never injects code or modifies game files
 
-- **Customizable:** Lets you personalize your timer layout
+- **Customizable** - Lets you personalize your timer layout
 
 ---
 
@@ -116,17 +116,17 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Usage
 
-- **Launch Order:** Open LiveSplit before loading into a map.
+- **Launch Order** - Open LiveSplit before loading into a map.
 
-- **Restoring Configuration:** LiveSplit should automatically remember your previous setup on next launch.
+- **Restoring Configuration** - LiveSplit should automatically remember your previous setup on next launch.
 
   - If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the necessary autosplitter component path.
 
-- **Troubleshooting (Admin Rights):** If your game runs as admin, LiveSplit must also run as admin.
+- **Admin Rights** - If your game runs as admin, LiveSplit must also run as admin.
 
   - To always run as admin: Right-click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator."
 
-- **Layout Customization:** Customize fonts, colors, components, and other settings via the Layout Settings.
+- **Layout Customization** - Customize fonts, colors, components, and other settings via the Layout Settings.
 
   - You can even add other useful components, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2), to your layout.
 
