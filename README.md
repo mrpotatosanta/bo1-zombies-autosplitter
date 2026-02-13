@@ -4,7 +4,9 @@ An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high rou
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.6](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.6/bo1-zombies-autosplitter-3.6.zip)
+<div id="download"></div>
+
+# Click Here to Download
 
 > [!WARNING]
 > In rare cases, the round-splitting logic may fail to initialize on the first map load.
@@ -24,19 +26,19 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Features
 
-- **Full Automation:** Provides automatic **START, PAUSE, SPLIT**, and **RESET** for all maps, including Moon
+- **Full Automation** - Provides automatic START, PAUSE, SPLIT, and RESET for all maps, including Moon
 
-- **Compatibility:** Works with T5 (Black Ops 1) on **Steam, BGamer**, and **Plutonium**
+- **Compatibility** - Works with T5 (Black Ops 1) on Steam, BGamer, and Plutonium
 
-- **Game Timer:** Uses in-game ticks for precise timing (identical to WSplit)
+- **Game Timer** - Uses in-game ticks for precise timing (identical to WSplit)
 
-- **Round Timer:** Splits automatically at the start of each round
+- **Round Timer** - Splits automatically at the start of each round
 
-- **Split Comparison:** Includes world record splits for automated pace tracking in real time
+- **Split Comparison** - Includes world record splits for automated pace tracking in real time
 
-- **Non-Intrusive:** Operates externally by reading static memory offsets; never injects code or modifies game files
+- **Non-Intrusive** - Operates externally by reading static memory offsets; never injects code or modifies game files
 
-- **Customizable:** Lets you personalize your timer layout
+- **Customizable** - Lets you personalize your timer layout
 
 ---
 
@@ -50,13 +52,13 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/cdeb8d6f-f1cd-48e2-ae5e-99fe11add9e4" width="250" alt="Classic WSplit Style" />
+      <img src="https://github.com/user-attachments/assets/ad86e669-acda-48c6-a316-7c347edd05a2" width="250" alt="Classic WSplit Style" />
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/1ca65df0-5f05-4f0f-a333-699dd0affa8e" width="250" alt="Full Splits Info" />
+      <img src="https://github.com/user-attachments/assets/cb08a9c0-6f4c-4d56-8b67-9cc4295617cf" width="250" alt="Full Splits Info" />
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/58ece1b1-f951-46f1-9c1f-a21de513e641" width="250" alt="Main Split Deltas" />
+      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="Main Split Deltas" />
     </td>
   </tr>
   <tr>
@@ -91,12 +93,12 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 1. Download [LiveSplit](https://livesplit.org/)
 2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) *(optional but recommended)*:
    - Right-click `digital-7 (mono).ttf` > Install
-3. Download the [Latest Release](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/latest)
+3. Download the [Latest Release](#download)
 4. Open LiveSplit
 5. Load your splits:
    - Right-click > Open Splits > From File... > `bo1 subsplits.lss`
 6. Load your layout:
-   - Right-click > Open Layout > From File... > `bo1 layout.lsl`
+   - Right-click > Open Layout > From File... > `bo1 layout.lsl` *(See [Layout Previews](#layout-previews) for more info)*
 7. Configure the autosplitter:
    - Right-click > Edit Layout...
    - Double-click Scriptable Auto Splitter
@@ -114,17 +116,17 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Usage
 
-- **Launch Order:** Open LiveSplit before loading into a map.
+- **Launch Order** - Open LiveSplit before loading into a map.
 
-- **Restoring Configuration:** LiveSplit should automatically remember your previous setup on next launch.
+- **Restoring Configuration** - LiveSplit should automatically remember your previous setup on next launch.
 
   - If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the necessary autosplitter component path.
 
-- **Troubleshooting (Admin Rights):** If your game runs as admin, LiveSplit must also run as admin.
+- **Admin Rights** - If your game runs as admin, LiveSplit must also run as admin.
 
   - To always run as admin: Right-click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator."
 
-- **Layout Customization:** Customize fonts, colors, components, and other settings via the Layout Settings.
+- **Layout Customization** - Customize fonts, colors, components, and other settings via the Layout Settings.
 
   - You can even add other useful components, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2), to your layout.
 
@@ -151,7 +153,7 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 - Shangri-La 201 - [Knolls](https://www.youtube.com/watch?v=qHJzU1996lU)
 - Shangri-La 50 (1:10:45) - [Furret](https://www.youtube.com/watch?v=UktKeTPdkxM&t=1453s)
 - Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
-- Moon 50 (1:06:39) - [itzxil](https://www.youtube.com/watch?v=3zjwJihiyGY)
+- Moon 50 (1:05:55) - [NeoTellos](https://www.youtube.com/watch?v=5kAyf3M6Lmg)
 - Nacht der Untoten 150 - [hYPE](https://www.youtube.com/watch?v=4aRSc2i9xF0)
 - Nacht der Untoten 50 (2:16:00) - [Cruppz](https://www.youtube.com/watch?v=94msvOb_L44)
 - Verruckt 227 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6-qA8un__RVWJEjW7V8vcq)
