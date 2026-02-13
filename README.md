@@ -6,7 +6,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 <div id="download"></div>
 
-# Click Here to Download
+# [Click Here to Download v3.7 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.7/bo1-zombies-autosplitter-3.7.zip)
 
 > [!WARNING]
 > In rare cases, the round-splitting logic may fail to initialize on the first map load.
