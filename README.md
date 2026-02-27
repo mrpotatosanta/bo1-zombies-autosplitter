@@ -1,17 +1,20 @@
+<div id="top"></div>
+
 # LiveSplit Autosplitter for Call of Duty: Black Ops Zombies
 
 An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high round attempts
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-<div id="download"></div>
-
 # Download
 
 > [!WARNING]
-> In rare cases, the round-splitting logic may fail to initialize on the first map load.
+> In rare cases, the `roundchange` memory value doesn't update on the first map load, which means splits won't trigger.
 >
-> **"Fast Restart" once after loading to guarantee functionality.**
+> **"Fast Restart"** after loading to make sure everything works.
+
+> [!TIP]
+> **"Fast Restart"** also standardizes the round speedrun start, where player gains control at ~3.4s.
 
 ---
 
@@ -34,11 +37,9 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 - **Round Timer** - Splits automatically at the start of each round
 
-- **Split Comparison** - Includes world record splits for automated pace tracking in real time
+- **Split Comparison** - Includes world record splits and supports custom comparisons for real‑time pace tracking
 
 - **Non-Intrusive** - Operates externally by reading static memory offsets; never injects code or modifies game files
-
-- **Customizable** - Lets you personalize your timer layout
 
 ---
 
@@ -93,7 +94,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 1. Download [LiveSplit](https://livesplit.org/)
 2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) *(optional but recommended)*:
    - Right-click `digital-7 (mono).ttf` > Install
-3. Download the [Latest Release](#download)
+3. Download the [Latest Release](#top)
 4. Open LiveSplit
 5. Load your splits:
    - Right-click > Open Splits > From File... > `bo1 subsplits.lss`
@@ -112,23 +113,28 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - Click OK
    - Right-click > Save Splits
 
+> [!IMPORTANT]
+> **Unbind LiveSplit hotkeys:** Right-click > Settings
+>
+> Since the autosplitter fully controls the timer, pressing any hotkey could desync your splits. Unbinding them prevents accidental inputs from affecting the timer.
+
 ---
 
 ## Usage
 
-- **Launch Order** - Open LiveSplit before loading into a map.
+- **Launch Order** - Open LiveSplit *before* loading into a map.
 
 - **Restoring Configuration** - LiveSplit should automatically remember your previous setup on next launch.
 
-  - If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the necessary autosplitter component path.
+  - If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the autosplitter path.
 
 - **Admin Rights** - If your game runs as admin, LiveSplit must also run as admin.
 
   - To always run as admin: Right-click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator."
 
-- **Layout Customization** - Customize fonts, colors, components, and other settings via the Layout Settings.
+- **Layout Customization** - Everything is customizable via the Layout Settings. *(fonts, colors, sizing, components, information, etc.)*.
 
-  - You can even add other useful components, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2), to your layout.
+- **Extra Components** - You can add additional components to your layout, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2).
 
 ---
 
