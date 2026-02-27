@@ -1,5 +1,3 @@
-<div id="top"></div>
-
 # LiveSplit Autosplitter for Call of Duty: Black Ops Zombies
 
 An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high round attempts
@@ -94,7 +92,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 1. Download [LiveSplit](https://livesplit.org/)
 2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) *(optional but recommended)*:
    - Right-click `digital-7 (mono).ttf` > Install
-3. Download the [Latest Release](#top)
+3. Download the [Latest Release](#livesplit-autosplitter-for-call-of-duty-black-ops-zombies)
 4. Open LiveSplit
 5. Load your splits:
    - Right-click > Open Splits > From File... > `bo1 subsplits.lss`
