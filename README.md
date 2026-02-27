@@ -47,19 +47,19 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 <table>
   <tr>
-    <th width="250" align="center">Classic WSplit Style</th>
-    <th width="250" align="center">Full Splits Info</th>
-    <th width="250" align="center">Main Split Deltas</th>
+    <th width="250" align="center">Classic</th>
+    <th width="250" align="center">Full Splits</th>
+    <th width="250" align="center">Main Deltas</th>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/ad86e669-acda-48c6-a316-7c347edd05a2" width="250" alt="Classic WSplit Style" />
+      <img src="https://github.com/user-attachments/assets/ad86e669-acda-48c6-a316-7c347edd05a2" width="250" alt="Classic Style" />
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/cb08a9c0-6f4c-4d56-8b67-9cc4295617cf" width="250" alt="Full Splits Info" />
+      <img src="https://github.com/user-attachments/assets/cb08a9c0-6f4c-4d56-8b67-9cc4295617cf" width="250" alt="Full Splits" />
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="Main Split Deltas" />
+      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="Main Deltas" />
     </td>
   </tr>
   <tr>
@@ -140,7 +140,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Split Times
 
-The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout - main split deltas.lsl` and similar layouts. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
+The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout - main deltas.lsl` and similar layouts. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
 
 - Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
 - Kino der Toten 50 (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
