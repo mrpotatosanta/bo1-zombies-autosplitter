@@ -65,10 +65,7 @@ onSplit { vars.step = (2 + vars.offset); } // Loop back to Step 2 (Normal) or St
 
 reset { return current.ticks < old.ticks; } // Reset if ticks dropped
 
-onReset {
-    vars.offset = 0;
-    vars.step = 0;
-}
+onReset { vars.step = 0; }
 
 // Normal Flow
 //
