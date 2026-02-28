@@ -7,12 +7,12 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 # Download
 
 > [!WARNING]
-> In rare cases, the `roundchange` memory value doesn't update on the first map load, which means splits won't trigger.
+> Sometimes, on the first map load, the `roundchange` memory value doesn't update at all, which means splits won't trigger.
 >
-> **"Fast Restart"** after loading to make sure everything works.
+> A **"Fast Restart"** after loading into a map will make sure everything works.
 
 > [!TIP]
-> **"Fast Restart"** also standardizes the round speedrun start, where player gains control at ~3.4s.
+> **"Fast Restart"** also standardizes the starting point for round speedruns, with player control at ~3.4s.
 
 ---
 
