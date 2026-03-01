@@ -2,22 +2,22 @@
 
 state("BlackOps") {
     int ticks : 0x1679870;
-    byte roundchange : 0x165695D;
-    int map : 0x2B67B6C;
+    bool roundchange : 0x165695D;
+    byte map : 0x2B67B6C;
     float x : 0x1679710;
 }
 
 state("BGamerT5") {
     int ticks : 0x1679870;
-    byte roundchange : 0x165695D;
-    int map : 0x2B67B6C;
+    bool roundchange : 0x165695D;
+    byte map : 0x2B67B6C;
     float x : 0x1679710;
 }
 
 state("plutonium-bootstrapper-win32") {
     int ticks : 0x1679870;
-    byte roundchange : 0x165695D;
-    int map : 0x2B67B6C;
+    bool roundchange : 0x165695D;
+    byte map : 0x2B67B6C;
     float x : 0x1679710;
 }
 
@@ -34,7 +34,7 @@ init {
     vars.offset = (current.map == 163) ? 2 : 0;
     vars.step = (current.ticks <= 0)
         ? 0
-        : (current.roundchange == 0 ? 2 + vars.offset : 3 + vars.offset);
+        : (!current.roundchange ? 2 + vars.offset : 3 + vars.offset);
 }
 
 start { return current.ticks > 0; }
@@ -71,37 +71,39 @@ onReset { vars.step = 0; }
 //
 //   Step | State                           | Roundchange | Ticks | Duration |
 // ---------------------------------------------------------------------------
-//     0  | Load Screen / Pre Round Display |      0      |  0/+  |  <20s    | Reset
-//     1  | Main Menu / Round 1 Display     |    255      |   +   |  ~1s     | Check Map, Set Offset
+//     0  | Load Screen / Pre Round Display |    False    |  0/+  |  <20s    | Reset
+//     1  | Main Menu / Round 1 Display     |    True     |   +   |  ~1s     | Check Map, Set Offset
 // ---------------------------------------------------------------------------
-//     2  | Round 1 Start                   |      0      |   +   |          |
-//     3  | Round 1 End                     |    255      |   +   |  ~8s     |
-//     4  | Round Transition                |      0      |   +   |  ~2.5s   |
-//     5  | Round 2 Display                 |    255      |   +   |  ~2s     |
+//     2  | Round 1 Start                   |    False    |   +   |          |
+//     3  | Round 1 End                     |    True     |   +   |  ~8s     |
+//     4  | Round Transition                |    False    |   +   |  ~2.5s   |
+//     5  | Round 2 Display                 |    True     |   +   |  ~2s     |
 // ---------------------------------------------------------------------------
-//     6  | Round 2 Start                   |      0      |   +   |          | Split, Loop for Round N -> Round N+1
+//     6  | Round 2 Start                   |    False    |   +   |          | Split, Loop for Round N -> Round N+1
 
 
 // Moon Flow
 //
 //   Step | State                           | Roundchange | Ticks | Duration |
 // ---------------------------------------------------------------------------
-//     0  | Load Screen / No Man's Land     |      0      |  0/+  |  >20s    | Reset
-//     1  | Main Menu / Teleport            |    255      |   +   |  ~8s     | Check Map, Set Offset
-//     2  | Pre Round Display               |      0      |   +   |  ~2.5s   |
-//     3  | Round 1 Display                 |    255      |   +   |  ~2s     |
+//     0  | Load Screen / No Man's Land     |    False    |  0/+  |  >20s    | Reset
+//     1  | Main Menu / Teleport            |    True     |   +   |  ~8s     | Check Map, Set Offset
+//     2  | Pre Round Display               |    False    |   +   |  ~2.5s   |
+//     3  | Round 1 Display                 |    True     |   +   |  ~2s     |
 // ---------------------------------------------------------------------------
-//     4  | Round 1 Start                   |      0      |   +   |          |
-//     5  | Round 1 End                     |    255      |   +   |  ~8s     |
-//     6  | Round Transition                |      0      |   +   |  ~2.5s   |
-//     7  | Round 2 Display                 |    255      |   +   |  ~2s     |
+//     4  | Round 1 Start                   |    False    |   +   |          |
+//     5  | Round 1 End                     |    True     |   +   |  ~8s     |
+//     6  | Round Transition                |    False    |   +   |  ~2.5s   |
+//     7  | Round 2 Display                 |    True     |   +   |  ~2s     |
 // ---------------------------------------------------------------------------
-//     8  | Round 2 Start                   |      0      |   +   |          | Split, Loop for Round N -> Round N+1
+//     8  | Round 2 Start                   |    False    |   +   |          | Split, Loop for Round N -> Round N+1
 
 
 // Map IDs
 //
+// Load Screen       |   0
 // Main Menu         |   5
+// -----------------------
 // Kino der Toten    |  37
 // Five              |  77
 // Dead Ops Arcade   |  35
