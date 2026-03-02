@@ -7,9 +7,11 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 # Download
 
 > [!WARNING]
-> Sometimes, on the first map load, the `roundchange` memory value doesn't update at all, which means splits won't trigger.
+> Sometimes, on the first map load, the `roundchange` memory value fails to initialize. When this happens, splits won't trigger because the value is unresponsive.
 >
-> A **"Fast Restart"** after loading into a map will make sure everything works.
+> This is a **limitation of the Black Ops engine** skipping its initial memory write, not a bug with the script or LiveSplit.
+>
+> **"Fast Restart"** after loading into a map will force the engine to initialize correctly.
 
 > [!TIP]
 > **"Fast Restart"** also standardizes the starting point for round speedruns, with player control at ~3.4s.
