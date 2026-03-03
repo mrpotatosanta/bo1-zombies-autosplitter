@@ -4,14 +4,17 @@ An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high rou
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-<div id="download"></div>
-
-# [Click Here to Download v3.7 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.7/bo1-zombies-autosplitter-3.7.zip)
+# Download
 
 > [!WARNING]
-> In rare cases, the round-splitting logic may fail to initialize on the first map load.
+> Sometimes, on the first map load, the `roundchange` memory value fails to initialize. When this happens, splits won't trigger because the value is unresponsive.
 >
-> **"Fast Restart" once after loading to guarantee functionality.**
+> This is a **limitation of the Black Ops engine** skipping its initial memory write, not a bug with the script or LiveSplit.
+>
+> **"Fast Restart"** after loading into a map will force the engine to initialize correctly.
+
+> [!TIP]
+> **"Fast Restart"** also standardizes the starting point for round speedruns, with player control at ~3.4s.
 
 ---
 
@@ -34,11 +37,9 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 - **Round Timer** - Splits automatically at the start of each round
 
-- **Split Comparison** - Includes world record splits for automated pace tracking in real time
+- **Split Comparison** - Includes world record splits and supports custom comparisons for real‑time pace tracking
 
 - **Non-Intrusive** - Operates externally by reading static memory offsets; never injects code or modifies game files
-
-- **Customizable** - Lets you personalize your timer layout
 
 ---
 
@@ -46,19 +47,19 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 <table>
   <tr>
-    <th width="250" align="center">Classic WSplit Style</th>
-    <th width="250" align="center">Full Splits Info</th>
-    <th width="250" align="center">Main Split Deltas</th>
+    <th width="250" align="center">Classic</th>
+    <th width="250" align="center">Full Splits</th>
+    <th width="250" align="center">Main Deltas</th>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/ad86e669-acda-48c6-a316-7c347edd05a2" width="250" alt="Classic WSplit Style" />
+      <img src="https://github.com/user-attachments/assets/ad86e669-acda-48c6-a316-7c347edd05a2" width="250" alt="Classic Style" />
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/cb08a9c0-6f4c-4d56-8b67-9cc4295617cf" width="250" alt="Full Splits Info" />
+      <img src="https://github.com/user-attachments/assets/cb08a9c0-6f4c-4d56-8b67-9cc4295617cf" width="250" alt="Full Splits" />
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="Main Split Deltas" />
+      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="Main Deltas" />
     </td>
   </tr>
   <tr>
@@ -93,7 +94,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 1. Download [LiveSplit](https://livesplit.org/)
 2. Download the [Digital 7 Font](https://www.dafont.com/digital-7.font) *(optional but recommended)*:
    - Right-click `digital-7 (mono).ttf` > Install
-3. Download the [Latest Release](#download)
+3. Download the [Latest Release](#livesplit-autosplitter-for-call-of-duty-black-ops-zombies)
 4. Open LiveSplit
 5. Load your splits:
    - Right-click > Open Splits > From File... > `bo1 subsplits.lss`
@@ -112,29 +113,34 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - Click OK
    - Right-click > Save Splits
 
+> [!IMPORTANT]
+> **Unbind LiveSplit hotkeys:** Right-click > Settings
+>
+> Since the autosplitter fully controls the timer, pressing any hotkey could desync your splits. Unbinding them prevents accidental inputs from affecting the timer.
+
 ---
 
 ## Usage
 
-- **Launch Order** - Open LiveSplit before loading into a map.
+- **Launch Order** - Open LiveSplit *before* loading into a map.
 
 - **Restoring Configuration** - LiveSplit should automatically remember your previous setup on next launch.
 
-  - If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the necessary autosplitter component path.
+  - If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the autosplitter path.
 
 - **Admin Rights** - If your game runs as admin, LiveSplit must also run as admin.
 
   - To always run as admin: Right-click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator."
 
-- **Layout Customization** - Customize fonts, colors, components, and other settings via the Layout Settings.
+- **Layout Customization** - Everything is customizable via the Layout Settings. *(fonts, colors, sizing, components, information, etc.)*.
 
-  - You can even add other useful components, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2), to your layout.
+- **Extra Components** - You can add additional components to your layout, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2).
 
 ---
 
 ## Split Times
 
-The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout - main split deltas.lsl` and similar layouts. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
+The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout - main deltas.lsl` and similar layouts. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
 
 - Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
 - Kino der Toten 50 (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
