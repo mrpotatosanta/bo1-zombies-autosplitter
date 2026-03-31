@@ -145,7 +145,7 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 - Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
 - Kino der Toten 50 (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
 - Five 244 - [Umesco](https://www.youtube.com/watch?v=MvTyAw3vkwk)
-- Five 241 - [Jermaine](https://www.youtube.com/watch?v=pkglPf03vpY)
+- Five 244 - [Jermaine](https://www.twitch.tv/5iveking)
 - Five 50 (1:06:19) - [Umesco](https://www.youtube.com/watch?v=4kJ0KP_ZlcM)
 - Five 50 (1:06:49) - [Jermaine](https://www.youtube.com/watch?v=x09yOfyclus)
 - Ascension 244 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
