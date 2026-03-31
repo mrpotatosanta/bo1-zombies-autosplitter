@@ -4,7 +4,7 @@ An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high rou
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.8 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.8/bo1-zombies-autosplitter-3.8.zip)
+# Download
 
 > [!WARNING]
 > Sometimes, on the first map load, the `roundchange` memory value fails to initialize. When this happens, splits won't trigger because the value is unresponsive.
