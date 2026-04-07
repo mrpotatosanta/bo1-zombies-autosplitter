@@ -112,11 +112,14 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
    - Check "Use Layout" box > Browse... > `bo1 layout.lsl`
    - Click OK
    - Right-click > Save Splits
+9. Disable hotkeys:
+   - Right-click > Settings
+   - Click each hotkey box > Press Escape to clear the bind
+   - Repeat for every hotkey until all show "None"
+   - Uncheck "Global Hotkeys"
+   - Click OK
 
-> [!IMPORTANT]
-> **Unbind LiveSplit hotkeys:** Right-click > Settings
->
-> Since the autosplitter fully controls the timer, pressing any hotkey could desync your splits. Unbinding them prevents accidental inputs from affecting the timer.
+*Note: Since the autosplitter fully controls the timer, any active hotkeys may break the splitting logic. Disabling them prevents unintended inputs from affecting the timer.*
 
 ---
 
