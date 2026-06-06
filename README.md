@@ -147,9 +147,9 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 
 - Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
 - Kino der Toten 50 (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
-- Five 244 - [Umesco](https://www.youtube.com/watch?v=MvTyAw3vkwk)
+- Five 244* - [Umesco](https://www.youtube.com/watch?v=MvTyAw3vkwk)
 - Five 244 - [Jermaine](https://www.youtube.com/playlist?list=PLh4Bhrf273ouSae3aBDWq-V5HLZYB27dJ)
-- Five 50 (1:06:19) - [Umesco](https://www.youtube.com/watch?v=4kJ0KP_ZlcM)
+- Five 50 (1:06:19)* - [Umesco](https://www.youtube.com/watch?v=4kJ0KP_ZlcM)
 - Five 50 (1:06:49) - [Jermaine](https://www.youtube.com/watch?v=x09yOfyclus)
 - Ascension 244 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
 - Ascension 240 - [Zomba](https://www.youtube.com/playlist?list=PLiREKVZDAaDoiHeV7rsjSGXk9ArPw-XGJ)
@@ -161,7 +161,7 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 - Shangri-La 206 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5CXcZIaW_wVe6-uDUohwAf)
 - Shangri-La 201 - [Knolls](https://www.youtube.com/watch?v=qHJzU1996lU)
 - Shangri-La 50 (1:10:45) - [Furret](https://www.youtube.com/watch?v=UktKeTPdkxM&t=1453s)
-- Moon 253 - [Levigh](https://www.youtube.com/playlist?list=PL3XvGSC3y2M3g91ELCGlm5z7GJJIWzuwU)
+- Moon 253* - [Levigh](https://www.youtube.com/playlist?list=PL3XvGSC3y2M3g91ELCGlm5z7GJJIWzuwU)
 - Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
 - Moon 50 (1:05:55) - [NeoTellos](https://www.youtube.com/watch?v=5kAyf3M6Lmg)
 - Nacht der Untoten 150 - [hYPE](https://www.youtube.com/watch?v=4aRSc2i9xF0)
@@ -170,11 +170,13 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 - Verruckt 208 - [Nestor53](https://www.youtube.com/watch?v=2AxJcFAZ_Wo)
 - Verruckt 50 (1:17:07) - [Trikkiez](https://www.twitch.tv/videos/2140825512?t=00h04m20s)
 - Verruckt 50 (1:18:31) - [Slewya](https://www.youtube.com/watch?v=2DgmaTfb0sU&t=48s)
-- Shi No Numa 237 - [Mango](https://www.youtube.com/playlist?list=PLC1OcLOAJdHBD_w274LCmOF4iCEUreDJX)
+- Shi No Numa 237* - [Mango](https://www.youtube.com/playlist?list=PLC1OcLOAJdHBD_w274LCmOF4iCEUreDJX)
 - Shi No Numa 235 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf91mjmsok45EaoxITjS2ahD)
 - Shi No Numa 50 (1:15:38) - [Fazor](https://www.twitch.tv/videos/2654809159?t=03h15m30s)
 - Der Riese 250 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6417HfAeNQnSYeXPy6eaE8)
 - Der Riese 50 (58:41) - [itzxil](https://www.youtube.com/watch?v=GShKDZy67pc)
+
+**Included for comparison*
 
 > [!TIP]
 > **To change the comparison:** Right-click > Compare Against
