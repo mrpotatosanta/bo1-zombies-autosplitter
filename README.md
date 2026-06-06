@@ -153,7 +153,7 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 - Five 50 (1:06:49) - [Jermaine](https://www.youtube.com/watch?v=x09yOfyclus)
 - Ascension 244 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
 - Ascension 240 - [Zomba](https://www.youtube.com/playlist?list=PLiREKVZDAaDoiHeV7rsjSGXk9ArPw-XGJ)
-- Ascension 50 (1:00:13) - [oscar_otter1](https://www.youtube.com/watch?v=gdYLi5FbkXI)
+- Ascension 50 (59:20) - [oscar_otter1](https://www.youtube.com/watch?v=vcIfNzEBbQs)
 - Call of the Dead 105 - [Prompt](https://www.youtube.com/watch?v=FvTgTl8p990)
 - Call of the Dead 94 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf_jekCCzJ-iGNaF3Sp1isoo)
 - Call of the Dead 50 (1:21:57) - [Prompt](https://www.twitch.tv/videos/2663124108?t=00h37m44s)
