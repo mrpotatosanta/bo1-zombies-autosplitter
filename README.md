@@ -145,6 +145,9 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout - main deltas.lsl` and similar layouts. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
 
+<details>
+  <summary><strong>Click to expand list</strong></summary>
+  
 - Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
 - Kino der Toten 50 (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
 - Kino der Toten 50 (1:12:07) - [Fazor](https://www.twitch.tv/videos/2715218143)
@@ -189,12 +192,14 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 
 **Included for comparison*
 
+*Note: For comparison purposes, these use the unadjusted on‑screen times rather than ZWR‑adjusted times. Most automatic timers (including this one) start slightly before the official ZWR start point, so adjusted leaderboard times may differ by a few seconds.*
+
+</details>
+
 > [!TIP]
 > **To change the comparison:** Right-click > Compare Against
 >
-> **To add a new reference:** Right-click > Edit Splits... > Add Comparison > Input times under Game Time > Save Splits
-
-*Note: For comparison purposes, these use the unadjusted on‑screen times rather than ZWR‑adjusted times. Most automatic timers (including this one) start slightly before the official ZWR start point, so adjusted leaderboard times may differ by a few seconds.*
+> **To add a new comparison:** Right-click > Edit Splits... > Add Comparison > Input times under Game Time > Save Splits
 
 ---
 
