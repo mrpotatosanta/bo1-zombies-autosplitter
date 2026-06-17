@@ -164,7 +164,7 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 - Call of the Dead 105 - [Prompt](https://www.youtube.com/watch?v=FvTgTl8p990)
 - Call of the Dead 94 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf_jekCCzJ-iGNaF3Sp1isoo)
 - Call of the Dead 50 (1:21:57) - [Prompt](https://www.twitch.tv/videos/2663124108?t=00h37m44s)
-- Call of the Dead 30 (33:48) - [Mystic](https://www.youtube.com/watch?v=I3GamjavSn4)
+- Call of the Dead 30 (33:48) - [Mystic](https://www.youtube.com/watch?v=I3GamjavSn4&t=524s)
 - Shangri-La 208 - [HGMRICK](https://www.youtube.com/watch?v=zxe3-SUz6-8)
 - Shangri-La 206 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5CXcZIaW_wVe6-uDUohwAf)
 - Shangri-La 201 - [Knolls](https://www.youtube.com/watch?v=qHJzU1996lU)
