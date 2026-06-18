@@ -76,7 +76,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:01:17</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:01:09</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:00:49</GameTime>
@@ -162,7 +164,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:01:47</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:01:44</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:01:36</GameTime>
@@ -248,7 +252,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:02:27</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:02:31</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:02:44</GameTime>
@@ -334,7 +340,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:03:19</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:03:22</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:04:01</GameTime>
@@ -420,7 +428,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:04:33</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:04:28</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:05:07</GameTime>
@@ -506,7 +516,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:06:13</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:06:09</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:06:11</GameTime>
@@ -592,7 +604,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:07:11</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:07:10</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:07:31</GameTime>
@@ -678,7 +692,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:08:16</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:08:11</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:08:43</GameTime>
@@ -788,7 +804,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:09:55</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:09:47</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE">
           <GameTime>00:11:24</GameTime>
         </SplitTime>
@@ -886,7 +904,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:10:58</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:10:47</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:11:06</GameTime>
@@ -972,7 +992,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:12:11</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:11:47</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:12:22</GameTime>
@@ -1058,7 +1080,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:13:48</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:13:22</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:13:41</GameTime>
@@ -1144,7 +1168,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:14:45</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:14:16</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:15:07</GameTime>
@@ -1230,7 +1256,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:15:39</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:15:04</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:16:24</GameTime>
@@ -1316,7 +1344,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:17:29</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:15:59</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:17:41</GameTime>
@@ -1402,7 +1432,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:18:19</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:16:54</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:19:03</GameTime>
@@ -1488,7 +1520,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:19:10</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:17:55</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:20:27</GameTime>
@@ -1574,7 +1608,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:20:00</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:18:52</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:21:58</GameTime>
@@ -1684,7 +1720,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:20:55</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:19:45</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE">
           <GameTime>00:25:24</GameTime>
         </SplitTime>
@@ -1782,7 +1820,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:21:50</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:20:42</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:24:55</GameTime>
@@ -1868,7 +1908,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:23:27</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:21:38</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:26:32</GameTime>
@@ -1954,7 +1996,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:24:29</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:22:38</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:28:10</GameTime>
@@ -2040,7 +2084,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:25:20</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:23:41</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:29:41</GameTime>
@@ -2126,7 +2172,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:26:14</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:24:52</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:31:21</GameTime>
@@ -2212,7 +2260,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:27:11</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:25:59</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:33:13</GameTime>
@@ -2298,7 +2348,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:28:10</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:27:04</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:35:10</GameTime>
@@ -2384,7 +2436,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:29:18</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:28:12</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:37:14</GameTime>
@@ -2470,7 +2524,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:30:26</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:29:19</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz">
           <GameTime>00:39:12</GameTime>
@@ -2580,7 +2636,9 @@
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos">
           <GameTime>00:31:34</GameTime>
         </SplitTime>
-        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos">
+          <GameTime>00:30:28</GameTime>
+        </SplitTime>
         <SplitTime name="Nacht der Untoten 150 - hYPE">
           <GameTime>00:47:16</GameTime>
         </SplitTime>
