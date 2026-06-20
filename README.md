@@ -7,19 +7,16 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 # Download
 
 > [!WARNING]
-> Sometimes, on the first map load, the `roundchange` memory value fails to initialize. When this happens, splits won't trigger because the value is unresponsive.
+> A **"Fast Restart"** or **"Restart Level"** is required immediately after a map load.
 >
-> This is a **limitation of the Black Ops engine** skipping its initial memory write, not a bug with the script or LiveSplit.
+> The Black Ops engine often skips its initial memory write to the `roundchange` HUD flag, preventing splits from triggering.
 >
-> **"Fast Restart"** after loading into a map will force the engine to initialize correctly.
-
-> [!TIP]
-> **"Fast Restart"** also standardizes the starting point for round speedruns, with player control at ~3.4s.
+> Restarting forces proper initialization and standardizes player control timing at ~3.4s.
 
 ---
 
 - [Features](#features)
-- [Layout Previews](#layout-previews)
+- [Layout Preview](#layout-preview)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Split Times](#split-times)
@@ -29,11 +26,11 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Features
 
-- **Full Automation** - Provides automatic START, PAUSE, SPLIT, and RESET for all maps, including Moon
+- **Timer Control** - Automatically handles START, PAUSE, SPLIT, and RESET for all maps, including Moon
 
-- **Compatibility** - Works with T5 (Black Ops 1) on Steam, BGamer, and Plutonium
+- **Compatibility** - Supports T5 (Black Ops 1) on Steam, BGamer, and Plutonium
 
-- **Game Timer** - Uses in-game ticks for precise timing (identical to WSplit)
+- **Game Timer** - Uses in-game ticks for precise timing
 
 - **Round Timer** - Splits automatically at the start of each round
 
@@ -41,48 +38,25 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 - **Non-Intrusive** - Operates externally by reading static memory offsets; never injects code or modifies game files
 
+> [!NOTE]
+> For a multi-functional version that includes trap timers, trackers, and a P2P Timer Sync LiveSplit component, see [oJumpy's Enhanced Fork](https://github.com/oJumpy/BO1-T5-Zombies-AutoTimers).
+
 ---
 
-## Layout Previews
+## Layout Preview
 
 <table>
   <tr>
-    <th width="250" align="center">Classic</th>
-    <th width="250" align="center">Full Splits</th>
-    <th width="250" align="center">Main Deltas</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/ad86e669-acda-48c6-a316-7c347edd05a2" width="250" alt="Classic Style" />
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/cb08a9c0-6f4c-4d56-8b67-9cc4295617cf" width="250" alt="Full Splits" />
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="Main Deltas" />
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <ul>
-        <li>Minimalist timer-only layout</li>
-        <li>Styled to mimic the original WSplit colors</li>
-      </ul>
+    <td width="260" valign="top">
+      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="bo1 layout preview" />
     </td>
     <td valign="top">
+      <p>The default <code>bo1 layout.lsl</code> displays main splits every 10 rounds (plus round 163) and compares current run against reference splits.</p>
       <ul>
-        <li>Displays all round splits</li>
-        <li>Column 1: Total game time (Split time)</li>
-        <li>Column 2: Round time (Segment time)</li>
+        <li>Column 1: Time delta (+/-) vs current comparison</li>
+        <li>Column 2: Split times (white for reference, yellow for current run)</li>
       </ul>
-    </td>
-    <td valign="top">
-      <ul>
-        <li>Displays main splits every 10 rounds, plus round 163</li>
-        <li>Compares current run against reference splits</li>
-        <li>Column 1: Time delta (+/-) vs reference</li>
-        <li>Column 2: Split times: white for reference, yellow for current run</li>
-      </ul>
+      <p>See <a href="#split-times">Split Times</a> for a complete list of included splits to compare against.</p>
     </td>
   </tr>
 </table>
@@ -99,7 +73,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 5. Load your splits:
    - Right-click > Open Splits > From File... > `bo1 subsplits.lss`
 6. Load your layout:
-   - Right-click > Open Layout > From File... > `bo1 layout.lsl` *(See [Layout Previews](#layout-previews) for more info)*
+   - Right-click > Open Layout > From File... > `bo1 layout.lsl`
 7. Configure the autosplitter:
    - Right-click > Edit Layout...
    - Double-click Scriptable Auto Splitter
@@ -125,29 +99,21 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Usage
 
-- **Launch Order** - Open LiveSplit *before* loading into a map.
-
-- **Restoring Configuration** - LiveSplit should automatically remember your previous setup on next launch.
-
-  - If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the autosplitter path.
+- **Launch Order** - Open LiveSplit *before* launching the game or at least *before* loading into a map.
 
 - **Admin Rights** - If your game runs as admin, LiveSplit must also run as admin.
 
   - To always run as admin: Right-click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator."
 
-- **Layout Customization** - Everything is customizable via the Layout Settings. *(fonts, colors, sizing, components, information, etc.)*.
-
-- **Extra Components** - You can add additional components to your layout, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2).
-
 ---
 
 ## Split Times
 
-The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout - main deltas.lsl` and similar layouts. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
+The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout.lsl`. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
 
 <details>
   <summary><strong>Click to expand list</strong></summary>
-  
+
 - Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
 - Kino der Toten 50 (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
 - Kino der Toten 50 (1:12:07) - [Fazor](https://www.twitch.tv/videos/2715218143)
@@ -190,7 +156,7 @@ The included `bo1 subsplits.lss` file provides split times from the following ga
 - Der Riese 50 (58:41) - [itzxil](https://www.youtube.com/watch?v=GShKDZy67pc)
 - Der Riese 30 (27:57) - [oscar_otter1](https://www.twitch.tv/videos/2443848662)
 
-**Included for comparison*
+*\*Included for comparison*
 
 *Note: For comparison purposes, these use the unadjusted on‑screen times rather than ZWR‑adjusted times. Most automatic timers (including this one) start slightly before the official ZWR start point, so adjusted leaderboard times may differ by a few seconds.*
 
