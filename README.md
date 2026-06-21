@@ -4,36 +4,24 @@ An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high rou
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.9 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.9/bo1-zombies-autosplitter-3.9.zip)
+# Download
 
 > [!WARNING]
-> Sometimes, on the first map load, the `roundchange` memory value fails to initialize. When this happens, splits won't trigger because the value is unresponsive.
+> A **"Fast Restart"** or **"Restart Level"** is required immediately after a map load.
 >
-> This is a **limitation of the Black Ops engine** skipping its initial memory write, not a bug with the script or LiveSplit.
+> The Black Ops engine often skips its initial memory write to the `roundchange` HUD flag, preventing splits from triggering.
 >
-> **"Fast Restart"** after loading into a map will force the engine to initialize correctly.
-
-> [!TIP]
-> **"Fast Restart"** also standardizes the starting point for round speedruns, with player control at ~3.4s.
-
----
-
-- [Features](#features)
-- [Layout Previews](#layout-previews)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Split Times](#split-times)
-- [Credits](#credits)
+> Restarting forces proper initialization and standardizes player control timing at ~3.4s.
 
 ---
 
 ## Features
 
-- **Full Automation** - Provides automatic START, PAUSE, SPLIT, and RESET for all maps, including Moon
+- **Timer Control** - Automatically handles START, PAUSE, SPLIT, and RESET for all maps, including Moon
 
-- **Compatibility** - Works with T5 (Black Ops 1) on Steam, BGamer, and Plutonium
+- **Compatibility** - Supports T5 (Black Ops 1) on Steam, BGamer, and Plutonium
 
-- **Game Timer** - Uses in-game ticks for precise timing (identical to WSplit)
+- **Game Timer** - Uses in-game ticks for precise timing
 
 - **Round Timer** - Splits automatically at the start of each round
 
@@ -41,48 +29,25 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 - **Non-Intrusive** - Operates externally by reading static memory offsets; never injects code or modifies game files
 
+> [!NOTE]
+> For a multi-functional version that includes trap timers, trackers, and a P2P Timer Sync LiveSplit component, see [oJumpy's Enhanced Fork](https://github.com/oJumpy/BO1-T5-Zombies-AutoTimers).
+
 ---
 
-## Layout Previews
+## Layout Preview
 
 <table>
   <tr>
-    <th width="250" align="center">Classic</th>
-    <th width="250" align="center">Full Splits</th>
-    <th width="250" align="center">Main Deltas</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/ad86e669-acda-48c6-a316-7c347edd05a2" width="250" alt="Classic Style" />
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/cb08a9c0-6f4c-4d56-8b67-9cc4295617cf" width="250" alt="Full Splits" />
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="Main Deltas" />
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <ul>
-        <li>Minimalist timer-only layout</li>
-        <li>Styled to mimic the original WSplit colors</li>
-      </ul>
+    <td width="260" valign="top">
+      <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="bo1 layout preview" />
     </td>
     <td valign="top">
+      <p>The default <code>bo1 layout.lsl</code> displays main splits every 10 rounds (plus round 163) and compares current run against reference splits.</p>
       <ul>
-        <li>Displays all round splits</li>
-        <li>Column 1: Total game time (Split time)</li>
-        <li>Column 2: Round time (Segment time)</li>
+        <li>Column 1: Time delta (+/-) vs current comparison</li>
+        <li>Column 2: Split times (white for reference, yellow for current run)</li>
       </ul>
-    </td>
-    <td valign="top">
-      <ul>
-        <li>Displays main splits every 10 rounds, plus round 163</li>
-        <li>Compares current run against reference splits</li>
-        <li>Column 1: Time delta (+/-) vs reference</li>
-        <li>Column 2: Split times: white for reference, yellow for current run</li>
-      </ul>
+      <p>See <a href="#split-times">Split Times</a> for a complete list of included splits to compare against.</p>
     </td>
   </tr>
 </table>
@@ -99,7 +64,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 5. Load your splits:
    - Right-click > Open Splits > From File... > `bo1 subsplits.lss`
 6. Load your layout:
-   - Right-click > Open Layout > From File... > `bo1 layout.lsl` *(See [Layout Previews](#layout-previews) for more info)*
+   - Right-click > Open Layout > From File... > `bo1 layout.lsl`
 7. Configure the autosplitter:
    - Right-click > Edit Layout...
    - Double-click Scriptable Auto Splitter
@@ -125,62 +90,73 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Usage
 
-- **Launch Order** - Open LiveSplit *before* loading into a map.
-
-- **Restoring Configuration** - LiveSplit should automatically remember your previous setup on next launch.
-
-  - If it doesn't, simply open `bo1 subsplits.lss` to instantly restore your splits, linked layout, and the autosplitter path.
+- **Launch Order** - Open LiveSplit *before* launching the game or at least *before* loading into a map.
 
 - **Admin Rights** - If your game runs as admin, LiveSplit must also run as admin.
 
   - To always run as admin: Right-click `LiveSplit.exe` > Properties > Compatibility tab > Check "Run this program as an administrator."
 
-- **Layout Customization** - Everything is customizable via the Layout Settings. *(fonts, colors, sizing, components, information, etc.)*.
-
-- **Extra Components** - You can add additional components to your layout, such as [Strett's Velocity Graph](https://github.com/strett/LiveSplit-Velocity-Graph-For-BO1-BO2-WAW-MW2).
-
 ---
 
 ## Split Times
 
-The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout - main deltas.lsl` and similar layouts. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
+The included `bo1 subsplits.lss` file provides split times from the following speedruns and high round games. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
+
+<details>
+  <summary><strong>Click to expand list</strong></summary>
 
 - Kino der Toten 240 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB7SkXt0w49eMK9_onTjo54G)
 - Kino der Toten 50 (1:03:19) - [oscar_otter1](https://www.youtube.com/watch?v=Y3TCJs5eWew)
-- Five 244 - [Umesco](https://www.youtube.com/watch?v=MvTyAw3vkwk)
-- Five 244 - [Jermaine](https://www.twitch.tv/5iveking)
-- Five 50 (1:06:19) - [Umesco](https://www.youtube.com/watch?v=4kJ0KP_ZlcM)
+- Kino der Toten 50 (1:12:07) - [Fazor](https://www.twitch.tv/videos/2715218143)
+- Kino der Toten 30 (28:36) - [oscar_otter1](https://www.youtube.com/watch?v=9aKfoaijW7w)
+- Five 244* - [Umesco](https://www.youtube.com/watch?v=MvTyAw3vkwk)
+- Five 244 - [Jermaine](https://www.youtube.com/playlist?list=PLh4Bhrf273ouSae3aBDWq-V5HLZYB27dJ)
+- Five 50 (1:06:19)* - [Umesco](https://www.youtube.com/watch?v=4kJ0KP_ZlcM)
 - Five 50 (1:06:49) - [Jermaine](https://www.youtube.com/watch?v=x09yOfyclus)
+- Five 30 (26:39) - [aolxr](https://www.youtube.com/watch?v=pu7nlKjwkTs)
 - Ascension 244 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
 - Ascension 240 - [Zomba](https://www.youtube.com/playlist?list=PLiREKVZDAaDoiHeV7rsjSGXk9ArPw-XGJ)
-- Ascension 50 (1:00:13) - [oscar_otter1](https://www.youtube.com/watch?v=gdYLi5FbkXI)
+- Ascension 50 (59:20) - [oscar_otter1](https://www.youtube.com/watch?v=vcIfNzEBbQs)
+- Ascension 30 (28:22) - [Mystic](https://www.youtube.com/watch?v=MBGXFxI6RZ4)
 - Call of the Dead 105 - [Prompt](https://www.youtube.com/watch?v=FvTgTl8p990)
 - Call of the Dead 94 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf_jekCCzJ-iGNaF3Sp1isoo)
 - Call of the Dead 50 (1:21:57) - [Prompt](https://www.twitch.tv/videos/2663124108?t=00h37m44s)
+- Call of the Dead 30 (33:48) - [Mystic](https://www.youtube.com/watch?v=I3GamjavSn4&t=524s)
 - Shangri-La 208 - [HGMRICK](https://www.youtube.com/watch?v=zxe3-SUz6-8)
 - Shangri-La 206 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5CXcZIaW_wVe6-uDUohwAf)
 - Shangri-La 201 - [Knolls](https://www.youtube.com/watch?v=qHJzU1996lU)
 - Shangri-La 50 (1:10:45) - [Furret](https://www.youtube.com/watch?v=UktKeTPdkxM&t=1453s)
+- Shangri-La 30 (32:24) - [oscar_otter1](https://www.youtube.com/watch?v=-tfZYWvGFRc&t=10113s)
+- Moon 253* - [Levigh](https://www.youtube.com/playlist?list=PL3XvGSC3y2M3g91ELCGlm5z7GJJIWzuwU)
 - Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
 - Moon 50 (1:05:55) - [NeoTellos](https://www.youtube.com/watch?v=5kAyf3M6Lmg)
+- Moon 30 (30:25) - [NeoTellos](https://www.youtube.com/watch?v=EjTL8dqfJ6I)
 - Nacht der Untoten 150 - [hYPE](https://www.youtube.com/watch?v=4aRSc2i9xF0)
 - Nacht der Untoten 50 (2:16:00) - [Cruppz](https://www.youtube.com/watch?v=94msvOb_L44)
+- Nacht der Untoten 30 (40:54) - [Cruppz](https://www.youtube.com/watch?v=2SGACO-KWA4)
 - Verruckt 227 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6-qA8un__RVWJEjW7V8vcq)
 - Verruckt 208 - [Nestor53](https://www.youtube.com/watch?v=2AxJcFAZ_Wo)
 - Verruckt 50 (1:17:07) - [Trikkiez](https://www.twitch.tv/videos/2140825512?t=00h04m20s)
 - Verruckt 50 (1:18:31) - [Slewya](https://www.youtube.com/watch?v=2DgmaTfb0sU&t=48s)
-- Shi No Numa 237 - [Mango](https://www.youtube.com/playlist?list=PLC1OcLOAJdHBD_w274LCmOF4iCEUreDJX)
+- Verruckt 30 (30:07) - [oscar_otter1](https://www.twitch.tv/videos/2742701326?t=00h02m54s)
+- Shi No Numa 237* - [Mango](https://www.youtube.com/playlist?list=PLC1OcLOAJdHBD_w274LCmOF4iCEUreDJX)
 - Shi No Numa 235 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf91mjmsok45EaoxITjS2ahD)
 - Shi No Numa 50 (1:15:38) - [Fazor](https://www.twitch.tv/videos/2654809159?t=03h15m30s)
+- Shi No Numa 30 (31:06) - [itzxil](https://www.youtube.com/watch?v=J9R9B_0SXKI)
 - Der Riese 250 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6417HfAeNQnSYeXPy6eaE8)
 - Der Riese 50 (58:41) - [itzxil](https://www.youtube.com/watch?v=GShKDZy67pc)
+- Der Riese 30 (27:57) - [oscar_otter1](https://www.twitch.tv/videos/2443848662)
+
+*\*Included for comparison*
+
+*Note: For comparison purposes, these use the unadjusted on‑screen times rather than ZWR‑adjusted times. Most automatic timers (including this one) start slightly before the official ZWR start point, so adjusted leaderboard times may differ by a few seconds.*
+
+</details>
 
 > [!TIP]
 > **To change the comparison:** Right-click > Compare Against
 >
-> **To add a new reference:** Right-click > Edit Splits... > Add Comparison > Input times under Game Time > Save Splits
-
-*Note: For comparison purposes, these use the unadjusted on‑screen times rather than ZWR‑adjusted times. Most automatic timers (including this one) start slightly before the official ZWR start point, so adjusted leaderboard times may differ by a few seconds.*
+> **To add a new comparison:** Right-click > Edit Splits... > Add Comparison > Input times under Game Time > Save Splits
 
 ---
 
