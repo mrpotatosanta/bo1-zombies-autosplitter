@@ -100,7 +100,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Split Times
 
-The included `bo1 subsplits.lss` file provides split times from the following games, intended for comparison use with `bo1 layout.lsl`. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
+The included `bo1 subsplits.lss` file provides split times from the following speedruns and high round games. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
 
 <details>
   <summary><strong>Click to expand list</strong></summary>
