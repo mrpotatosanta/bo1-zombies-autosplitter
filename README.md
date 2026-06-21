@@ -15,15 +15,6 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ---
 
-- [Features](#features)
-- [Layout Preview](#layout-preview)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Split Times](#split-times)
-- [Credits](#credits)
-
----
-
 ## Features
 
 - **Timer Control** - Automatically handles START, PAUSE, SPLIT, and RESET for all maps, including Moon
