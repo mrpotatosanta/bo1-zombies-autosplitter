@@ -4,7 +4,7 @@ An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high rou
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# Download
+# [Click Here to Download v3.10 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.10/bo1-zombies-autosplitter-3.10.zip)
 
 > [!WARNING]
 > A **"Fast Restart"** or **"Restart Level"** is required immediately after a map load.
