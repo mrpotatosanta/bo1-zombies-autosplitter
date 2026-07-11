@@ -3,21 +3,21 @@
 state("BlackOps") {
     int ticks : 0x1679870;
     bool roundchange : 0x165695D;
-    byte map : 0x2B67B6C;
+    string32 map : 0x2162950;
     float x : 0x1679710;
 }
 
 state("BGamerT5") {
     int ticks : 0x1679870;
     bool roundchange : 0x165695D;
-    byte map : 0x2B67B6C;
+    string32 map : 0x2162950;
     float x : 0x1679710;
 }
 
 state("plutonium-bootstrapper-win32") {
     int ticks : 0x1679870;
     bool roundchange : 0x165695D;
-    byte map : 0x2B67B6C;
+    string32 map : 0x2162950;
     float x : 0x1679710;
 }
 
@@ -31,7 +31,7 @@ startup {
 }
 
 init {
-    vars.offset = (current.map == 163) ? 2 : 0;
+    vars.offset = (current.map == "zombie_moon") ? 2 : 0;
     vars.step = (current.ticks <= 0)
         ? 0
         : (!current.roundchange ? 2 + vars.offset : 3 + vars.offset);
@@ -44,7 +44,7 @@ update {
         vars.step++; // Increment on every roundchange flip
 
         if (vars.step == 1) {
-            vars.offset = (current.map == 163) ? 2 : 0; // Set offset
+            vars.offset = (current.map == "zombie_moon") ? 2 : 0; // Check Map, Set Offset
         }
     }
 }
@@ -59,13 +59,18 @@ split {
 
         return true; // Split on Step 6 (Normal) or Step 8 (Moon)
     }
+
+    return false;
 }
 
 onSplit { vars.step = (2 + vars.offset); } // Loop back to Step 2 (Normal) or Step 4 (Moon)
 
 reset { return current.ticks < old.ticks; } // Reset if ticks dropped
 
-onReset { vars.step = 0; }
+onReset {
+    vars.offset = 0;
+    vars.step = 0;
+}
 
 // Normal Flow
 //
@@ -97,21 +102,3 @@ onReset { vars.step = 0; }
 //     7  | Round 2 Display                 |    True     |   +   |  ~2s     |
 // ---------------------------------------------------------------------------
 //     8  | Round 2 Start                   |    False    |   +   |          | Split, Loop for Round N -> Round N+1
-
-
-// Map IDs
-//
-// Load Screen       |   0
-// Main Menu         |   5
-// -----------------------
-// Kino der Toten    |  37
-// Five              |  77
-// Dead Ops Arcade   |  35
-// Ascension         | 189
-// Call of the Dead  |  85
-// Shangri-La        | 129
-// Moon              | 163
-// Nacht der Untoten |   3
-// Verruckt          |  50
-// Shi No Numa       |  99
-// Der Riese         |  90
