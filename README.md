@@ -4,7 +4,7 @@ An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high rou
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.10 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.10/bo1-zombies-autosplitter-3.10.zip)
+# Download
 
 > [!WARNING]
 > A **"Fast Restart"** or **"Restart Level"** is required immediately after a map load.
@@ -17,7 +17,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Features
 
-- **Timer Control** - Automatically handles START, PAUSE, SPLIT, and RESET for all maps, including Moon
+- **Timer Control** - Automatically handles START, PAUSE, SPLIT, and RESET for all maps
 
 - **Compatibility** - Supports T5 (Black Ops 1) on Steam, BGamer, and Plutonium
 
@@ -30,7 +30,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 - **Non-Intrusive** - Operates externally by reading static memory offsets; never injects code or modifies game files
 
 > [!NOTE]
-> For a multi-functional version that includes trap timers, trackers, and a P2P Timer Sync LiveSplit component, see [oJumpy's Enhanced Fork](https://github.com/oJumpy/BO1-T5-Zombies-AutoTimers).
+> For a multi-functional version that includes trap timers, trackers, and a P2P Timer Sync component, see oJumpy's fork at [oJumpy/BO1-T5-Zombies-AutoTimers](https://github.com/oJumpy/BO1-T5-Zombies-AutoTimers).
 
 ---
 
@@ -44,8 +44,10 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
     <td valign="top">
       <p>The default <code>bo1 layout.lsl</code> displays main splits every 10 rounds (plus round 163) and compares current run against reference splits.</p>
       <ul>
-        <li>Column 1: Time delta (+/-) vs current comparison</li>
-        <li>Column 2: Split times (white for reference, yellow for current run)</li>
+        <li>Game Timer</li>
+        <li>Round Timer</li>
+        <li>Time delta (+/-) vs current comparison</li>
+        <li>Split times (white for current comparison, yellow for current run)</li>
       </ul>
       <p>See <a href="#split-times">Split Times</a> for a complete list of included splits to compare against.</p>
     </td>
@@ -163,6 +165,6 @@ The included `bo1 subsplits.lss` file provides split times from the following sp
 ## Credits
 
 - Big shoutout to [lveez](https://github.com/lveez/bo1-timers) and [5and5](https://github.com/5and5/LiveSplitAutoSplitterForBlackOpsZombies) for their code, which gave me a base understanding of ASL scripting and useful memory addresses to build off of.
-- The main font used in my layout examples is [Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font).
+- The main font used in my layout example is [Digital 7 (Mono) by Style-7](https://www.dafont.com/digital-7.font).
 
 ---
