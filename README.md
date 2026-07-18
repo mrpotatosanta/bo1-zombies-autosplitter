@@ -145,7 +145,7 @@ The included `bo1 subsplits.lss` file provides split times from the following sp
 - Shi No Numa 235 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf91mjmsok45EaoxITjS2ahD)
 - Shi No Numa 50 (1:15:38) - [Fazor](https://www.twitch.tv/videos/2654809159?t=03h15m30s)
 - Shi No Numa 30 (31:06) - [itzxil](https://www.youtube.com/watch?v=J9R9B_0SXKI)
-- Der Riese 250 - [Slewya](https://www.youtube.com/playlist?list=PLWr9iFTeOsB6417HfAeNQnSYeXPy6eaE8)
+- Der Riese 251 - [Slewya](https://www.youtube.com/playlist?list=PLeVNqkfisY6k)
 - Der Riese 50 (58:41) - [itzxil](https://www.youtube.com/watch?v=GShKDZy67pc)
 - Der Riese 30 (27:57) - [oscar_otter1](https://www.twitch.tv/videos/2443848662)
 
