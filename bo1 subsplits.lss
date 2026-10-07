@@ -13090,22 +13090,34 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-205</Name>
+      <Name>205</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
-        <SplitTime name="Kino der Toten 240 - Slewya" />
-        <SplitTime name="Kino der Toten 240 - whitedinos27" />
+        <SplitTime name="Kino der Toten 240 - Slewya">
+          <GameTime>2.01:00:25</GameTime>
+        </SplitTime>
+        <SplitTime name="Kino der Toten 240 - whitedinos27">
+          <GameTime>2.01:24:38</GameTime>
+        </SplitTime>
         <SplitTime name="Kino der Toten 50 (1:03:19) - oscar_otter1" />
         <SplitTime name="Kino der Toten 50 (1:12:07) - Fazor" />
         <SplitTime name="Kino der Toten 30 (28:36) - oscar_otter1" />
-        <SplitTime name="Five 244* - Umesco" />
-        <SplitTime name="Five 244 - Jermaine" />
+        <SplitTime name="Five 244* - Umesco">
+          <GameTime>1.21:12:55</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 244 - Jermaine">
+          <GameTime>1.20:15:24</GameTime>
+        </SplitTime>
         <SplitTime name="Five 50 (1:06:19)* - Umesco" />
         <SplitTime name="Five 50 (1:06:49) - Jermaine" />
         <SplitTime name="Five 30 (26:39) - aolxr" />
-        <SplitTime name="Ascension 244 - Furret" />
-        <SplitTime name="Ascension 240 - Zomba" />
+        <SplitTime name="Ascension 244 - Furret">
+          <GameTime>1.19:41:05</GameTime>
+        </SplitTime>
+        <SplitTime name="Ascension 240 - Zomba">
+          <GameTime>1.21:30:34</GameTime>
+        </SplitTime>
         <SplitTime name="Ascension 50 (59:20) - oscar_otter1" />
         <SplitTime name="Ascension 30 (28:22) - Mystic" />
         <SplitTime name="Call of the Dead 105 - Prompt" />
@@ -13121,25 +13133,37 @@
         <SplitTime name="Shangri-La 201 - Knolls" />
         <SplitTime name="Shangri-La 50 (1:10:45) - Furret" />
         <SplitTime name="Shangri-La 30 (32:24) - oscar_otter1" />
-        <SplitTime name="Moon 253* - Levigh" />
-        <SplitTime name="Moon 252 - Furret" />
+        <SplitTime name="Moon 253* - Levigh">
+          <GameTime>1.17:50:10</GameTime>
+        </SplitTime>
+        <SplitTime name="Moon 252 - Furret">
+          <GameTime>1.18:54:11</GameTime>
+        </SplitTime>
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos" />
         <SplitTime name="Moon 30 (30:25) - NeoTellos" />
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz" />
         <SplitTime name="Nacht der Untoten 30 (40:54) - Cruppz" />
-        <SplitTime name="Verruckt 227 - Slewya" />
+        <SplitTime name="Verruckt 227 - Slewya">
+          <GameTime>2.18:06:18</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 208 - Nestor53">
           <GameTime>3.08:03:08</GameTime>
         </SplitTime>
         <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya" />
         <SplitTime name="Verruckt 30 (30:07) - oscar_otter1" />
-        <SplitTime name="Shi No Numa 237* - Mango" />
-        <SplitTime name="Shi No Numa 235 - Tails" />
+        <SplitTime name="Shi No Numa 237* - Mango">
+          <GameTime>2.18:30:15</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 235 - Tails">
+          <GameTime>2.19:55:02</GameTime>
+        </SplitTime>
         <SplitTime name="Shi No Numa 50 (1:15:38) - Fazor" />
         <SplitTime name="Shi No Numa 30 (31:06) - itzxil" />
-        <SplitTime name="Der Riese 251 - Slewya" />
+        <SplitTime name="Der Riese 251 - Slewya">
+          <GameTime>1.18:46:39</GameTime>
+        </SplitTime>
         <SplitTime name="Der Riese 50 (58:41) - itzxil" />
         <SplitTime name="Der Riese 30 (27:57) - oscar_otter1" />
       </SplitTimes>
@@ -13636,22 +13660,34 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-215</Name>
+      <Name>215</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
-        <SplitTime name="Kino der Toten 240 - Slewya" />
-        <SplitTime name="Kino der Toten 240 - whitedinos27" />
+        <SplitTime name="Kino der Toten 240 - Slewya">
+          <GameTime>2.07:22:04</GameTime>
+        </SplitTime>
+        <SplitTime name="Kino der Toten 240 - whitedinos27">
+          <GameTime>2.07:10:22</GameTime>
+        </SplitTime>
         <SplitTime name="Kino der Toten 50 (1:03:19) - oscar_otter1" />
         <SplitTime name="Kino der Toten 50 (1:12:07) - Fazor" />
         <SplitTime name="Kino der Toten 30 (28:36) - oscar_otter1" />
-        <SplitTime name="Five 244* - Umesco" />
-        <SplitTime name="Five 244 - Jermaine" />
+        <SplitTime name="Five 244* - Umesco">
+          <GameTime>2.02:43:37</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 244 - Jermaine">
+          <GameTime>2.01:43:36</GameTime>
+        </SplitTime>
         <SplitTime name="Five 50 (1:06:19)* - Umesco" />
         <SplitTime name="Five 50 (1:06:49) - Jermaine" />
         <SplitTime name="Five 30 (26:39) - aolxr" />
-        <SplitTime name="Ascension 244 - Furret" />
-        <SplitTime name="Ascension 240 - Zomba" />
+        <SplitTime name="Ascension 244 - Furret">
+          <GameTime>2.01:16:20</GameTime>
+        </SplitTime>
+        <SplitTime name="Ascension 240 - Zomba">
+          <GameTime>2.02:45:52</GameTime>
+        </SplitTime>
         <SplitTime name="Ascension 50 (59:20) - oscar_otter1" />
         <SplitTime name="Ascension 30 (28:22) - Mystic" />
         <SplitTime name="Call of the Dead 105 - Prompt" />
@@ -13663,23 +13699,35 @@
         <SplitTime name="Shangri-La 201 - Knolls" />
         <SplitTime name="Shangri-La 50 (1:10:45) - Furret" />
         <SplitTime name="Shangri-La 30 (32:24) - oscar_otter1" />
-        <SplitTime name="Moon 253* - Levigh" />
-        <SplitTime name="Moon 252 - Furret" />
+        <SplitTime name="Moon 253* - Levigh">
+          <GameTime>2.00:15:17</GameTime>
+        </SplitTime>
+        <SplitTime name="Moon 252 - Furret">
+          <GameTime>2.00:45:22</GameTime>
+        </SplitTime>
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos" />
         <SplitTime name="Moon 30 (30:25) - NeoTellos" />
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz" />
         <SplitTime name="Nacht der Untoten 30 (40:54) - Cruppz" />
-        <SplitTime name="Verruckt 227 - Slewya" />
+        <SplitTime name="Verruckt 227 - Slewya">
+          <GameTime>3.01:56:53</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 208 - Nestor53" />
         <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya" />
         <SplitTime name="Verruckt 30 (30:07) - oscar_otter1" />
-        <SplitTime name="Shi No Numa 237* - Mango" />
-        <SplitTime name="Shi No Numa 235 - Tails" />
+        <SplitTime name="Shi No Numa 237* - Mango">
+          <GameTime>3.02:28:59</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 235 - Tails">
+          <GameTime>3.04:11:31</GameTime>
+        </SplitTime>
         <SplitTime name="Shi No Numa 50 (1:15:38) - Fazor" />
         <SplitTime name="Shi No Numa 30 (31:06) - itzxil" />
-        <SplitTime name="Der Riese 251 - Slewya" />
+        <SplitTime name="Der Riese 251 - Slewya">
+          <GameTime>2.00:17:44</GameTime>
+        </SplitTime>
         <SplitTime name="Der Riese 50 (58:41) - itzxil" />
         <SplitTime name="Der Riese 30 (27:57) - oscar_otter1" />
       </SplitTimes>
@@ -14170,22 +14218,34 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-225</Name>
+      <Name>225</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
-        <SplitTime name="Kino der Toten 240 - Slewya" />
-        <SplitTime name="Kino der Toten 240 - whitedinos27" />
+        <SplitTime name="Kino der Toten 240 - Slewya">
+          <GameTime>2.14:51:11</GameTime>
+        </SplitTime>
+        <SplitTime name="Kino der Toten 240 - whitedinos27">
+          <GameTime>2.14:11:08</GameTime>
+        </SplitTime>
         <SplitTime name="Kino der Toten 50 (1:03:19) - oscar_otter1" />
         <SplitTime name="Kino der Toten 50 (1:12:07) - Fazor" />
         <SplitTime name="Kino der Toten 30 (28:36) - oscar_otter1" />
-        <SplitTime name="Five 244* - Umesco" />
-        <SplitTime name="Five 244 - Jermaine" />
+        <SplitTime name="Five 244* - Umesco">
+          <GameTime>2.09:31:34</GameTime>
+        </SplitTime>
+        <SplitTime name="Five 244 - Jermaine">
+          <GameTime>2.08:14:26</GameTime>
+        </SplitTime>
         <SplitTime name="Five 50 (1:06:19)* - Umesco" />
         <SplitTime name="Five 50 (1:06:49) - Jermaine" />
         <SplitTime name="Five 30 (26:39) - aolxr" />
-        <SplitTime name="Ascension 244 - Furret" />
-        <SplitTime name="Ascension 240 - Zomba" />
+        <SplitTime name="Ascension 244 - Furret">
+          <GameTime>2.08:12:24</GameTime>
+        </SplitTime>
+        <SplitTime name="Ascension 240 - Zomba">
+          <GameTime>2.09:25:24</GameTime>
+        </SplitTime>
         <SplitTime name="Ascension 50 (59:20) - oscar_otter1" />
         <SplitTime name="Ascension 30 (28:22) - Mystic" />
         <SplitTime name="Call of the Dead 105 - Prompt" />
@@ -14197,23 +14257,35 @@
         <SplitTime name="Shangri-La 201 - Knolls" />
         <SplitTime name="Shangri-La 50 (1:10:45) - Furret" />
         <SplitTime name="Shangri-La 30 (32:24) - oscar_otter1" />
-        <SplitTime name="Moon 253* - Levigh" />
-        <SplitTime name="Moon 252 - Furret" />
+        <SplitTime name="Moon 253* - Levigh">
+          <GameTime>2.06:34:47</GameTime>
+        </SplitTime>
+        <SplitTime name="Moon 252 - Furret">
+          <GameTime>2.07:50:49</GameTime>
+        </SplitTime>
         <SplitTime name="Moon 50 (1:05:55) - NeoTellos" />
         <SplitTime name="Moon 30 (30:25) - NeoTellos" />
         <SplitTime name="Nacht der Untoten 150 - hYPE" />
         <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz" />
         <SplitTime name="Nacht der Untoten 30 (40:54) - Cruppz" />
-        <SplitTime name="Verruckt 227 - Slewya" />
+        <SplitTime name="Verruckt 227 - Slewya">
+          <GameTime>3.10:33:37</GameTime>
+        </SplitTime>
         <SplitTime name="Verruckt 208 - Nestor53" />
         <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
         <SplitTime name="Verruckt 50 (1:18:31) - Slewya" />
         <SplitTime name="Verruckt 30 (30:07) - oscar_otter1" />
-        <SplitTime name="Shi No Numa 237* - Mango" />
-        <SplitTime name="Shi No Numa 235 - Tails" />
+        <SplitTime name="Shi No Numa 237* - Mango">
+          <GameTime>3.12:44:22</GameTime>
+        </SplitTime>
+        <SplitTime name="Shi No Numa 235 - Tails">
+          <GameTime>3.14:20:57</GameTime>
+        </SplitTime>
         <SplitTime name="Shi No Numa 50 (1:15:38) - Fazor" />
         <SplitTime name="Shi No Numa 30 (31:06) - itzxil" />
-        <SplitTime name="Der Riese 251 - Slewya" />
+        <SplitTime name="Der Riese 251 - Slewya">
+          <GameTime>2.07:19:49</GameTime>
+        </SplitTime>
         <SplitTime name="Der Riese 50 (58:41) - itzxil" />
         <SplitTime name="Der Riese 30 (27:57) - oscar_otter1" />
       </SplitTimes>
@@ -14704,7 +14776,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-235</Name>
+      <Name>235</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -15262,7 +15334,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-245</Name>
+      <Name>245</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -15792,7 +15864,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-255</Name>
+      <Name>255</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />

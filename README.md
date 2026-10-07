@@ -42,7 +42,7 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
       <img src="https://github.com/user-attachments/assets/7a537f40-d23d-4f09-96ac-b87ec58d1279" width="250" alt="bo1 layout preview" />
     </td>
     <td valign="top">
-      <p>The default <code>bo1 layout.lsl</code> displays main splits every 10 rounds (plus round 163) and compares current run against reference splits.</p>
+      <p>The default <code>bo1 layout.lsl</code> displays main splits and compares current run against reference splits.</p>
       <ul>
         <li>Game Timer</li>
         <li>Round Timer</li>
@@ -102,7 +102,11 @@ Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
 ## Split Times
 
-The included `bo1 subsplits.lss` file provides split times from the following speedruns and high round games. Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
+The included `bo1 subsplits.lss` file provides split times from the following speedruns and high round games.
+
+Main splits are every 10 rounds up to 200 (plus 163), and every 5 rounds past 200.
+
+Raw data is available in the [Split Times spreadsheet](https://docs.google.com/spreadsheets/d/1yKfvpefzI0toYkNBr74GwTHPvL6xY-5IRnMclEkB2aE/edit?usp=sharing).
 
 <details>
   <summary><strong>Click to expand list</strong></summary>
