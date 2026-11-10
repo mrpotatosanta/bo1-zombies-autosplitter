@@ -21,6 +21,57 @@
   <AttemptHistory />
   <Segments>
     <Segment>
+      <Name>--</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+        <SplitTime name="Kino der Toten 240 - Slewya" />
+        <SplitTime name="Kino der Toten 240 - whitedinos27" />
+        <SplitTime name="Kino der Toten 50 (1:03:19) - oscar_otter1" />
+        <SplitTime name="Kino der Toten 50 (1:12:07) - Fazor" />
+        <SplitTime name="Kino der Toten 30 (28:36) - oscar_otter1" />
+        <SplitTime name="Five 244* - Umesco" />
+        <SplitTime name="Five 244 - Jermaine" />
+        <SplitTime name="Five 50 (1:06:19)* - Umesco" />
+        <SplitTime name="Five 50 (1:06:49) - Jermaine" />
+        <SplitTime name="Five 30 (26:39) - aolxr" />
+        <SplitTime name="Ascension 244 - Furret" />
+        <SplitTime name="Ascension 240 - Zomba" />
+        <SplitTime name="Ascension 50 (59:20) - oscar_otter1" />
+        <SplitTime name="Ascension 30 (28:22) - Mystic" />
+        <SplitTime name="Call of the Dead 105 - Prompt" />
+        <SplitTime name="Call of the Dead 94 - Tails" />
+        <SplitTime name="Call of the Dead 50 (1:21:57) - Prompt" />
+        <SplitTime name="Call of the Dead 30 (33:48) - Mystic" />
+        <SplitTime name="Shangri-La 208 - HGMRICK" />
+        <SplitTime name="Shangri-La 206 - Furret" />
+        <SplitTime name="Shangri-La 201 - Knolls" />
+        <SplitTime name="Shangri-La 50 (1:10:45) - Furret" />
+        <SplitTime name="Shangri-La 30 (32:24) - oscar_otter1" />
+        <SplitTime name="Moon 253* - Levigh" />
+        <SplitTime name="Moon 252 - Furret" />
+        <SplitTime name="Moon 50 (1:05:55) - NeoTellos" />
+        <SplitTime name="Moon 30 (30:25) - NeoTellos" />
+        <SplitTime name="Nacht der Untoten 150 - hYPE" />
+        <SplitTime name="Nacht der Untoten 50 (2:16:00) - Cruppz" />
+        <SplitTime name="Nacht der Untoten 30 (40:54) - Cruppz" />
+        <SplitTime name="Verruckt 227 - Slewya" />
+        <SplitTime name="Verruckt 208 - Nestor53" />
+        <SplitTime name="Verruckt 50 (1:17:07) - Trikkiez" />
+        <SplitTime name="Verruckt 50 (1:18:31) - Slewya" />
+        <SplitTime name="Verruckt 30 (30:07) - oscar_otter1" />
+        <SplitTime name="Shi No Numa 237* - Mango" />
+        <SplitTime name="Shi No Numa 235 - Tails" />
+        <SplitTime name="Shi No Numa 50 (1:15:38) - Fazor" />
+        <SplitTime name="Shi No Numa 30 (31:06) - itzxil" />
+        <SplitTime name="Der Riese 251 - Slewya" />
+        <SplitTime name="Der Riese 50 (58:41) - itzxil" />
+        <SplitTime name="Der Riese 30 (27:57) - oscar_otter1" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
       <Name>-2</Name>
       <Icon />
       <SplitTimes>
