@@ -4,7 +4,7 @@ An automatic timer for Call of Duty: Black Ops Zombies speedrunning and high rou
 
 Developed and maintained by [mrpotatosanta](https://www.twitch.tv/mrpotatosanta)
 
-# [Click Here to Download v3.13 (Latest Release)](https://github.com/mrpotatosanta/bo1-zombies-autosplitter/releases/download/v3.13/bo1-zombies-autosplitter-3.13.zip)
+# Download
 
 > [!WARNING]
 > A **"Fast Restart"** or **"Restart Level"** is required immediately after a map load.
@@ -124,7 +124,7 @@ Raw data is available in the [Split Times spreadsheet](https://docs.google.com/s
 - Ascension 244 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
 - Ascension 240 - [Zomba](https://www.youtube.com/playlist?list=PLiREKVZDAaDoiHeV7rsjSGXk9ArPw-XGJ)
 - Ascension 50 (59:20) - [oscar_otter1](https://www.youtube.com/watch?v=vcIfNzEBbQs)
-- Ascension 30 (28:22) - [Mystic](https://www.youtube.com/watch?v=MBGXFxI6RZ4)
+- Ascension 30 (27:59) - [Mystic](https://www.youtube.com/watch?v=keILhWbZdeM)
 - Call of the Dead 105 - [Prompt](https://www.youtube.com/watch?v=FvTgTl8p990)
 - Call of the Dead 94 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf_jekCCzJ-iGNaF3Sp1isoo)
 - Call of the Dead 50 (1:21:57) - [Prompt](https://www.twitch.tv/videos/2663124108?t=00h37m44s)
@@ -132,7 +132,7 @@ Raw data is available in the [Split Times spreadsheet](https://docs.google.com/s
 - Shangri-La 208 - [HGMRICK](https://www.youtube.com/watch?v=zxe3-SUz6-8)
 - Shangri-La 206 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5CXcZIaW_wVe6-uDUohwAf)
 - Shangri-La 201 - [Knolls](https://www.youtube.com/watch?v=qHJzU1996lU)
-- Shangri-La 50 (1:10:45) - [Furret](https://www.youtube.com/watch?v=UktKeTPdkxM&t=1453s)
+- Shangri-La 50 (1:10:29) - [vermillion](https://www.youtube.com/watch?v=5bt07qwgs8s&list=PLediPmgSSGFc&index=2&t=520s)
 - Shangri-La 30 (32:24) - [oscar_otter1](https://www.youtube.com/watch?v=-tfZYWvGFRc&t=10113s)
 - Moon 253* - [Levigh](https://www.youtube.com/playlist?list=PL3XvGSC3y2M3g91ELCGlm5z7GJJIWzuwU)
 - Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
@@ -145,7 +145,7 @@ Raw data is available in the [Split Times spreadsheet](https://docs.google.com/s
 - Verruckt 208 - [Nestor53](https://www.youtube.com/watch?v=2AxJcFAZ_Wo)
 - Verruckt 50 (1:17:07) - [Trikkiez](https://www.twitch.tv/videos/2140825512?t=00h04m20s)
 - Verruckt 50 (1:18:31) - [Slewya](https://www.youtube.com/watch?v=2DgmaTfb0sU&t=48s)
-- Verruckt 30 (30:07) - [oscar_otter1](https://www.twitch.tv/videos/2742701326?t=00h02m54s)
+- Verruckt 30 (29:33) - [oscar_otter1](https://www.youtube.com/watch?v=Zo9MeirMOew)
 - Shi No Numa 237* - [Mango](https://www.youtube.com/playlist?list=PLC1OcLOAJdHBD_w274LCmOF4iCEUreDJX)
 - Shi No Numa 235 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf91mjmsok45EaoxITjS2ahD)
 - Shi No Numa 50 (1:15:38) - [Fazor](https://www.twitch.tv/videos/2654809159?t=03h15m30s)
