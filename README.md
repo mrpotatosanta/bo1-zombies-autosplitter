@@ -132,7 +132,7 @@ Raw data is available in the [Split Times spreadsheet](https://docs.google.com/s
 - Shangri-La 208 - [HGMRICK](https://www.youtube.com/watch?v=zxe3-SUz6-8)
 - Shangri-La 206 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5CXcZIaW_wVe6-uDUohwAf)
 - Shangri-La 201 - [Knolls](https://www.youtube.com/watch?v=qHJzU1996lU)
-- Shangri-La 50 (1:10:45) - [Furret](https://www.youtube.com/watch?v=UktKeTPdkxM&t=1453s)
+- Shangri-La 50 (1:10:29) - [vermillion](https://www.youtube.com/watch?v=5bt07qwgs8s&list=PLediPmgSSGFc&index=2&t=520s)
 - Shangri-La 30 (32:24) - [oscar_otter1](https://www.youtube.com/watch?v=-tfZYWvGFRc&t=10113s)
 - Moon 253* - [Levigh](https://www.youtube.com/playlist?list=PL3XvGSC3y2M3g91ELCGlm5z7GJJIWzuwU)
 - Moon 252 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5RwFpeZHKKOlGTPDstUky3)
