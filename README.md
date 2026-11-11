@@ -124,7 +124,7 @@ Raw data is available in the [Split Times spreadsheet](https://docs.google.com/s
 - Ascension 244 - [Furret](https://www.youtube.com/playlist?list=PL_hWedWbKNk5K9J6kfGahpy1K2K0foKZk)
 - Ascension 240 - [Zomba](https://www.youtube.com/playlist?list=PLiREKVZDAaDoiHeV7rsjSGXk9ArPw-XGJ)
 - Ascension 50 (59:20) - [oscar_otter1](https://www.youtube.com/watch?v=vcIfNzEBbQs)
-- Ascension 30 (28:22) - [Mystic](https://www.youtube.com/watch?v=MBGXFxI6RZ4)
+- Ascension 30 (27:59) - [Mystic](https://www.youtube.com/watch?v=keILhWbZdeM)
 - Call of the Dead 105 - [Prompt](https://www.youtube.com/watch?v=FvTgTl8p990)
 - Call of the Dead 94 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf_jekCCzJ-iGNaF3Sp1isoo)
 - Call of the Dead 50 (1:21:57) - [Prompt](https://www.twitch.tv/videos/2663124108?t=00h37m44s)
