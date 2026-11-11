@@ -145,7 +145,7 @@ Raw data is available in the [Split Times spreadsheet](https://docs.google.com/s
 - Verruckt 208 - [Nestor53](https://www.youtube.com/watch?v=2AxJcFAZ_Wo)
 - Verruckt 50 (1:17:07) - [Trikkiez](https://www.twitch.tv/videos/2140825512?t=00h04m20s)
 - Verruckt 50 (1:18:31) - [Slewya](https://www.youtube.com/watch?v=2DgmaTfb0sU&t=48s)
-- Verruckt 30 (30:07) - [oscar_otter1](https://www.twitch.tv/videos/2742701326?t=00h02m54s)
+- Verruckt 30 (29:33) - [oscar_otter1](https://www.youtube.com/watch?v=Zo9MeirMOew)
 - Shi No Numa 237* - [Mango](https://www.youtube.com/playlist?list=PLC1OcLOAJdHBD_w274LCmOF4iCEUreDJX)
 - Shi No Numa 235 - [Tails](https://www.youtube.com/playlist?list=PLCarQI8WPOf91mjmsok45EaoxITjS2ahD)
 - Shi No Numa 50 (1:15:38) - [Fazor](https://www.twitch.tv/videos/2654809159?t=03h15m30s)
